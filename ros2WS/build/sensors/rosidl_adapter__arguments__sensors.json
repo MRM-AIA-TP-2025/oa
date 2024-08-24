@@ -1,0 +1,8 @@
+{
+  "package_name": "sensors",
+  "non_idl_tuples": [
+    "/home/akshat/ros2WS/src/sensors:msg/ImuData.msg",
+    "/home/akshat/ros2WS/src/sensors:msg/NavigationData.msg",
+    "/home/akshat/ros2WS/src/sensors:msg/Pclo.msg"
+  ]
+}

@@ -1,0 +1,37 @@
+[0.020s] Invoking command in '/home/akshat/ros2WS/build/zed2cpp': CMAKE_PREFIX_PATH=/home/akshat/ros2WS/install/sensors:/home/akshat/ros2WS/install/zed_ros2:/home/akshat/ros2WS/install/zed_wrapper:/home/akshat/ros2WS/install/zed_components:/home/akshat/ros2WS/install/zed_interfaces:/home/akshat/ros2WS/install/zed2cpp:/home/akshat/ros2WS/install/planner:/home/akshat/ros2WS/install/stereo:/home/akshat/ros2WS/install/robot:/home/akshat/ros2WS/install/zed2nodes:/opt/ros/humble LD_LIBRARY_PATH=/home/akshat/ros2WS/install/sensors/lib:/home/akshat/ros2WS/install/zed_components/lib:/home/akshat/ros2WS/install/zed_interfaces/lib:/home/akshat/ros2WS/install/stereo/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-11.8/lib64 /usr/bin/cmake --build /home/akshat/ros2WS/build/zed2cpp -- -j12 -l12
+[0.090s] [35m[1mConsolidate compiler generated dependencies of target nav[0m
+[0.110s] [ 33%] Built target navdata
+[0.116s] [ 50%] [32mBuilding CXX object CMakeFiles/nav.dir/src/navigation.cpp.o[0m
+[0.138s] [ 83%] Built target pcloa
+[5.218s] [01m[K/home/akshat/ros2WS/src/zed2cpp/src/navigation.cpp:[m[K In member function ‘[01m[Kvoid ObstacleAvoidancePCL::normalNav()[m[K’:
+[5.219s] [01m[K/home/akshat/ros2WS/src/zed2cpp/src/navigation.cpp:99:41:[m[K [01;35m[Kwarning: [m[Ksuggest parentheses around ‘[01m[K&&[m[K’ within ‘[01m[K||[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wparentheses-Wparentheses]8;;[m[K]
+[5.220s]    99 |             if ([01;35m[Kangular_difference_ < 5 && angular_difference_ > -5[m[K || angular_difference_>355 && angular_difference_<365 || angular_difference_<-355 && angular_difference_>-365 )
+[5.221s]       |                 [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.221s] [01m[K/home/akshat/ros2WS/src/zed2cpp/src/navigation.cpp:99:151:[m[K [01;35m[Kwarning: [m[Ksuggest parentheses around ‘[01m[K&&[m[K’ within ‘[01m[K||[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wparentheses-Wparentheses]8;;[m[K]
+[5.222s]    99 |             if (angular_difference_ < 5 && angular_difference_ > -5 || angular_difference_>355 && angular_difference_<365 || [01;35m[Kangular_difference_<-355 && angular_difference_>-365[m[K )
+[5.222s]       |                                                                                                                              [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[23.739s] [100%] [32m[1mLinking CXX executable nav[0m
+[25.207s] [100%] Built target nav
+[25.227s] Invoked command in '/home/akshat/ros2WS/build/zed2cpp' returned '0': CMAKE_PREFIX_PATH=/home/akshat/ros2WS/install/sensors:/home/akshat/ros2WS/install/zed_ros2:/home/akshat/ros2WS/install/zed_wrapper:/home/akshat/ros2WS/install/zed_components:/home/akshat/ros2WS/install/zed_interfaces:/home/akshat/ros2WS/install/zed2cpp:/home/akshat/ros2WS/install/planner:/home/akshat/ros2WS/install/stereo:/home/akshat/ros2WS/install/robot:/home/akshat/ros2WS/install/zed2nodes:/opt/ros/humble LD_LIBRARY_PATH=/home/akshat/ros2WS/install/sensors/lib:/home/akshat/ros2WS/install/zed_components/lib:/home/akshat/ros2WS/install/zed_interfaces/lib:/home/akshat/ros2WS/install/stereo/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-11.8/lib64 /usr/bin/cmake --build /home/akshat/ros2WS/build/zed2cpp -- -j12 -l12
+[25.318s] Invoking command in '/home/akshat/ros2WS/build/zed2cpp': CMAKE_PREFIX_PATH=/home/akshat/ros2WS/install/sensors:/home/akshat/ros2WS/install/zed_ros2:/home/akshat/ros2WS/install/zed_wrapper:/home/akshat/ros2WS/install/zed_components:/home/akshat/ros2WS/install/zed_interfaces:/home/akshat/ros2WS/install/zed2cpp:/home/akshat/ros2WS/install/planner:/home/akshat/ros2WS/install/stereo:/home/akshat/ros2WS/install/robot:/home/akshat/ros2WS/install/zed2nodes:/opt/ros/humble LD_LIBRARY_PATH=/home/akshat/ros2WS/install/sensors/lib:/home/akshat/ros2WS/install/zed_components/lib:/home/akshat/ros2WS/install/zed_interfaces/lib:/home/akshat/ros2WS/install/stereo/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-11.8/lib64 /usr/bin/cmake --install /home/akshat/ros2WS/build/zed2cpp
+[25.325s] -- Install configuration: ""
+[25.325s] -- Up-to-date: /home/akshat/ros2WS/install/zed2cpp/lib/zed2cpp/pcloa
+[25.325s] -- Installing: /home/akshat/ros2WS/install/zed2cpp/lib/zed2cpp/nav
+[25.335s] -- Set runtime path of "/home/akshat/ros2WS/install/zed2cpp/lib/zed2cpp/nav" to ""
+[25.335s] -- Up-to-date: /home/akshat/ros2WS/install/zed2cpp/lib/zed2cpp/navdata
+[25.335s] -- Up-to-date: /home/akshat/ros2WS/install/zed2cpp/share/ament_index/resource_index/package_run_dependencies/zed2cpp
+[25.336s] -- Up-to-date: /home/akshat/ros2WS/install/zed2cpp/share/ament_index/resource_index/parent_prefix_path/zed2cpp
+[25.336s] -- Up-to-date: /home/akshat/ros2WS/install/zed2cpp/share/zed2cpp/environment/ament_prefix_path.sh
+[25.336s] -- Up-to-date: /home/akshat/ros2WS/install/zed2cpp/share/zed2cpp/environment/ament_prefix_path.dsv
+[25.336s] -- Up-to-date: /home/akshat/ros2WS/install/zed2cpp/share/zed2cpp/environment/path.sh
+[25.336s] -- Up-to-date: /home/akshat/ros2WS/install/zed2cpp/share/zed2cpp/environment/path.dsv
+[25.336s] -- Up-to-date: /home/akshat/ros2WS/install/zed2cpp/share/zed2cpp/local_setup.bash
+[25.336s] -- Up-to-date: /home/akshat/ros2WS/install/zed2cpp/share/zed2cpp/local_setup.sh
+[25.336s] -- Up-to-date: /home/akshat/ros2WS/install/zed2cpp/share/zed2cpp/local_setup.zsh
+[25.336s] -- Up-to-date: /home/akshat/ros2WS/install/zed2cpp/share/zed2cpp/local_setup.dsv
+[25.336s] -- Installing: /home/akshat/ros2WS/install/zed2cpp/share/zed2cpp/package.dsv
+[25.336s] -- Up-to-date: /home/akshat/ros2WS/install/zed2cpp/share/ament_index/resource_index/packages/zed2cpp
+[25.336s] -- Up-to-date: /home/akshat/ros2WS/install/zed2cpp/share/zed2cpp/cmake/zed2cppConfig.cmake
+[25.336s] -- Up-to-date: /home/akshat/ros2WS/install/zed2cpp/share/zed2cpp/cmake/zed2cppConfig-version.cmake
+[25.336s] -- Up-to-date: /home/akshat/ros2WS/install/zed2cpp/share/zed2cpp/package.xml
+[25.341s] Invoked command in '/home/akshat/ros2WS/build/zed2cpp' returned '0': CMAKE_PREFIX_PATH=/home/akshat/ros2WS/install/sensors:/home/akshat/ros2WS/install/zed_ros2:/home/akshat/ros2WS/install/zed_wrapper:/home/akshat/ros2WS/install/zed_components:/home/akshat/ros2WS/install/zed_interfaces:/home/akshat/ros2WS/install/zed2cpp:/home/akshat/ros2WS/install/planner:/home/akshat/ros2WS/install/stereo:/home/akshat/ros2WS/install/robot:/home/akshat/ros2WS/install/zed2nodes:/opt/ros/humble LD_LIBRARY_PATH=/home/akshat/ros2WS/install/sensors/lib:/home/akshat/ros2WS/install/zed_components/lib:/home/akshat/ros2WS/install/zed_interfaces/lib:/home/akshat/ros2WS/install/stereo/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-11.8/lib64 /usr/bin/cmake --install /home/akshat/ros2WS/build/zed2cpp

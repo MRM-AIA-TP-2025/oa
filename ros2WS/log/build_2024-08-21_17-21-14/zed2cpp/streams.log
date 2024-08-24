@@ -1,0 +1,11 @@
+[0.027s] Invoking command in '/home/akshat/ros2WS/build/zed2cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/akshat/ros2WS/install/zed2nodes:/opt/ros/humble /usr/bin/cmake --build /home/akshat/ros2WS/build/zed2cpp -- -j12 -l12
+[0.083s] [35m[1mConsolidate compiler generated dependencies of target pcloa[0m
+[0.134s] [ 50%] [32mBuilding CXX object CMakeFiles/pcloa.dir/src/pcloa.cpp.o[0m
+[5.125s] [01m[K/home/akshat/ros2WS/src/zed2cpp/src/pcloa.cpp:[m[K In member function ‘[01m[Kvoid PCLPreprocessingNode::point_cloud_callback(sensor_msgs::msg::PointCloud2_<std::allocator<void> >::SharedPtr)[m[K’:
+[5.125s] [01m[K/home/akshat/ros2WS/src/zed2cpp/src/pcloa.cpp:36:5:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kpass[m[K’
+[5.125s]    36 |     [01;31m[Kpass[m[K.setFilterFieldName("z");
+[5.125s]       |     [01;31m[K^~~~[m[K
+[8.015s] gmake[2]: *** [CMakeFiles/pcloa.dir/build.make:76: CMakeFiles/pcloa.dir/src/pcloa.cpp.o] Error 1
+[8.016s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/pcloa.dir/all] Error 2
+[8.016s] gmake: *** [Makefile:146: all] Error 2
+[8.019s] Invoked command in '/home/akshat/ros2WS/build/zed2cpp' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/akshat/ros2WS/install/zed2nodes:/opt/ros/humble /usr/bin/cmake --build /home/akshat/ros2WS/build/zed2cpp -- -j12 -l12

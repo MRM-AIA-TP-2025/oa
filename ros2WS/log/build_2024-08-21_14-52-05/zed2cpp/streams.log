@@ -1,0 +1,30 @@
+[0.023s] Invoking command in '/home/akshat/ros2WS/build/zed2cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/akshat/ros2WS/install/zed2nodes:/opt/ros/humble /usr/bin/cmake --build /home/akshat/ros2WS/build/zed2cpp -- -j12 -l12
+[0.149s] [35m[1mConsolidate compiler generated dependencies of target pcloa[0m
+[0.191s] [ 50%] [32mBuilding CXX object CMakeFiles/pcloa.dir/src/pcloa.cpp.o[0m
+[12.087s] [01m[K/home/akshat/ros2WS/src/zed2cpp/src/pcloa.cpp:[m[K In member function ‘[01m[Kvoid PCLPreprocessingNode::point_cloud_callback(sensor_msgs::msg::PointCloud2_<std::allocator<void> >::SharedPtr)[m[K’:
+[12.088s] [01m[K/home/akshat/ros2WS/src/zed2cpp/src/pcloa.cpp:50:23:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::__shared_ptr_access<pcl::PointCloud<pcl::PointXYZ>, __gnu_cxx::_S_atomic, false, false>::element_type[m[K’ {aka ‘[01m[Kpcl::PointCloud<pcl::PointXYZ>[m[K’} to ‘[01m[Kconst PointCloudConstPtr&[m[K’ {aka ‘[01m[Kconst std::shared_ptr<const pcl::PointCloud<pcl::PointXYZ> >&[m[K’}
+[12.088s]    50 |     seg.setInputCloud([01;31m[K*filtered_cloud[m[K);
+[12.088s]       |                       [01;31m[K^~~~~~~~~~~~~~~[m[K
+[12.088s]       |                       [01;31m[K|[m[K
+[12.088s]       |                       [01;31m[Kstd::__shared_ptr_access<pcl::PointCloud<pcl::PointXYZ>, __gnu_cxx::_S_atomic, false, false>::element_type {aka pcl::PointCloud<pcl::PointXYZ>}[m[K
+[12.088s] In file included from [01m[K/usr/include/pcl-1.12/pcl/filters/filter.h:42[m[K,
+[12.088s]                  from [01m[K/usr/include/pcl-1.12/pcl/filters/voxel_grid.h:42[m[K,
+[12.088s]                  from [01m[K/home/akshat/ros2WS/src/zed2cpp/src/pcloa.cpp:6[m[K:
+[12.088s] [01m[K/usr/include/pcl-1.12/pcl/pcl_base.h:92:48:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kvoid pcl::PCLBase<PointT>::setInputCloud(const PointCloudConstPtr&) [with PointT = pcl::PointXYZ; pcl::PCLBase<PointT>::PointCloudConstPtr = std::shared_ptr<const pcl::PointCloud<pcl::PointXYZ> >][m[K’
+[12.088s]    92 |       setInputCloud ([01;36m[Kconst PointCloudConstPtr &cloud[m[K);
+[12.088s]       |                      [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[12.089s] [01m[K/home/akshat/ros2WS/src/zed2cpp/src/pcloa.cpp:60:27:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::__shared_ptr_access<pcl::PointCloud<pcl::PointXYZ>, __gnu_cxx::_S_atomic, false, false>::element_type[m[K’ {aka ‘[01m[Kpcl::PointCloud<pcl::PointXYZ>[m[K’} to ‘[01m[Kconst PointCloudConstPtr&[m[K’ {aka ‘[01m[Kconst std::shared_ptr<const pcl::PointCloud<pcl::PointXYZ> >&[m[K’}
+[12.090s]    60 |     extract.setInputCloud([01;31m[K*filtered_cloud[m[K);
+[12.090s]       |                           [01;31m[K^~~~~~~~~~~~~~~[m[K
+[12.090s]       |                           [01;31m[K|[m[K
+[12.090s]       |                           [01;31m[Kstd::__shared_ptr_access<pcl::PointCloud<pcl::PointXYZ>, __gnu_cxx::_S_atomic, false, false>::element_type {aka pcl::PointCloud<pcl::PointXYZ>}[m[K
+[12.090s] In file included from [01m[K/usr/include/pcl-1.12/pcl/filters/filter.h:42[m[K,
+[12.090s]                  from [01m[K/usr/include/pcl-1.12/pcl/filters/voxel_grid.h:42[m[K,
+[12.090s]                  from [01m[K/home/akshat/ros2WS/src/zed2cpp/src/pcloa.cpp:6[m[K:
+[12.090s] [01m[K/usr/include/pcl-1.12/pcl/pcl_base.h:92:48:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kvoid pcl::PCLBase<PointT>::setInputCloud(const PointCloudConstPtr&) [with PointT = pcl::PointXYZ; pcl::PCLBase<PointT>::PointCloudConstPtr = std::shared_ptr<const pcl::PointCloud<pcl::PointXYZ> >][m[K’
+[12.090s]    92 |       setInputCloud ([01;36m[Kconst PointCloudConstPtr &cloud[m[K);
+[12.091s]       |                      [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[19.518s] gmake[2]: *** [CMakeFiles/pcloa.dir/build.make:76: CMakeFiles/pcloa.dir/src/pcloa.cpp.o] Error 1
+[19.518s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/pcloa.dir/all] Error 2
+[19.519s] gmake: *** [Makefile:146: all] Error 2
+[19.521s] Invoked command in '/home/akshat/ros2WS/build/zed2cpp' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/akshat/ros2WS/install/zed2nodes:/opt/ros/humble /usr/bin/cmake --build /home/akshat/ros2WS/build/zed2cpp -- -j12 -l12

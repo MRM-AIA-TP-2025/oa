@@ -1,0 +1,188 @@
+[0.111s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'list', '-p', '--base-paths', '/home/akshat/ros2WS']
+[0.111s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='list', build_base='build', ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['/home/akshat/ros2WS'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], topological_order=False, names_only=False, paths_only=True, topological_graph=False, topological_graph_dot=False, topological_graph_density=False, topological_graph_legend=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x73030f724e50>, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0x73030f7242e0>, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0x73030f7242e0>>)
+[0.310s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.311s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.311s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.311s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.311s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.311s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/akshat/ros2WS'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(/home/akshat/ros2WS) by extensions ['ignore', 'ignore_ament_install']
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(/home/akshat/ros2WS) by extension 'ignore'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(/home/akshat/ros2WS) by extension 'ignore_ament_install'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(/home/akshat/ros2WS) by extensions ['colcon_pkg']
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(/home/akshat/ros2WS) by extension 'colcon_pkg'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(/home/akshat/ros2WS) by extensions ['colcon_meta']
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(/home/akshat/ros2WS) by extension 'colcon_meta'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(/home/akshat/ros2WS) by extensions ['ros']
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(/home/akshat/ros2WS) by extension 'ros'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(/home/akshat/ros2WS) by extensions ['cmake', 'python']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(/home/akshat/ros2WS) by extension 'cmake'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(/home/akshat/ros2WS) by extension 'python'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(/home/akshat/ros2WS) by extensions ['python_setup_py']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(/home/akshat/ros2WS) by extension 'python_setup_py'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(/home/akshat/ros2WS/build) by extensions ['ignore', 'ignore_ament_install']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(/home/akshat/ros2WS/build) by extension 'ignore'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(/home/akshat/ros2WS/build) ignored
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(/home/akshat/ros2WS/install) by extensions ['ignore', 'ignore_ament_install']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(/home/akshat/ros2WS/install) by extension 'ignore'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(/home/akshat/ros2WS/install) ignored
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(/home/akshat/ros2WS/log) by extensions ['ignore', 'ignore_ament_install']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(/home/akshat/ros2WS/log) by extension 'ignore'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(/home/akshat/ros2WS/log) ignored
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(/home/akshat/ros2WS/src) by extensions ['ignore', 'ignore_ament_install']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(/home/akshat/ros2WS/src) by extension 'ignore'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(/home/akshat/ros2WS/src) by extension 'ignore_ament_install'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(/home/akshat/ros2WS/src) by extensions ['colcon_pkg']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(/home/akshat/ros2WS/src) by extension 'colcon_pkg'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(/home/akshat/ros2WS/src) by extensions ['colcon_meta']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(/home/akshat/ros2WS/src) by extension 'colcon_meta'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(/home/akshat/ros2WS/src) by extensions ['ros']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(/home/akshat/ros2WS/src) by extension 'ros'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(/home/akshat/ros2WS/src) by extensions ['cmake', 'python']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(/home/akshat/ros2WS/src) by extension 'cmake'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(/home/akshat/ros2WS/src) by extension 'python'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(/home/akshat/ros2WS/src) by extensions ['python_setup_py']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(/home/akshat/ros2WS/src) by extension 'python_setup_py'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(/home/akshat/ros2WS/src/planner) by extensions ['ignore', 'ignore_ament_install']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(/home/akshat/ros2WS/src/planner) by extension 'ignore'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(/home/akshat/ros2WS/src/planner) by extension 'ignore_ament_install'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(/home/akshat/ros2WS/src/planner) by extensions ['colcon_pkg']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(/home/akshat/ros2WS/src/planner) by extension 'colcon_pkg'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(/home/akshat/ros2WS/src/planner) by extensions ['colcon_meta']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(/home/akshat/ros2WS/src/planner) by extension 'colcon_meta'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(/home/akshat/ros2WS/src/planner) by extensions ['ros']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(/home/akshat/ros2WS/src/planner) by extension 'ros'
+[0.329s] DEBUG:colcon.colcon_core.package_identification:Package '/home/akshat/ros2WS/src/planner' with type 'ros.ament_cmake' and name 'planner'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(/home/akshat/ros2WS/src/robot) by extensions ['ignore', 'ignore_ament_install']
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(/home/akshat/ros2WS/src/robot) by extension 'ignore'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(/home/akshat/ros2WS/src/robot) by extension 'ignore_ament_install'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(/home/akshat/ros2WS/src/robot) by extensions ['colcon_pkg']
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(/home/akshat/ros2WS/src/robot) by extension 'colcon_pkg'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(/home/akshat/ros2WS/src/robot) by extensions ['colcon_meta']
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(/home/akshat/ros2WS/src/robot) by extension 'colcon_meta'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(/home/akshat/ros2WS/src/robot) by extensions ['ros']
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(/home/akshat/ros2WS/src/robot) by extension 'ros'
+[0.330s] DEBUG:colcon.colcon_core.package_identification:Package '/home/akshat/ros2WS/src/robot' with type 'ros.ament_cmake' and name 'robot'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(/home/akshat/ros2WS/src/sensors) by extensions ['ignore', 'ignore_ament_install']
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(/home/akshat/ros2WS/src/sensors) by extension 'ignore'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(/home/akshat/ros2WS/src/sensors) by extension 'ignore_ament_install'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(/home/akshat/ros2WS/src/sensors) by extensions ['colcon_pkg']
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(/home/akshat/ros2WS/src/sensors) by extension 'colcon_pkg'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(/home/akshat/ros2WS/src/sensors) by extensions ['colcon_meta']
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(/home/akshat/ros2WS/src/sensors) by extension 'colcon_meta'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(/home/akshat/ros2WS/src/sensors) by extensions ['ros']
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(/home/akshat/ros2WS/src/sensors) by extension 'ros'
+[0.331s] DEBUG:colcon.colcon_core.package_identification:Package '/home/akshat/ros2WS/src/sensors' with type 'ros.ament_cmake' and name 'sensors'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(/home/akshat/ros2WS/src/stereo) by extensions ['ignore', 'ignore_ament_install']
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(/home/akshat/ros2WS/src/stereo) by extension 'ignore'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(/home/akshat/ros2WS/src/stereo) by extension 'ignore_ament_install'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(/home/akshat/ros2WS/src/stereo) by extensions ['colcon_pkg']
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(/home/akshat/ros2WS/src/stereo) by extension 'colcon_pkg'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(/home/akshat/ros2WS/src/stereo) by extensions ['colcon_meta']
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(/home/akshat/ros2WS/src/stereo) by extension 'colcon_meta'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(/home/akshat/ros2WS/src/stereo) by extensions ['ros']
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(/home/akshat/ros2WS/src/stereo) by extension 'ros'
+[0.332s] DEBUG:colcon.colcon_core.package_identification:Package '/home/akshat/ros2WS/src/stereo' with type 'ros.ament_cmake' and name 'stereo'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(/home/akshat/ros2WS/src/zed-ros2-wrapper) by extensions ['ignore', 'ignore_ament_install']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(/home/akshat/ros2WS/src/zed-ros2-wrapper) by extension 'ignore'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(/home/akshat/ros2WS/src/zed-ros2-wrapper) by extension 'ignore_ament_install'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(/home/akshat/ros2WS/src/zed-ros2-wrapper) by extensions ['colcon_pkg']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(/home/akshat/ros2WS/src/zed-ros2-wrapper) by extension 'colcon_pkg'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(/home/akshat/ros2WS/src/zed-ros2-wrapper) by extensions ['colcon_meta']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(/home/akshat/ros2WS/src/zed-ros2-wrapper) by extension 'colcon_meta'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(/home/akshat/ros2WS/src/zed-ros2-wrapper) by extensions ['ros']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(/home/akshat/ros2WS/src/zed-ros2-wrapper) by extension 'ros'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(/home/akshat/ros2WS/src/zed-ros2-wrapper) by extensions ['cmake', 'python']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(/home/akshat/ros2WS/src/zed-ros2-wrapper) by extension 'cmake'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(/home/akshat/ros2WS/src/zed-ros2-wrapper) by extension 'python'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(/home/akshat/ros2WS/src/zed-ros2-wrapper) by extensions ['python_setup_py']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(/home/akshat/ros2WS/src/zed-ros2-wrapper) by extension 'python_setup_py'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(/home/akshat/ros2WS/src/zed-ros2-wrapper/docker) by extensions ['ignore', 'ignore_ament_install']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(/home/akshat/ros2WS/src/zed-ros2-wrapper/docker) by extension 'ignore'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(/home/akshat/ros2WS/src/zed-ros2-wrapper/docker) by extension 'ignore_ament_install'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(/home/akshat/ros2WS/src/zed-ros2-wrapper/docker) by extensions ['colcon_pkg']
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(/home/akshat/ros2WS/src/zed-ros2-wrapper/docker) by extension 'colcon_pkg'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(/home/akshat/ros2WS/src/zed-ros2-wrapper/docker) by extensions ['colcon_meta']
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(/home/akshat/ros2WS/src/zed-ros2-wrapper/docker) by extension 'colcon_meta'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(/home/akshat/ros2WS/src/zed-ros2-wrapper/docker) by extensions ['ros']
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(/home/akshat/ros2WS/src/zed-ros2-wrapper/docker) by extension 'ros'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(/home/akshat/ros2WS/src/zed-ros2-wrapper/docker) by extensions ['cmake', 'python']
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(/home/akshat/ros2WS/src/zed-ros2-wrapper/docker) by extension 'cmake'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(/home/akshat/ros2WS/src/zed-ros2-wrapper/docker) by extension 'python'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(/home/akshat/ros2WS/src/zed-ros2-wrapper/docker) by extensions ['python_setup_py']
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(/home/akshat/ros2WS/src/zed-ros2-wrapper/docker) by extension 'python_setup_py'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(/home/akshat/ros2WS/src/zed-ros2-wrapper/images) by extensions ['ignore', 'ignore_ament_install']
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(/home/akshat/ros2WS/src/zed-ros2-wrapper/images) by extension 'ignore'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(/home/akshat/ros2WS/src/zed-ros2-wrapper/images) by extension 'ignore_ament_install'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(/home/akshat/ros2WS/src/zed-ros2-wrapper/images) by extensions ['colcon_pkg']
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(/home/akshat/ros2WS/src/zed-ros2-wrapper/images) by extension 'colcon_pkg'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(/home/akshat/ros2WS/src/zed-ros2-wrapper/images) by extensions ['colcon_meta']
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(/home/akshat/ros2WS/src/zed-ros2-wrapper/images) by extension 'colcon_meta'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(/home/akshat/ros2WS/src/zed-ros2-wrapper/images) by extensions ['ros']
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(/home/akshat/ros2WS/src/zed-ros2-wrapper/images) by extension 'ros'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(/home/akshat/ros2WS/src/zed-ros2-wrapper/images) by extensions ['cmake', 'python']
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(/home/akshat/ros2WS/src/zed-ros2-wrapper/images) by extension 'cmake'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(/home/akshat/ros2WS/src/zed-ros2-wrapper/images) by extension 'python'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(/home/akshat/ros2WS/src/zed-ros2-wrapper/images) by extensions ['python_setup_py']
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(/home/akshat/ros2WS/src/zed-ros2-wrapper/images) by extension 'python_setup_py'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(/home/akshat/ros2WS/src/zed-ros2-wrapper/zed-ros2-interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(/home/akshat/ros2WS/src/zed-ros2-wrapper/zed-ros2-interfaces) by extension 'ignore'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(/home/akshat/ros2WS/src/zed-ros2-wrapper/zed-ros2-interfaces) by extension 'ignore_ament_install'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(/home/akshat/ros2WS/src/zed-ros2-wrapper/zed-ros2-interfaces) by extensions ['colcon_pkg']
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(/home/akshat/ros2WS/src/zed-ros2-wrapper/zed-ros2-interfaces) by extension 'colcon_pkg'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(/home/akshat/ros2WS/src/zed-ros2-wrapper/zed-ros2-interfaces) by extensions ['colcon_meta']
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(/home/akshat/ros2WS/src/zed-ros2-wrapper/zed-ros2-interfaces) by extension 'colcon_meta'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(/home/akshat/ros2WS/src/zed-ros2-wrapper/zed-ros2-interfaces) by extensions ['ros']
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(/home/akshat/ros2WS/src/zed-ros2-wrapper/zed-ros2-interfaces) by extension 'ros'
+[0.336s] DEBUG:colcon.colcon_core.package_identification:Package '/home/akshat/ros2WS/src/zed-ros2-wrapper/zed-ros2-interfaces' with type 'ros.ament_cmake' and name 'zed_interfaces'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(/home/akshat/ros2WS/src/zed-ros2-wrapper/zed_components) by extensions ['ignore', 'ignore_ament_install']
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(/home/akshat/ros2WS/src/zed-ros2-wrapper/zed_components) by extension 'ignore'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(/home/akshat/ros2WS/src/zed-ros2-wrapper/zed_components) by extension 'ignore_ament_install'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(/home/akshat/ros2WS/src/zed-ros2-wrapper/zed_components) by extensions ['colcon_pkg']
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(/home/akshat/ros2WS/src/zed-ros2-wrapper/zed_components) by extension 'colcon_pkg'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(/home/akshat/ros2WS/src/zed-ros2-wrapper/zed_components) by extensions ['colcon_meta']
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(/home/akshat/ros2WS/src/zed-ros2-wrapper/zed_components) by extension 'colcon_meta'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(/home/akshat/ros2WS/src/zed-ros2-wrapper/zed_components) by extensions ['ros']
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(/home/akshat/ros2WS/src/zed-ros2-wrapper/zed_components) by extension 'ros'
+[0.338s] DEBUG:colcon.colcon_core.package_identification:Package '/home/akshat/ros2WS/src/zed-ros2-wrapper/zed_components' with type 'ros.ament_cmake' and name 'zed_components'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(/home/akshat/ros2WS/src/zed-ros2-wrapper/zed_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(/home/akshat/ros2WS/src/zed-ros2-wrapper/zed_ros2) by extension 'ignore'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(/home/akshat/ros2WS/src/zed-ros2-wrapper/zed_ros2) by extension 'ignore_ament_install'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(/home/akshat/ros2WS/src/zed-ros2-wrapper/zed_ros2) by extensions ['colcon_pkg']
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(/home/akshat/ros2WS/src/zed-ros2-wrapper/zed_ros2) by extension 'colcon_pkg'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(/home/akshat/ros2WS/src/zed-ros2-wrapper/zed_ros2) by extensions ['colcon_meta']
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(/home/akshat/ros2WS/src/zed-ros2-wrapper/zed_ros2) by extension 'colcon_meta'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(/home/akshat/ros2WS/src/zed-ros2-wrapper/zed_ros2) by extensions ['ros']
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(/home/akshat/ros2WS/src/zed-ros2-wrapper/zed_ros2) by extension 'ros'
+[0.339s] DEBUG:colcon.colcon_core.package_identification:Package '/home/akshat/ros2WS/src/zed-ros2-wrapper/zed_ros2' with type 'ros.ament_cmake' and name 'zed_ros2'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(/home/akshat/ros2WS/src/zed-ros2-wrapper/zed_wrapper) by extensions ['ignore', 'ignore_ament_install']
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(/home/akshat/ros2WS/src/zed-ros2-wrapper/zed_wrapper) by extension 'ignore'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(/home/akshat/ros2WS/src/zed-ros2-wrapper/zed_wrapper) by extension 'ignore_ament_install'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(/home/akshat/ros2WS/src/zed-ros2-wrapper/zed_wrapper) by extensions ['colcon_pkg']
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(/home/akshat/ros2WS/src/zed-ros2-wrapper/zed_wrapper) by extension 'colcon_pkg'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(/home/akshat/ros2WS/src/zed-ros2-wrapper/zed_wrapper) by extensions ['colcon_meta']
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(/home/akshat/ros2WS/src/zed-ros2-wrapper/zed_wrapper) by extension 'colcon_meta'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(/home/akshat/ros2WS/src/zed-ros2-wrapper/zed_wrapper) by extensions ['ros']
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(/home/akshat/ros2WS/src/zed-ros2-wrapper/zed_wrapper) by extension 'ros'
+[0.340s] DEBUG:colcon.colcon_core.package_identification:Package '/home/akshat/ros2WS/src/zed-ros2-wrapper/zed_wrapper' with type 'ros.ament_cmake' and name 'zed_wrapper'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(/home/akshat/ros2WS/src/zed2cpp) by extensions ['ignore', 'ignore_ament_install']
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(/home/akshat/ros2WS/src/zed2cpp) by extension 'ignore'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(/home/akshat/ros2WS/src/zed2cpp) by extension 'ignore_ament_install'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(/home/akshat/ros2WS/src/zed2cpp) by extensions ['colcon_pkg']
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(/home/akshat/ros2WS/src/zed2cpp) by extension 'colcon_pkg'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(/home/akshat/ros2WS/src/zed2cpp) by extensions ['colcon_meta']
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(/home/akshat/ros2WS/src/zed2cpp) by extension 'colcon_meta'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(/home/akshat/ros2WS/src/zed2cpp) by extensions ['ros']
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(/home/akshat/ros2WS/src/zed2cpp) by extension 'ros'
+[0.342s] DEBUG:colcon.colcon_core.package_identification:Package '/home/akshat/ros2WS/src/zed2cpp' with type 'ros.ament_cmake' and name 'zed2cpp'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(/home/akshat/ros2WS/src/zed2nodes) by extensions ['ignore', 'ignore_ament_install']
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(/home/akshat/ros2WS/src/zed2nodes) by extension 'ignore'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(/home/akshat/ros2WS/src/zed2nodes) by extension 'ignore_ament_install'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(/home/akshat/ros2WS/src/zed2nodes) by extensions ['colcon_pkg']
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(/home/akshat/ros2WS/src/zed2nodes) by extension 'colcon_pkg'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(/home/akshat/ros2WS/src/zed2nodes) by extensions ['colcon_meta']
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(/home/akshat/ros2WS/src/zed2nodes) by extension 'colcon_meta'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(/home/akshat/ros2WS/src/zed2nodes) by extensions ['ros']
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(/home/akshat/ros2WS/src/zed2nodes) by extension 'ros'
+[0.343s] DEBUG:colcon.colcon_core.package_identification:Package '/home/akshat/ros2WS/src/zed2nodes' with type 'ros.ament_python' and name 'zed2nodes'
+[0.343s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults

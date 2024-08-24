@@ -1,0 +1,6 @@
+Invoking command in '/home/akshat/ros2WS/build/sensors': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/akshat/ros2WS/src/sensors -DCMAKE_INSTALL_PREFIX=/home/akshat/ros2WS/install/sensors
+Invoked command in '/home/akshat/ros2WS/build/sensors' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/akshat/ros2WS/src/sensors -DCMAKE_INSTALL_PREFIX=/home/akshat/ros2WS/install/sensors
+Invoking command in '/home/akshat/ros2WS/build/sensors': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/akshat/ros2WS/build/sensors -- -j12 -l12
+Invoked command in '/home/akshat/ros2WS/build/sensors' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/akshat/ros2WS/build/sensors -- -j12 -l12
+Invoking command in '/home/akshat/ros2WS/build/sensors': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/akshat/ros2WS/build/sensors
+Invoked command in '/home/akshat/ros2WS/build/sensors' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/akshat/ros2WS/build/sensors

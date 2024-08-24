@@ -1,0 +1,21 @@
+[0.736s] Invoking command in '/home/akshat/ros2WS/src/zed2nodes': PYTHONPATH=/home/akshat/ros2WS/build/zed2nodes/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/akshat/ros2WS/install/zed2nodes/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/zed2nodes build --build-base /home/akshat/ros2WS/build/zed2nodes/build install --record /home/akshat/ros2WS/build/zed2nodes/install.log --single-version-externally-managed install_data
+[0.959s] running egg_info
+[0.960s] writing ../../build/zed2nodes/zed2nodes.egg-info/PKG-INFO
+[0.960s] writing dependency_links to ../../build/zed2nodes/zed2nodes.egg-info/dependency_links.txt
+[0.960s] writing entry points to ../../build/zed2nodes/zed2nodes.egg-info/entry_points.txt
+[0.960s] writing requirements to ../../build/zed2nodes/zed2nodes.egg-info/requires.txt
+[0.960s] writing top-level names to ../../build/zed2nodes/zed2nodes.egg-info/top_level.txt
+[0.962s] reading manifest file '../../build/zed2nodes/zed2nodes.egg-info/SOURCES.txt'
+[0.963s] writing manifest file '../../build/zed2nodes/zed2nodes.egg-info/SOURCES.txt'
+[0.963s] running build
+[0.963s] running build_py
+[0.963s] running install
+[0.963s] running install_lib
+[0.964s] running install_data
+[0.964s] running install_egg_info
+[0.966s] removing '/home/akshat/ros2WS/install/zed2nodes/lib/python3.10/site-packages/zed2nodes-0.0.0-py3.10.egg-info' (and everything under it)
+[0.966s] Copying ../../build/zed2nodes/zed2nodes.egg-info to /home/akshat/ros2WS/install/zed2nodes/lib/python3.10/site-packages/zed2nodes-0.0.0-py3.10.egg-info
+[0.967s] running install_scripts
+[0.985s] Installing obsticle script to /home/akshat/ros2WS/install/zed2nodes/lib/zed2nodes
+[0.986s] writing list of installed files to '/home/akshat/ros2WS/build/zed2nodes/install.log'
+[1.008s] Invoked command in '/home/akshat/ros2WS/src/zed2nodes' returned '0': PYTHONPATH=/home/akshat/ros2WS/build/zed2nodes/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/akshat/ros2WS/install/zed2nodes/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/zed2nodes build --build-base /home/akshat/ros2WS/build/zed2nodes/build install --record /home/akshat/ros2WS/build/zed2nodes/install.log --single-version-externally-managed install_data

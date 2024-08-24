@@ -1,0 +1,17 @@
+[0.023s] Invoking command in '/home/akshat/ros2WS/build/zed2cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/akshat/ros2WS/install/zed2nodes:/opt/ros/humble /usr/bin/cmake --build /home/akshat/ros2WS/build/zed2cpp -- -j12 -l12
+[0.075s] [35m[1mConsolidate compiler generated dependencies of target pcloa[0m
+[0.123s] [ 50%] [32mBuilding CXX object CMakeFiles/pcloa.dir/src/pcloa.cpp.o[0m
+[5.553s] [01m[K/home/akshat/ros2WS/src/zed2cpp/src/pcloa.cpp:[m[K In member function ‘[01m[Kvoid PCLPreprocessingNode::point_cloud_callback(sensor_msgs::msg::PointCloud2_<std::allocator<void> >::SharedPtr)[m[K’:
+[5.553s] [01m[K/home/akshat/ros2WS/src/zed2cpp/src/pcloa.cpp:60:5:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K;[m[K’ before ‘[01m[Kpcl[m[K’
+[5.553s]    60 |     [01;31m[Kpcl[m[K::PointIndices::Ptr ground_indices(new pcl::PointIndices());
+[5.553s]       |     [01;31m[K^~~[m[K
+[5.568s] [01m[K/home/akshat/ros2WS/src/zed2cpp/src/pcloa.cpp:67:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kground_indices[m[K’ was not declared in this scope
+[5.568s]    67 |             [01;31m[Kground_indices[m[K->indices.push_back(i);
+[5.568s]       |             [01;31m[K^~~~~~~~~~~~~~[m[K
+[5.583s] [01m[K/home/akshat/ros2WS/src/zed2cpp/src/pcloa.cpp:74:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kground_indices[m[K’ was not declared in this scope
+[5.583s]    74 |     extract.setIndices([01;31m[Kground_indices[m[K);
+[5.583s]       |                        [01;31m[K^~~~~~~~~~~~~~[m[K
+[9.157s] gmake[2]: *** [CMakeFiles/pcloa.dir/build.make:76: CMakeFiles/pcloa.dir/src/pcloa.cpp.o] Error 1
+[9.157s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/pcloa.dir/all] Error 2
+[9.157s] gmake: *** [Makefile:146: all] Error 2
+[9.160s] Invoked command in '/home/akshat/ros2WS/build/zed2cpp' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/akshat/ros2WS/install/zed2nodes:/opt/ros/humble /usr/bin/cmake --build /home/akshat/ros2WS/build/zed2cpp -- -j12 -l12

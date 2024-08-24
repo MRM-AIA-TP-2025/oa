@@ -1,0 +1,24 @@
+{
+  "package_name": "zed_interfaces",
+  "non_idl_tuples": [
+    "/home/akshat/ros2WS/src/zed-ros2-wrapper/zed-ros2-interfaces:msg/Object.msg",
+    "/home/akshat/ros2WS/src/zed-ros2-wrapper/zed-ros2-interfaces:msg/ObjectsStamped.msg",
+    "/home/akshat/ros2WS/src/zed-ros2-wrapper/zed-ros2-interfaces:msg/Keypoint2Di.msg",
+    "/home/akshat/ros2WS/src/zed-ros2-wrapper/zed-ros2-interfaces:msg/Keypoint2Df.msg",
+    "/home/akshat/ros2WS/src/zed-ros2-wrapper/zed-ros2-interfaces:msg/Keypoint3D.msg",
+    "/home/akshat/ros2WS/src/zed-ros2-wrapper/zed-ros2-interfaces:msg/BoundingBox2Di.msg",
+    "/home/akshat/ros2WS/src/zed-ros2-wrapper/zed-ros2-interfaces:msg/BoundingBox2Df.msg",
+    "/home/akshat/ros2WS/src/zed-ros2-wrapper/zed-ros2-interfaces:msg/BoundingBox3D.msg",
+    "/home/akshat/ros2WS/src/zed-ros2-wrapper/zed-ros2-interfaces:msg/Skeleton2D.msg",
+    "/home/akshat/ros2WS/src/zed-ros2-wrapper/zed-ros2-interfaces:msg/Skeleton3D.msg",
+    "/home/akshat/ros2WS/src/zed-ros2-wrapper/zed-ros2-interfaces:msg/DepthInfoStamped.msg",
+    "/home/akshat/ros2WS/src/zed-ros2-wrapper/zed-ros2-interfaces:msg/PlaneStamped.msg",
+    "/home/akshat/ros2WS/src/zed-ros2-wrapper/zed-ros2-interfaces:msg/PosTrackStatus.msg",
+    "/home/akshat/ros2WS/src/zed-ros2-wrapper/zed-ros2-interfaces:msg/GnssFusionStatus.msg",
+    "/home/akshat/ros2WS/src/zed-ros2-wrapper/zed-ros2-interfaces:msg/Heartbeat.msg",
+    "/home/akshat/ros2WS/src/zed-ros2-wrapper/zed-ros2-interfaces:msg/MagHeadingStatus.msg",
+    "/home/akshat/ros2WS/src/zed-ros2-wrapper/zed-ros2-interfaces:srv/SetPose.srv",
+    "/home/akshat/ros2WS/src/zed-ros2-wrapper/zed-ros2-interfaces:srv/StartSvoRec.srv",
+    "/home/akshat/ros2WS/src/zed-ros2-wrapper/zed-ros2-interfaces:srv/SetROI.srv"
+  ]
+}

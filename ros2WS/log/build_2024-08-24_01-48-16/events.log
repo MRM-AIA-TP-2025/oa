@@ -1,0 +1,77 @@
+[0.000000] (-) TimerEvent: {}
+[0.000323] (-) JobUnselected: {'identifier': 'planner'}
+[0.000355] (-) JobUnselected: {'identifier': 'robot'}
+[0.000374] (-) JobUnselected: {'identifier': 'sensors'}
+[0.000389] (-) JobUnselected: {'identifier': 'stereo'}
+[0.000404] (-) JobUnselected: {'identifier': 'zed2nodes'}
+[0.000419] (-) JobUnselected: {'identifier': 'zed_components'}
+[0.000434] (-) JobUnselected: {'identifier': 'zed_interfaces'}
+[0.000448] (-) JobUnselected: {'identifier': 'zed_ros2'}
+[0.000462] (-) JobUnselected: {'identifier': 'zed_wrapper'}
+[0.000479] (zed2cpp) JobQueued: {'identifier': 'zed2cpp', 'dependencies': OrderedDict([('sensors', '/home/akshat/ros2WS/install/sensors')])}
+[0.000500] (zed2cpp) JobStarted: {'identifier': 'zed2cpp'}
+[0.009385] (zed2cpp) JobProgress: {'identifier': 'zed2cpp', 'progress': 'cmake'}
+[0.010713] (zed2cpp) JobProgress: {'identifier': 'zed2cpp', 'progress': 'build'}
+[0.010777] (zed2cpp) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/akshat/ros2WS/build/zed2cpp', '--', '-j12', '-l12'], 'cwd': '/home/akshat/ros2WS/build/zed2cpp', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'akshat'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/akshat/ros2WS/install/sensors/lib:/home/akshat/ros2WS/install/zed_components/lib:/home/akshat/ros2WS/install/zed_interfaces/lib:/home/akshat/ros2WS/install/stereo/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-11.8/lib64'), ('HOME', '/home/akshat'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/akshat/ros2WS/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2410'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('COLCON_PREFIX_PATH', '/home/akshat/ros2WS/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'akshat'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'akshat'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/akshat/anaconda3/condabin:/opt/ros/humble/bin:/usr/local/cuda-11.8/bin:/home/akshat/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/akshat-G3-3500:@/tmp/.ICE-unix/2122,unix/akshat-G3-3500:/tmp/.ICE-unix/2122'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/2aa8ea6b_21bf_4f61_b13f_21d13107bf10'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.161'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/akshat/ros2WS/install/zed_ros2:/home/akshat/ros2WS/install/zed_wrapper:/home/akshat/ros2WS/install/zed_components:/home/akshat/ros2WS/install/zed_interfaces:/home/akshat/ros2WS/install/zed2nodes:/home/akshat/ros2WS/install/zed2cpp:/home/akshat/ros2WS/install/planner:/home/akshat/ros2WS/install/stereo:/home/akshat/ros2WS/install/sensors:/home/akshat/ros2WS/install/robot:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/akshat/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/akshat/ros2WS/build/zed2cpp'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/akshat/anaconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/akshat/ros2WS/install/zed_interfaces/local/lib/python3.10/dist-packages:/home/akshat/ros2WS/install/zed2nodes/lib/python3.10/site-packages:/home/akshat/ros2WS/install/stereo/local/lib/python3.10/dist-packages:/home/akshat/ros2WS/install/sensors/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/akshat/ros2WS/install/sensors:/home/akshat/ros2WS/install/zed_ros2:/home/akshat/ros2WS/install/zed_wrapper:/home/akshat/ros2WS/install/zed_components:/home/akshat/ros2WS/install/zed_interfaces:/home/akshat/ros2WS/install/zed2cpp:/home/akshat/ros2WS/install/planner:/home/akshat/ros2WS/install/stereo:/home/akshat/ros2WS/install/robot:/home/akshat/ros2WS/install/zed2nodes:/opt/ros/humble')]), 'shell': False}
+[0.034741] (zed2cpp) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099566] (-) TimerEvent: {}
+[0.153984] (zed2cpp) StdoutLine: {'line': b'-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.180256] (zed2cpp) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.182546] (zed2cpp) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.187911] (zed2cpp) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.197299] (zed2cpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.199631] (-) TimerEvent: {}
+[0.209090] (zed2cpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.240061] (zed2cpp) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.241492] (zed2cpp) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.299718] (-) TimerEvent: {}
+[0.332197] (zed2cpp) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.379696] (zed2cpp) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[0.399819] (-) TimerEvent: {}
+[0.407340] (zed2cpp) StdoutLine: {'line': b'-- Found pcl_conversions: 2.4.0 (/opt/ros/humble/share/pcl_conversions/cmake)\n'}
+[0.441457] (zed2cpp) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[0.459806] (zed2cpp) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[0.464402] (zed2cpp) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[0.464559] (zed2cpp) StderrLine: {'line': b'\x1b[0m** WARNING ** io features related to pcap will be disabled\x1b[0m\n'}
+[0.464666] (zed2cpp) StderrLine: {'line': b'\x1b[0m** WARNING ** io features related to png will be disabled\x1b[0m\n'}
+[0.499925] (-) TimerEvent: {}
+[0.600152] (-) TimerEvent: {}
+[0.700375] (-) TimerEvent: {}
+[0.746696] (zed2cpp) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[0.764821] (zed2cpp) StdoutLine: {'line': b'-- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)\n'}
+[0.800455] (-) TimerEvent: {}
+[0.900672] (-) TimerEvent: {}
+[1.000931] (-) TimerEvent: {}
+[1.021339] (zed2cpp) StdoutLine: {'line': b'-- looking for PCL_COMMON\n'}
+[1.021694] (zed2cpp) StdoutLine: {'line': b'-- looking for PCL_OCTREE\n'}
+[1.021989] (zed2cpp) StdoutLine: {'line': b'-- looking for PCL_IO\n'}
+[1.022425] (zed2cpp) StdoutLine: {'line': b'-- looking for PCL_KDTREE\n'}
+[1.022761] (zed2cpp) StdoutLine: {'line': b'-- looking for PCL_SEARCH\n'}
+[1.023072] (zed2cpp) StdoutLine: {'line': b'-- looking for PCL_SAMPLE_CONSENSUS\n'}
+[1.023456] (zed2cpp) StdoutLine: {'line': b'-- looking for PCL_FILTERS\n'}
+[1.023784] (zed2cpp) StdoutLine: {'line': b'-- looking for PCL_GEOMETRY\n'}
+[1.024020] (zed2cpp) StdoutLine: {'line': b'-- looking for PCL_2D\n'}
+[1.024464] (zed2cpp) StdoutLine: {'line': b'-- looking for PCL_FEATURES\n'}
+[1.024802] (zed2cpp) StdoutLine: {'line': b'-- looking for PCL_ML\n'}
+[1.025132] (zed2cpp) StdoutLine: {'line': b'-- looking for PCL_SEGMENTATION\n'}
+[1.026192] (zed2cpp) StdoutLine: {'line': b'-- Found sensors: 0.0.0 (/home/akshat/ros2WS/install/sensors/share/sensors/cmake)\n'}
+[1.101047] (-) TimerEvent: {}
+[1.107192] (zed2cpp) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.114599] (zed2cpp) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:24 (add_executable):\n'}
+[1.114700] (zed2cpp) StderrLine: {'line': b'  Target "nav" links to target "sensors::msg::NavigationData" but the target\n'}
+[1.114760] (zed2cpp) StderrLine: {'line': b'  was not found.  Perhaps a find_package() call is missing for an IMPORTED\n'}
+[1.114814] (zed2cpp) StderrLine: {'line': b'  target, or an ALIAS target is missing?\n'}
+[1.114874] (zed2cpp) StderrLine: {'line': b'\n'}
+[1.114931] (zed2cpp) StderrLine: {'line': b'\x1b[0m\n'}
+[1.114988] (zed2cpp) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:24 (add_executable):\n'}
+[1.115043] (zed2cpp) StderrLine: {'line': b'  Target "nav" links to target "sensors::msg::Pclo" but the target was not\n'}
+[1.115099] (zed2cpp) StderrLine: {'line': b'  found.  Perhaps a find_package() call is missing for an IMPORTED target, or\n'}
+[1.115160] (zed2cpp) StderrLine: {'line': b'  an ALIAS target is missing?\n'}
+[1.115221] (zed2cpp) StderrLine: {'line': b'\n'}
+[1.115277] (zed2cpp) StderrLine: {'line': b'\x1b[0m\n'}
+[1.129560] (zed2cpp) StdoutLine: {'line': b'-- Generating done\n'}
+[1.130992] (zed2cpp) StderrLine: {'line': b'\x1b[0mCMake Generate step failed.  Build files cannot be regenerated correctly.\x1b[0m\n'}
+[1.142874] (zed2cpp) StderrLine: {'line': b'gmake: *** [Makefile:308: cmake_check_build_system] Error 1\n'}
+[1.144667] (zed2cpp) CommandEnded: {'returncode': 2}
+[1.177856] (zed2cpp) JobEnded: {'identifier': 'zed2cpp', 'rc': 2}
+[1.188483] (-) EventReactorShutdown: {}

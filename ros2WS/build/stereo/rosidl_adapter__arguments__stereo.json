@@ -1,0 +1,7 @@
+{
+  "package_name": "stereo",
+  "non_idl_tuples": [
+    "/home/akshat/ros2WS/src/stereo:msg/Tag.msg",
+    "/home/akshat/ros2WS/src/stereo:msg/Yolotag.msg"
+  ]
+}

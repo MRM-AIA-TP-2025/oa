@@ -1,0 +1,67 @@
+[0.028s] Invoking command in '/home/akshat/ros2WS/build/zed2cpp': CMAKE_PREFIX_PATH=/home/akshat/ros2WS/install/sensors:/home/akshat/ros2WS/install/zed_ros2:/home/akshat/ros2WS/install/zed_wrapper:/home/akshat/ros2WS/install/zed_components:/home/akshat/ros2WS/install/zed_interfaces:/home/akshat/ros2WS/install/zed2cpp:/home/akshat/ros2WS/install/planner:/home/akshat/ros2WS/install/stereo:/home/akshat/ros2WS/install/robot:/home/akshat/ros2WS/install/zed2nodes:/opt/ros/humble LD_LIBRARY_PATH=/home/akshat/ros2WS/install/sensors/lib:/home/akshat/ros2WS/install/zed_components/lib:/home/akshat/ros2WS/install/zed_interfaces/lib:/home/akshat/ros2WS/install/stereo/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-11.8/lib64 /usr/bin/cmake --build /home/akshat/ros2WS/build/zed2cpp -- -j12 -l12
+[0.308s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.920s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[1.156s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.185s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.211s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.275s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.362s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.589s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.628s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.972s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.260s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[2.366s] -- Found pcl_conversions: 2.4.0 (/opt/ros/humble/share/pcl_conversions/cmake)
+[2.502s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[2.700s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.714s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[2.714s] [0m** WARNING ** io features related to pcap will be disabled[0m
+[2.714s] [0m** WARNING ** io features related to png will be disabled[0m
+[4.376s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[4.429s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[5.019s] -- looking for PCL_COMMON
+[5.019s] -- looking for PCL_OCTREE
+[5.020s] -- looking for PCL_IO
+[5.021s] -- looking for PCL_KDTREE
+[5.021s] -- looking for PCL_SEARCH
+[5.022s] -- looking for PCL_SAMPLE_CONSENSUS
+[5.022s] -- looking for PCL_FILTERS
+[5.023s] -- looking for PCL_GEOMETRY
+[5.023s] -- looking for PCL_2D
+[5.024s] -- looking for PCL_FEATURES
+[5.024s] -- looking for PCL_ML
+[5.024s] -- looking for PCL_SEGMENTATION
+[5.068s] -- Found sensors: 0.0.0 (/home/akshat/ros2WS/install/sensors/share/sensors/cmake)
+[5.369s] -- Configuring done
+[5.664s] -- Generating done
+[5.667s] -- Build files have been written to: /home/akshat/ros2WS/build/zed2cpp
+[5.723s] [35m[1mConsolidate compiler generated dependencies of target navdata[0m
+[5.745s] [ 33%] Built target navdata
+[5.760s] [35m[1mConsolidate compiler generated dependencies of target pcloa[0m
+[5.792s] [35m[1mConsolidate compiler generated dependencies of target nav[0m
+[5.797s] [ 66%] Built target pcloa
+[5.833s] [ 83%] [32mBuilding CXX object CMakeFiles/nav.dir/src/navigation.cpp.o[0m
+[30.997s] [100%] [32m[1mLinking CXX executable nav[0m
+[32.475s] [100%] Built target nav
+[32.497s] Invoked command in '/home/akshat/ros2WS/build/zed2cpp' returned '0': CMAKE_PREFIX_PATH=/home/akshat/ros2WS/install/sensors:/home/akshat/ros2WS/install/zed_ros2:/home/akshat/ros2WS/install/zed_wrapper:/home/akshat/ros2WS/install/zed_components:/home/akshat/ros2WS/install/zed_interfaces:/home/akshat/ros2WS/install/zed2cpp:/home/akshat/ros2WS/install/planner:/home/akshat/ros2WS/install/stereo:/home/akshat/ros2WS/install/robot:/home/akshat/ros2WS/install/zed2nodes:/opt/ros/humble LD_LIBRARY_PATH=/home/akshat/ros2WS/install/sensors/lib:/home/akshat/ros2WS/install/zed_components/lib:/home/akshat/ros2WS/install/zed_interfaces/lib:/home/akshat/ros2WS/install/stereo/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-11.8/lib64 /usr/bin/cmake --build /home/akshat/ros2WS/build/zed2cpp -- -j12 -l12
+[32.572s] Invoking command in '/home/akshat/ros2WS/build/zed2cpp': CMAKE_PREFIX_PATH=/home/akshat/ros2WS/install/sensors:/home/akshat/ros2WS/install/zed_ros2:/home/akshat/ros2WS/install/zed_wrapper:/home/akshat/ros2WS/install/zed_components:/home/akshat/ros2WS/install/zed_interfaces:/home/akshat/ros2WS/install/zed2cpp:/home/akshat/ros2WS/install/planner:/home/akshat/ros2WS/install/stereo:/home/akshat/ros2WS/install/robot:/home/akshat/ros2WS/install/zed2nodes:/opt/ros/humble LD_LIBRARY_PATH=/home/akshat/ros2WS/install/sensors/lib:/home/akshat/ros2WS/install/zed_components/lib:/home/akshat/ros2WS/install/zed_interfaces/lib:/home/akshat/ros2WS/install/stereo/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-11.8/lib64 /usr/bin/cmake --install /home/akshat/ros2WS/build/zed2cpp
+[32.585s] -- Install configuration: ""
+[32.586s] -- Up-to-date: /home/akshat/ros2WS/install/zed2cpp/lib/zed2cpp/pcloa
+[32.586s] -- Installing: /home/akshat/ros2WS/install/zed2cpp/lib/zed2cpp/nav
+[32.599s] -- Set runtime path of "/home/akshat/ros2WS/install/zed2cpp/lib/zed2cpp/nav" to ""
+[32.599s] -- Up-to-date: /home/akshat/ros2WS/install/zed2cpp/lib/zed2cpp/navdata
+[32.599s] -- Up-to-date: /home/akshat/ros2WS/install/zed2cpp/share/ament_index/resource_index/package_run_dependencies/zed2cpp
+[32.599s] -- Up-to-date: /home/akshat/ros2WS/install/zed2cpp/share/ament_index/resource_index/parent_prefix_path/zed2cpp
+[32.599s] -- Up-to-date: /home/akshat/ros2WS/install/zed2cpp/share/zed2cpp/environment/ament_prefix_path.sh
+[32.599s] -- Installing: /home/akshat/ros2WS/install/zed2cpp/share/zed2cpp/environment/ament_prefix_path.dsv
+[32.600s] -- Up-to-date: /home/akshat/ros2WS/install/zed2cpp/share/zed2cpp/environment/path.sh
+[32.600s] -- Installing: /home/akshat/ros2WS/install/zed2cpp/share/zed2cpp/environment/path.dsv
+[32.600s] -- Up-to-date: /home/akshat/ros2WS/install/zed2cpp/share/zed2cpp/local_setup.bash
+[32.600s] -- Up-to-date: /home/akshat/ros2WS/install/zed2cpp/share/zed2cpp/local_setup.sh
+[32.600s] -- Up-to-date: /home/akshat/ros2WS/install/zed2cpp/share/zed2cpp/local_setup.zsh
+[32.600s] -- Installing: /home/akshat/ros2WS/install/zed2cpp/share/zed2cpp/local_setup.dsv
+[32.600s] -- Installing: /home/akshat/ros2WS/install/zed2cpp/share/zed2cpp/package.dsv
+[32.600s] -- Up-to-date: /home/akshat/ros2WS/install/zed2cpp/share/ament_index/resource_index/packages/zed2cpp
+[32.600s] -- Up-to-date: /home/akshat/ros2WS/install/zed2cpp/share/zed2cpp/cmake/zed2cppConfig.cmake
+[32.600s] -- Up-to-date: /home/akshat/ros2WS/install/zed2cpp/share/zed2cpp/cmake/zed2cppConfig-version.cmake
+[32.600s] -- Installing: /home/akshat/ros2WS/install/zed2cpp/share/zed2cpp/package.xml
+[32.606s] Invoked command in '/home/akshat/ros2WS/build/zed2cpp' returned '0': CMAKE_PREFIX_PATH=/home/akshat/ros2WS/install/sensors:/home/akshat/ros2WS/install/zed_ros2:/home/akshat/ros2WS/install/zed_wrapper:/home/akshat/ros2WS/install/zed_components:/home/akshat/ros2WS/install/zed_interfaces:/home/akshat/ros2WS/install/zed2cpp:/home/akshat/ros2WS/install/planner:/home/akshat/ros2WS/install/stereo:/home/akshat/ros2WS/install/robot:/home/akshat/ros2WS/install/zed2nodes:/opt/ros/humble LD_LIBRARY_PATH=/home/akshat/ros2WS/install/sensors/lib:/home/akshat/ros2WS/install/zed_components/lib:/home/akshat/ros2WS/install/zed_interfaces/lib:/home/akshat/ros2WS/install/stereo/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-11.8/lib64 /usr/bin/cmake --install /home/akshat/ros2WS/build/zed2cpp

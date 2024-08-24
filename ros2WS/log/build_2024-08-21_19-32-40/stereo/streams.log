@@ -1,0 +1,161 @@
+[0.056s] Invoking command in '/home/akshat/ros2WS/build/stereo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/akshat/ros2WS/install/zed2nodes:/opt/ros/humble /usr/bin/cmake --build /home/akshat/ros2WS/build/stereo -- -j12 -l12
+[0.162s] [  2%] Built target stereo__cpp
+[0.168s] [ 12%] Built target stereo__rosidl_generator_c
+[0.206s] [ 12%] Built target ament_cmake_python_copy_stereo
+[0.242s] [ 23%] Built target stereo__rosidl_typesupport_cpp
+[0.250s] [ 33%] Built target stereo__rosidl_typesupport_introspection_cpp
+[0.251s] [ 43%] Built target stereo__rosidl_typesupport_fastrtps_cpp
+[0.270s] [ 53%] Built target stereo__rosidl_typesupport_c
+[0.285s] [ 64%] Built target stereo__rosidl_typesupport_fastrtps_c
+[0.297s] [ 74%] Built target stereo__rosidl_typesupport_introspection_c
+[0.345s] [ 74%] Built target stereo
+[0.386s] [ 76%] Built target stereo__py
+[0.445s] [ 84%] Built target stereo__rosidl_generator_py
+[0.503s] [ 89%] Built target stereo__rosidl_typesupport_introspection_c__pyext
+[0.508s] [ 94%] Built target stereo__rosidl_typesupport_fastrtps_c__pyext
+[0.511s] [100%] Built target stereo__rosidl_typesupport_c__pyext
+[0.886s] running egg_info
+[0.887s] writing stereo.egg-info/PKG-INFO
+[0.888s] writing dependency_links to stereo.egg-info/dependency_links.txt
+[0.888s] writing top-level names to stereo.egg-info/top_level.txt
+[0.888s] reading manifest file 'stereo.egg-info/SOURCES.txt'
+[0.889s] writing manifest file 'stereo.egg-info/SOURCES.txt'
+[0.943s] [100%] Built target ament_cmake_python_build_stereo_egg
+[0.984s] Invoked command in '/home/akshat/ros2WS/build/stereo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/akshat/ros2WS/install/zed2nodes:/opt/ros/humble /usr/bin/cmake --build /home/akshat/ros2WS/build/stereo -- -j12 -l12
+[1.132s] Invoking command in '/home/akshat/ros2WS/build/stereo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/akshat/ros2WS/install/zed2nodes:/opt/ros/humble /usr/bin/cmake --install /home/akshat/ros2WS/build/stereo
+[1.149s] -- Install configuration: ""
+[1.150s] -- Up-to-date: /home/akshat/ros2WS/install/stereo/share/ament_index/resource_index/rosidl_interfaces/stereo
+[1.150s] -- Up-to-date: /home/akshat/ros2WS/install/stereo/include/stereo/stereo
+[1.151s] -- Up-to-date: /home/akshat/ros2WS/install/stereo/include/stereo/stereo/msg
+[1.152s] -- Up-to-date: /home/akshat/ros2WS/install/stereo/include/stereo/stereo/msg/rosidl_generator_c__visibility_control.h
+[1.152s] -- Up-to-date: /home/akshat/ros2WS/install/stereo/include/stereo/stereo/msg/detail
+[1.152s] -- Up-to-date: /home/akshat/ros2WS/install/stereo/include/stereo/stereo/msg/detail/tag__functions.h
+[1.152s] -- Up-to-date: /home/akshat/ros2WS/install/stereo/include/stereo/stereo/msg/detail/yolotag__functions.h
+[1.153s] -- Up-to-date: /home/akshat/ros2WS/install/stereo/include/stereo/stereo/msg/detail/yolotag__struct.h
+[1.153s] -- Up-to-date: /home/akshat/ros2WS/install/stereo/include/stereo/stereo/msg/detail/yolotag__type_support.h
+[1.153s] -- Up-to-date: /home/akshat/ros2WS/install/stereo/include/stereo/stereo/msg/detail/yolotag__functions.c
+[1.153s] -- Up-to-date: /home/akshat/ros2WS/install/stereo/include/stereo/stereo/msg/detail/tag__functions.c
+[1.154s] -- Up-to-date: /home/akshat/ros2WS/install/stereo/include/stereo/stereo/msg/detail/tag__type_support.h
+[1.154s] -- Up-to-date: /home/akshat/ros2WS/install/stereo/include/stereo/stereo/msg/detail/tag__struct.h
+[1.154s] -- Up-to-date: /home/akshat/ros2WS/install/stereo/include/stereo/stereo/msg/yolotag.h
+[1.155s] -- Up-to-date: /home/akshat/ros2WS/install/stereo/include/stereo/stereo/msg/tag.h
+[1.155s] -- Up-to-date: /home/akshat/ros2WS/install/stereo/share/stereo/environment/library_path.sh
+[1.155s] -- Up-to-date: /home/akshat/ros2WS/install/stereo/share/stereo/environment/library_path.dsv
+[1.155s] -- Up-to-date: /home/akshat/ros2WS/install/stereo/lib/libstereo__rosidl_generator_c.so
+[1.155s] -- Up-to-date: /home/akshat/ros2WS/install/stereo/include/stereo/stereo
+[1.156s] -- Up-to-date: /home/akshat/ros2WS/install/stereo/include/stereo/stereo/msg
+[1.156s] -- Up-to-date: /home/akshat/ros2WS/install/stereo/include/stereo/stereo/msg/detail
+[1.156s] -- Up-to-date: /home/akshat/ros2WS/install/stereo/include/stereo/stereo/msg/detail/yolotag__rosidl_typesupport_fastrtps_c.h
+[1.157s] -- Up-to-date: /home/akshat/ros2WS/install/stereo/include/stereo/stereo/msg/detail/tag__rosidl_typesupport_fastrtps_c.h
+[1.160s] -- Up-to-date: /home/akshat/ros2WS/install/stereo/include/stereo/stereo/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.162s] -- Up-to-date: /home/akshat/ros2WS/install/stereo/lib/libstereo__rosidl_typesupport_fastrtps_c.so
+[1.162s] -- Up-to-date: /home/akshat/ros2WS/install/stereo/include/stereo/stereo
+[1.162s] -- Up-to-date: /home/akshat/ros2WS/install/stereo/include/stereo/stereo/msg
+[1.162s] -- Up-to-date: /home/akshat/ros2WS/install/stereo/include/stereo/stereo/msg/yolotag.hpp
+[1.162s] -- Up-to-date: /home/akshat/ros2WS/install/stereo/include/stereo/stereo/msg/detail
+[1.162s] -- Up-to-date: /home/akshat/ros2WS/install/stereo/include/stereo/stereo/msg/detail/yolotag__struct.hpp
+[1.163s] -- Up-to-date: /home/akshat/ros2WS/install/stereo/include/stereo/stereo/msg/detail/tag__builder.hpp
+[1.163s] -- Up-to-date: /home/akshat/ros2WS/install/stereo/include/stereo/stereo/msg/detail/yolotag__builder.hpp
+[1.163s] -- Up-to-date: /home/akshat/ros2WS/install/stereo/include/stereo/stereo/msg/detail/tag__struct.hpp
+[1.163s] -- Up-to-date: /home/akshat/ros2WS/install/stereo/include/stereo/stereo/msg/detail/tag__traits.hpp
+[1.164s] -- Up-to-date: /home/akshat/ros2WS/install/stereo/include/stereo/stereo/msg/detail/yolotag__traits.hpp
+[1.164s] -- Up-to-date: /home/akshat/ros2WS/install/stereo/include/stereo/stereo/msg/tag.hpp
+[1.164s] -- Up-to-date: /home/akshat/ros2WS/install/stereo/include/stereo/stereo
+[1.164s] -- Up-to-date: /home/akshat/ros2WS/install/stereo/include/stereo/stereo/msg
+[1.164s] -- Up-to-date: /home/akshat/ros2WS/install/stereo/include/stereo/stereo/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.164s] -- Up-to-date: /home/akshat/ros2WS/install/stereo/include/stereo/stereo/msg/detail
+[1.164s] -- Up-to-date: /home/akshat/ros2WS/install/stereo/include/stereo/stereo/msg/detail/dds_fastrtps
+[1.164s] -- Up-to-date: /home/akshat/ros2WS/install/stereo/include/stereo/stereo/msg/detail/tag__rosidl_typesupport_fastrtps_cpp.hpp
+[1.165s] -- Up-to-date: /home/akshat/ros2WS/install/stereo/include/stereo/stereo/msg/detail/yolotag__rosidl_typesupport_fastrtps_cpp.hpp
+[1.165s] -- Up-to-date: /home/akshat/ros2WS/install/stereo/lib/libstereo__rosidl_typesupport_fastrtps_cpp.so
+[1.165s] -- Up-to-date: /home/akshat/ros2WS/install/stereo/include/stereo/stereo
+[1.165s] -- Up-to-date: /home/akshat/ros2WS/install/stereo/include/stereo/stereo/msg
+[1.165s] -- Up-to-date: /home/akshat/ros2WS/install/stereo/include/stereo/stereo/msg/detail
+[1.166s] -- Up-to-date: /home/akshat/ros2WS/install/stereo/include/stereo/stereo/msg/detail/tag__rosidl_typesupport_introspection_c.h
+[1.166s] -- Up-to-date: /home/akshat/ros2WS/install/stereo/include/stereo/stereo/msg/detail/tag__type_support.c
+[1.166s] -- Up-to-date: /home/akshat/ros2WS/install/stereo/include/stereo/stereo/msg/detail/yolotag__rosidl_typesupport_introspection_c.h
+[1.166s] -- Up-to-date: /home/akshat/ros2WS/install/stereo/include/stereo/stereo/msg/detail/yolotag__type_support.c
+[1.166s] -- Up-to-date: /home/akshat/ros2WS/install/stereo/include/stereo/stereo/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.167s] -- Up-to-date: /home/akshat/ros2WS/install/stereo/lib/libstereo__rosidl_typesupport_introspection_c.so
+[1.168s] -- Up-to-date: /home/akshat/ros2WS/install/stereo/lib/libstereo__rosidl_typesupport_c.so
+[1.168s] -- Up-to-date: /home/akshat/ros2WS/install/stereo/include/stereo/stereo
+[1.168s] -- Up-to-date: /home/akshat/ros2WS/install/stereo/include/stereo/stereo/msg
+[1.168s] -- Up-to-date: /home/akshat/ros2WS/install/stereo/include/stereo/stereo/msg/detail
+[1.168s] -- Up-to-date: /home/akshat/ros2WS/install/stereo/include/stereo/stereo/msg/detail/tag__rosidl_typesupport_introspection_cpp.hpp
+[1.168s] -- Up-to-date: /home/akshat/ros2WS/install/stereo/include/stereo/stereo/msg/detail/yolotag__rosidl_typesupport_introspection_cpp.hpp
+[1.168s] -- Up-to-date: /home/akshat/ros2WS/install/stereo/include/stereo/stereo/msg/detail/tag__type_support.cpp
+[1.168s] -- Up-to-date: /home/akshat/ros2WS/install/stereo/include/stereo/stereo/msg/detail/yolotag__type_support.cpp
+[1.168s] -- Up-to-date: /home/akshat/ros2WS/install/stereo/lib/libstereo__rosidl_typesupport_introspection_cpp.so
+[1.168s] -- Up-to-date: /home/akshat/ros2WS/install/stereo/lib/libstereo__rosidl_typesupport_cpp.so
+[1.170s] -- Up-to-date: /home/akshat/ros2WS/install/stereo/share/stereo/environment/pythonpath.sh
+[1.170s] -- Up-to-date: /home/akshat/ros2WS/install/stereo/share/stereo/environment/pythonpath.dsv
+[1.170s] -- Up-to-date: /home/akshat/ros2WS/install/stereo/local/lib/python3.10/dist-packages/stereo-0.0.0-py3.10.egg-info
+[1.170s] -- Installing: /home/akshat/ros2WS/install/stereo/local/lib/python3.10/dist-packages/stereo-0.0.0-py3.10.egg-info/top_level.txt
+[1.170s] -- Installing: /home/akshat/ros2WS/install/stereo/local/lib/python3.10/dist-packages/stereo-0.0.0-py3.10.egg-info/dependency_links.txt
+[1.170s] -- Installing: /home/akshat/ros2WS/install/stereo/local/lib/python3.10/dist-packages/stereo-0.0.0-py3.10.egg-info/PKG-INFO
+[1.170s] -- Installing: /home/akshat/ros2WS/install/stereo/local/lib/python3.10/dist-packages/stereo-0.0.0-py3.10.egg-info/SOURCES.txt
+[1.171s] -- Up-to-date: /home/akshat/ros2WS/install/stereo/local/lib/python3.10/dist-packages/stereo
+[1.171s] -- Up-to-date: /home/akshat/ros2WS/install/stereo/local/lib/python3.10/dist-packages/stereo/_stereo_s.ep.rosidl_typesupport_c.c
+[1.171s] -- Up-to-date: /home/akshat/ros2WS/install/stereo/local/lib/python3.10/dist-packages/stereo/stereo_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.171s] -- Up-to-date: /home/akshat/ros2WS/install/stereo/local/lib/python3.10/dist-packages/stereo/libstereo__rosidl_generator_py.so
+[1.171s] -- Up-to-date: /home/akshat/ros2WS/install/stereo/local/lib/python3.10/dist-packages/stereo/msg
+[1.172s] -- Up-to-date: /home/akshat/ros2WS/install/stereo/local/lib/python3.10/dist-packages/stereo/msg/_tag.py
+[1.172s] -- Up-to-date: /home/akshat/ros2WS/install/stereo/local/lib/python3.10/dist-packages/stereo/msg/_yolotag.py
+[1.172s] -- Up-to-date: /home/akshat/ros2WS/install/stereo/local/lib/python3.10/dist-packages/stereo/msg/_tag_s.c
+[1.172s] -- Up-to-date: /home/akshat/ros2WS/install/stereo/local/lib/python3.10/dist-packages/stereo/msg/_yolotag_s.c
+[1.173s] -- Up-to-date: /home/akshat/ros2WS/install/stereo/local/lib/python3.10/dist-packages/stereo/msg/__init__.py
+[1.175s] -- Up-to-date: /home/akshat/ros2WS/install/stereo/local/lib/python3.10/dist-packages/stereo/_stereo_s.ep.rosidl_typesupport_introspection_c.c
+[1.175s] -- Up-to-date: /home/akshat/ros2WS/install/stereo/local/lib/python3.10/dist-packages/stereo/stereo_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.175s] -- Up-to-date: /home/akshat/ros2WS/install/stereo/local/lib/python3.10/dist-packages/stereo/_stereo_s.ep.rosidl_typesupport_fastrtps_c.c
+[1.175s] -- Up-to-date: /home/akshat/ros2WS/install/stereo/local/lib/python3.10/dist-packages/stereo/stereo_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.176s] -- Up-to-date: /home/akshat/ros2WS/install/stereo/local/lib/python3.10/dist-packages/stereo/__init__.py
+[1.220s] Listing '/home/akshat/ros2WS/install/stereo/local/lib/python3.10/dist-packages/stereo'...
+[1.220s] Listing '/home/akshat/ros2WS/install/stereo/local/lib/python3.10/dist-packages/stereo/msg'...
+[1.232s] -- Up-to-date: /home/akshat/ros2WS/install/stereo/local/lib/python3.10/dist-packages/stereo/stereo_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.233s] -- Up-to-date: /home/akshat/ros2WS/install/stereo/local/lib/python3.10/dist-packages/stereo/stereo_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.233s] -- Up-to-date: /home/akshat/ros2WS/install/stereo/local/lib/python3.10/dist-packages/stereo/stereo_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.234s] -- Up-to-date: /home/akshat/ros2WS/install/stereo/lib/libstereo__rosidl_generator_py.so
+[1.234s] -- Up-to-date: /home/akshat/ros2WS/install/stereo/share/stereo/msg/Tag.idl
+[1.234s] -- Up-to-date: /home/akshat/ros2WS/install/stereo/share/stereo/msg/Yolotag.idl
+[1.234s] -- Up-to-date: /home/akshat/ros2WS/install/stereo/share/stereo/msg/Tag.msg
+[1.235s] -- Up-to-date: /home/akshat/ros2WS/install/stereo/share/stereo/msg/Yolotag.msg
+[1.235s] -- Up-to-date: /home/akshat/ros2WS/install/stereo/share/ament_index/resource_index/package_run_dependencies/stereo
+[1.235s] -- Up-to-date: /home/akshat/ros2WS/install/stereo/share/ament_index/resource_index/parent_prefix_path/stereo
+[1.235s] -- Up-to-date: /home/akshat/ros2WS/install/stereo/share/stereo/environment/ament_prefix_path.sh
+[1.235s] -- Up-to-date: /home/akshat/ros2WS/install/stereo/share/stereo/environment/ament_prefix_path.dsv
+[1.236s] -- Up-to-date: /home/akshat/ros2WS/install/stereo/share/stereo/environment/path.sh
+[1.236s] -- Up-to-date: /home/akshat/ros2WS/install/stereo/share/stereo/environment/path.dsv
+[1.236s] -- Up-to-date: /home/akshat/ros2WS/install/stereo/share/stereo/local_setup.bash
+[1.236s] -- Up-to-date: /home/akshat/ros2WS/install/stereo/share/stereo/local_setup.sh
+[1.236s] -- Up-to-date: /home/akshat/ros2WS/install/stereo/share/stereo/local_setup.zsh
+[1.236s] -- Up-to-date: /home/akshat/ros2WS/install/stereo/share/stereo/local_setup.dsv
+[1.236s] -- Installing: /home/akshat/ros2WS/install/stereo/share/stereo/package.dsv
+[1.237s] -- Up-to-date: /home/akshat/ros2WS/install/stereo/share/ament_index/resource_index/packages/stereo
+[1.237s] -- Up-to-date: /home/akshat/ros2WS/install/stereo/share/stereo/cmake/export_stereo__rosidl_generator_cExport.cmake
+[1.237s] -- Up-to-date: /home/akshat/ros2WS/install/stereo/share/stereo/cmake/export_stereo__rosidl_generator_cExport-noconfig.cmake
+[1.238s] -- Up-to-date: /home/akshat/ros2WS/install/stereo/share/stereo/cmake/export_stereo__rosidl_typesupport_fastrtps_cExport.cmake
+[1.238s] -- Up-to-date: /home/akshat/ros2WS/install/stereo/share/stereo/cmake/export_stereo__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[1.238s] -- Up-to-date: /home/akshat/ros2WS/install/stereo/share/stereo/cmake/export_stereo__rosidl_generator_cppExport.cmake
+[1.238s] -- Up-to-date: /home/akshat/ros2WS/install/stereo/share/stereo/cmake/export_stereo__rosidl_typesupport_fastrtps_cppExport.cmake
+[1.239s] -- Up-to-date: /home/akshat/ros2WS/install/stereo/share/stereo/cmake/export_stereo__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[1.239s] -- Up-to-date: /home/akshat/ros2WS/install/stereo/share/stereo/cmake/stereo__rosidl_typesupport_introspection_cExport.cmake
+[1.239s] -- Up-to-date: /home/akshat/ros2WS/install/stereo/share/stereo/cmake/stereo__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[1.239s] -- Up-to-date: /home/akshat/ros2WS/install/stereo/share/stereo/cmake/stereo__rosidl_typesupport_cExport.cmake
+[1.240s] -- Up-to-date: /home/akshat/ros2WS/install/stereo/share/stereo/cmake/stereo__rosidl_typesupport_cExport-noconfig.cmake
+[1.240s] -- Up-to-date: /home/akshat/ros2WS/install/stereo/share/stereo/cmake/stereo__rosidl_typesupport_introspection_cppExport.cmake
+[1.240s] -- Up-to-date: /home/akshat/ros2WS/install/stereo/share/stereo/cmake/stereo__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[1.241s] -- Up-to-date: /home/akshat/ros2WS/install/stereo/share/stereo/cmake/stereo__rosidl_typesupport_cppExport.cmake
+[1.241s] -- Up-to-date: /home/akshat/ros2WS/install/stereo/share/stereo/cmake/stereo__rosidl_typesupport_cppExport-noconfig.cmake
+[1.241s] -- Up-to-date: /home/akshat/ros2WS/install/stereo/share/stereo/cmake/export_stereo__rosidl_generator_pyExport.cmake
+[1.243s] -- Up-to-date: /home/akshat/ros2WS/install/stereo/share/stereo/cmake/export_stereo__rosidl_generator_pyExport-noconfig.cmake
+[1.246s] -- Up-to-date: /home/akshat/ros2WS/install/stereo/share/stereo/cmake/rosidl_cmake-extras.cmake
+[1.247s] -- Up-to-date: /home/akshat/ros2WS/install/stereo/share/stereo/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.247s] -- Up-to-date: /home/akshat/ros2WS/install/stereo/share/stereo/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.247s] -- Up-to-date: /home/akshat/ros2WS/install/stereo/share/stereo/cmake/ament_cmake_export_libraries-extras.cmake
+[1.248s] -- Up-to-date: /home/akshat/ros2WS/install/stereo/share/stereo/cmake/ament_cmake_export_targets-extras.cmake
+[1.248s] -- Up-to-date: /home/akshat/ros2WS/install/stereo/share/stereo/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.248s] -- Up-to-date: /home/akshat/ros2WS/install/stereo/share/stereo/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.248s] -- Up-to-date: /home/akshat/ros2WS/install/stereo/share/stereo/cmake/stereoConfig.cmake
+[1.248s] -- Up-to-date: /home/akshat/ros2WS/install/stereo/share/stereo/cmake/stereoConfig-version.cmake
+[1.248s] -- Up-to-date: /home/akshat/ros2WS/install/stereo/share/stereo/package.xml
+[1.249s] Invoked command in '/home/akshat/ros2WS/build/stereo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/akshat/ros2WS/install/zed2nodes:/opt/ros/humble /usr/bin/cmake --install /home/akshat/ros2WS/build/stereo

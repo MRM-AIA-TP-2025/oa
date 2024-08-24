@@ -1,0 +1,18 @@
+[0.020s] Invoking command in '/home/akshat/ros2WS/build/zed2cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/akshat/ros2WS/install/zed2nodes:/opt/ros/humble /usr/bin/cmake --build /home/akshat/ros2WS/build/zed2cpp -- -j12 -l12
+[0.084s] [35m[1mConsolidate compiler generated dependencies of target pcloa[0m
+[0.122s] [ 50%] [32mBuilding CXX object CMakeFiles/pcloa.dir/src/pcloa.cpp.o[0m
+[10.674s] [01m[K/home/akshat/ros2WS/src/zed2cpp/src/pcloa.cpp:[m[K In member function ‘[01m[Kvoid PCLPreprocessingNode::point_cloud_callback(sensor_msgs::msg::PointCloud2_<std::allocator<void> >::SharedPtr)[m[K’:
+[10.674s] [01m[K/home/akshat/ros2WS/src/zed2cpp/src/pcloa.cpp:34:10:[m[K [01;31m[Kerror: [m[K‘[01m[KRandomSample[m[K’ is not a member of ‘[01m[Kpcl[m[K’
+[10.674s]    34 |     pcl::[01;31m[KRandomSample[m[K<pcl::PointXYZ> random_sample;
+[10.674s]       |          [01;31m[K^~~~~~~~~~~~[m[K
+[10.674s] [01m[K/home/akshat/ros2WS/src/zed2cpp/src/pcloa.cpp:34:36:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+[10.674s]    34 |     pcl::RandomSample<pcl::PointXYZ[01;31m[K>[m[K random_sample;
+[10.674s]       |                                    [01;31m[K^[m[K
+[10.698s] [01m[K/home/akshat/ros2WS/src/zed2cpp/src/pcloa.cpp:34:38:[m[K [01;31m[Kerror: [m[K‘[01m[Krandom_sample[m[K’ was not declared in this scope; did you mean ‘[01m[Krandom_data[m[K’?
+[10.698s]    34 |     pcl::RandomSample<pcl::PointXYZ> [01;31m[Krandom_sample[m[K;
+[10.699s]       |                                      [01;31m[K^~~~~~~~~~~~~[m[K
+[10.699s]       |                                      [32m[Krandom_data[m[K
+[14.554s] gmake[2]: *** [CMakeFiles/pcloa.dir/build.make:76: CMakeFiles/pcloa.dir/src/pcloa.cpp.o] Error 1
+[14.554s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/pcloa.dir/all] Error 2
+[14.554s] gmake: *** [Makefile:146: all] Error 2
+[14.556s] Invoked command in '/home/akshat/ros2WS/build/zed2cpp' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/akshat/ros2WS/install/zed2nodes:/opt/ros/humble /usr/bin/cmake --build /home/akshat/ros2WS/build/zed2cpp -- -j12 -l12

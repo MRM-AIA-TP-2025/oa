@@ -1,0 +1,12 @@
+/home/akshat/ros2WS/build/zed2cpp/CMakeFiles/uninstall.dir
+/home/akshat/ros2WS/build/zed2cpp/CMakeFiles/zed2cpp_uninstall.dir
+/home/akshat/ros2WS/build/zed2cpp/CMakeFiles/pcloa.dir
+/home/akshat/ros2WS/build/zed2cpp/CMakeFiles/nav.dir
+/home/akshat/ros2WS/build/zed2cpp/CMakeFiles/navdata.dir
+/home/akshat/ros2WS/build/zed2cpp/CMakeFiles/test.dir
+/home/akshat/ros2WS/build/zed2cpp/CMakeFiles/edit_cache.dir
+/home/akshat/ros2WS/build/zed2cpp/CMakeFiles/rebuild_cache.dir
+/home/akshat/ros2WS/build/zed2cpp/CMakeFiles/list_install_components.dir
+/home/akshat/ros2WS/build/zed2cpp/CMakeFiles/install.dir
+/home/akshat/ros2WS/build/zed2cpp/CMakeFiles/install/local.dir
+/home/akshat/ros2WS/build/zed2cpp/CMakeFiles/install/strip.dir

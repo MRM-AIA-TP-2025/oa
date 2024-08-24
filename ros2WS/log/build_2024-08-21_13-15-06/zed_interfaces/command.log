@@ -1,0 +1,6 @@
+Invoking command in '/home/akshat/ros2WS/build/zed_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/akshat/ros2WS/src/zed-ros2-wrapper/zed-ros2-interfaces -DCMAKE_INSTALL_PREFIX=/home/akshat/ros2WS/install/zed_interfaces
+Invoked command in '/home/akshat/ros2WS/build/zed_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/akshat/ros2WS/src/zed-ros2-wrapper/zed-ros2-interfaces -DCMAKE_INSTALL_PREFIX=/home/akshat/ros2WS/install/zed_interfaces
+Invoking command in '/home/akshat/ros2WS/build/zed_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/akshat/ros2WS/build/zed_interfaces -- -j12 -l12
+Invoked command in '/home/akshat/ros2WS/build/zed_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/akshat/ros2WS/build/zed_interfaces -- -j12 -l12
+Invoking command in '/home/akshat/ros2WS/build/zed_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/akshat/ros2WS/build/zed_interfaces
+Invoked command in '/home/akshat/ros2WS/build/zed_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/akshat/ros2WS/build/zed_interfaces

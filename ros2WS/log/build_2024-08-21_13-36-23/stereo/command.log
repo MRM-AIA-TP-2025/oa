@@ -1,0 +1,6 @@
+Invoking command in '/home/akshat/ros2WS/build/stereo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/akshat/ros2WS/src/stereo -DCMAKE_INSTALL_PREFIX=/home/akshat/ros2WS/install/stereo
+Invoked command in '/home/akshat/ros2WS/build/stereo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/akshat/ros2WS/src/stereo -DCMAKE_INSTALL_PREFIX=/home/akshat/ros2WS/install/stereo
+Invoking command in '/home/akshat/ros2WS/build/stereo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/akshat/ros2WS/build/stereo -- -j12 -l12
+Invoked command in '/home/akshat/ros2WS/build/stereo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/akshat/ros2WS/build/stereo -- -j12 -l12
+Invoking command in '/home/akshat/ros2WS/build/stereo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/akshat/ros2WS/build/stereo
+Invoked command in '/home/akshat/ros2WS/build/stereo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/akshat/ros2WS/build/stereo

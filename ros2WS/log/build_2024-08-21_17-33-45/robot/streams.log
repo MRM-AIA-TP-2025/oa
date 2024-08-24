@@ -1,0 +1,50 @@
+[0.117s] Invoking command in '/home/akshat/ros2WS/build/robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/akshat/ros2WS/install/zed2nodes:/opt/ros/humble /usr/bin/cmake --build /home/akshat/ros2WS/build/robot -- -j12 -l12
+[0.587s] Invoked command in '/home/akshat/ros2WS/build/robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/akshat/ros2WS/install/zed2nodes:/opt/ros/humble /usr/bin/cmake --build /home/akshat/ros2WS/build/robot -- -j12 -l12
+[0.621s] Invoking command in '/home/akshat/ros2WS/build/robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/akshat/ros2WS/install/zed2nodes:/opt/ros/humble /usr/bin/cmake --install /home/akshat/ros2WS/build/robot
+[0.628s] -- Install configuration: ""
+[0.629s] -- Up-to-date: /home/akshat/ros2WS/install/robot/share/robot/launch
+[0.629s] -- Installing: /home/akshat/ros2WS/install/robot/share/robot/launch/MarsYard.launch.xml
+[0.629s] -- Up-to-date: /home/akshat/ros2WS/install/robot/share/robot/launch/world.launch.py
+[0.629s] -- Up-to-date: /home/akshat/ros2WS/install/robot/share/robot/meshes
+[0.629s] -- Up-to-date: /home/akshat/ros2WS/install/robot/share/robot/meshes/zed2_base.dae
+[0.629s] -- Up-to-date: /home/akshat/ros2WS/install/robot/share/robot/meshes/stand.stl
+[0.629s] -- Up-to-date: /home/akshat/ros2WS/install/robot/share/robot/meshes/wheel_rear_right_1.stl
+[0.629s] -- Up-to-date: /home/akshat/ros2WS/install/robot/share/robot/meshes/aruco1.stl
+[0.630s] -- Up-to-date: /home/akshat/ros2WS/install/robot/share/robot/meshes/wheel_rear_left_1.stl
+[0.630s] -- Up-to-date: /home/akshat/ros2WS/install/robot/share/robot/meshes/wheel.dae
+[0.630s] -- Up-to-date: /home/akshat/ros2WS/install/robot/share/robot/meshes/wheel_front_right_1.stl
+[0.630s] -- Up-to-date: /home/akshat/ros2WS/install/robot/share/robot/meshes/zed2.dae
+[0.630s] -- Up-to-date: /home/akshat/ros2WS/install/robot/share/robot/meshes/wheel_front_left_1.stl
+[0.630s] -- Up-to-date: /home/akshat/ros2WS/install/robot/share/robot/meshes/aruco2.stl
+[0.630s] -- Up-to-date: /home/akshat/ros2WS/install/robot/share/robot/meshes/sick_scan.dae
+[0.631s] -- Up-to-date: /home/akshat/ros2WS/install/robot/share/robot/meshes/base_link.stl
+[0.631s] -- Up-to-date: /home/akshat/ros2WS/install/robot/share/robot/meshes/aruco0.stl
+[0.631s] -- Up-to-date: /home/akshat/ros2WS/install/robot/share/robot/worlds
+[0.631s] -- Installing: /home/akshat/ros2WS/install/robot/share/robot/worlds/marsyard2022.world
+[0.632s] -- Up-to-date: /home/akshat/ros2WS/install/robot/share/robot/worlds/irc.world
+[0.632s] -- Up-to-date: /home/akshat/ros2WS/install/robot/share/robot/worlds/urc.world
+[0.632s] -- Up-to-date: /home/akshat/ros2WS/install/robot/share/robot/worlds/urc_1.world
+[0.632s] -- Up-to-date: /home/akshat/ros2WS/install/robot/share/robot/urdf
+[0.633s] -- Up-to-date: /home/akshat/ros2WS/install/robot/share/robot/urdf/obj.xacro
+[0.633s] -- Up-to-date: /home/akshat/ros2WS/install/robot/share/robot/urdf/martin.gazebo
+[0.634s] -- Up-to-date: /home/akshat/ros2WS/install/robot/share/robot/urdf/materials.xacro
+[0.634s] -- Up-to-date: /home/akshat/ros2WS/install/robot/share/robot/urdf/martin.urdf
+[0.634s] -- Up-to-date: /home/akshat/ros2WS/install/robot/share/robot/urdf/martin.trans
+[0.634s] -- Up-to-date: /home/akshat/ros2WS/install/robot/share/robot/urdf/arrow2.xacro
+[0.635s] -- Up-to-date: /home/akshat/ros2WS/install/robot/share/robot/urdf/arrow1.xacro
+[0.635s] -- Up-to-date: /home/akshat/ros2WS/install/robot/share/ament_index/resource_index/package_run_dependencies/robot
+[0.635s] -- Up-to-date: /home/akshat/ros2WS/install/robot/share/ament_index/resource_index/parent_prefix_path/robot
+[0.635s] -- Up-to-date: /home/akshat/ros2WS/install/robot/share/robot/environment/ament_prefix_path.sh
+[0.635s] -- Up-to-date: /home/akshat/ros2WS/install/robot/share/robot/environment/ament_prefix_path.dsv
+[0.635s] -- Up-to-date: /home/akshat/ros2WS/install/robot/share/robot/environment/path.sh
+[0.635s] -- Up-to-date: /home/akshat/ros2WS/install/robot/share/robot/environment/path.dsv
+[0.636s] -- Up-to-date: /home/akshat/ros2WS/install/robot/share/robot/local_setup.bash
+[0.636s] -- Up-to-date: /home/akshat/ros2WS/install/robot/share/robot/local_setup.sh
+[0.636s] -- Up-to-date: /home/akshat/ros2WS/install/robot/share/robot/local_setup.zsh
+[0.636s] -- Up-to-date: /home/akshat/ros2WS/install/robot/share/robot/local_setup.dsv
+[0.636s] -- Installing: /home/akshat/ros2WS/install/robot/share/robot/package.dsv
+[0.637s] -- Up-to-date: /home/akshat/ros2WS/install/robot/share/ament_index/resource_index/packages/robot
+[0.637s] -- Up-to-date: /home/akshat/ros2WS/install/robot/share/robot/cmake/robotConfig.cmake
+[0.637s] -- Up-to-date: /home/akshat/ros2WS/install/robot/share/robot/cmake/robotConfig-version.cmake
+[0.637s] -- Up-to-date: /home/akshat/ros2WS/install/robot/share/robot/package.xml
+[0.637s] Invoked command in '/home/akshat/ros2WS/build/robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/akshat/ros2WS/install/zed2nodes:/opt/ros/humble /usr/bin/cmake --install /home/akshat/ros2WS/build/robot

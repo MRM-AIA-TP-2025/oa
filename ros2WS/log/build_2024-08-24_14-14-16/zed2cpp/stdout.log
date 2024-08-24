@@ -1,0 +1,4 @@
+[35m[1mConsolidate compiler generated dependencies of target navdata[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/nav.dir/src/navigation.cpp.o[0m
+[ 50%] Built target navdata
+[ 83%] Built target pcloa

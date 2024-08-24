@@ -1,0 +1,773 @@
+[0.237s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.237s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7b01e579bd90>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7b01e56c4a60>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7b01e56c4a60>>)
+[0.586s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.586s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.586s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.586s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.586s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.586s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.586s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/akshat/ros2WS'
+[0.586s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.586s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.586s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.606s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.610s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(src/planner) by extensions ['ignore', 'ignore_ament_install']
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(src/planner) by extension 'ignore'
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(src/planner) by extension 'ignore_ament_install'
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(src/planner) by extensions ['colcon_pkg']
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(src/planner) by extension 'colcon_pkg'
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(src/planner) by extensions ['colcon_meta']
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(src/planner) by extension 'colcon_meta'
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(src/planner) by extensions ['ros']
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(src/planner) by extension 'ros'
+[0.619s] DEBUG:colcon.colcon_core.package_identification:Package 'src/planner' with type 'ros.ament_cmake' and name 'planner'
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot) by extensions ['ignore', 'ignore_ament_install']
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot) by extension 'ignore'
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot) by extension 'ignore_ament_install'
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot) by extensions ['colcon_pkg']
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot) by extension 'colcon_pkg'
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot) by extensions ['colcon_meta']
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot) by extension 'colcon_meta'
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot) by extensions ['ros']
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot) by extension 'ros'
+[0.620s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robot' with type 'ros.ament_cmake' and name 'robot'
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensors) by extensions ['ignore', 'ignore_ament_install']
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensors) by extension 'ignore'
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensors) by extension 'ignore_ament_install'
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensors) by extensions ['colcon_pkg']
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensors) by extension 'colcon_pkg'
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensors) by extensions ['colcon_meta']
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensors) by extension 'colcon_meta'
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensors) by extensions ['ros']
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensors) by extension 'ros'
+[0.622s] DEBUG:colcon.colcon_core.package_identification:Package 'src/sensors' with type 'ros.ament_cmake' and name 'sensors'
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(src/stereo) by extensions ['ignore', 'ignore_ament_install']
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(src/stereo) by extension 'ignore'
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(src/stereo) by extension 'ignore_ament_install'
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(src/stereo) by extensions ['colcon_pkg']
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(src/stereo) by extension 'colcon_pkg'
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(src/stereo) by extensions ['colcon_meta']
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(src/stereo) by extension 'colcon_meta'
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(src/stereo) by extensions ['ros']
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(src/stereo) by extension 'ros'
+[0.623s] DEBUG:colcon.colcon_core.package_identification:Package 'src/stereo' with type 'ros.ament_cmake' and name 'stereo'
+[0.623s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper) by extensions ['ignore', 'ignore_ament_install']
+[0.623s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper) by extension 'ignore'
+[0.623s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper) by extension 'ignore_ament_install'
+[0.623s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper) by extensions ['colcon_pkg']
+[0.623s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper) by extension 'colcon_pkg'
+[0.623s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper) by extensions ['colcon_meta']
+[0.623s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper) by extension 'colcon_meta'
+[0.623s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper) by extensions ['ros']
+[0.623s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper) by extension 'ros'
+[0.623s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper) by extensions ['cmake', 'python']
+[0.623s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper) by extension 'cmake'
+[0.623s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper) by extension 'python'
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper) by extensions ['python_setup_py']
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper) by extension 'python_setup_py'
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/docker) by extensions ['ignore', 'ignore_ament_install']
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/docker) by extension 'ignore'
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/docker) by extension 'ignore_ament_install'
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/docker) by extensions ['colcon_pkg']
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/docker) by extension 'colcon_pkg'
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/docker) by extensions ['colcon_meta']
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/docker) by extension 'colcon_meta'
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/docker) by extensions ['ros']
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/docker) by extension 'ros'
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/docker) by extensions ['cmake', 'python']
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/docker) by extension 'cmake'
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/docker) by extension 'python'
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/docker) by extensions ['python_setup_py']
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/docker) by extension 'python_setup_py'
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/images) by extensions ['ignore', 'ignore_ament_install']
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/images) by extension 'ignore'
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/images) by extension 'ignore_ament_install'
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/images) by extensions ['colcon_pkg']
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/images) by extension 'colcon_pkg'
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/images) by extensions ['colcon_meta']
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/images) by extension 'colcon_meta'
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/images) by extensions ['ros']
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/images) by extension 'ros'
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/images) by extensions ['cmake', 'python']
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/images) by extension 'cmake'
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/images) by extension 'python'
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/images) by extensions ['python_setup_py']
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/images) by extension 'python_setup_py'
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/zed-ros2-interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/zed-ros2-interfaces) by extension 'ignore'
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/zed-ros2-interfaces) by extension 'ignore_ament_install'
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/zed-ros2-interfaces) by extensions ['colcon_pkg']
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/zed-ros2-interfaces) by extension 'colcon_pkg'
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/zed-ros2-interfaces) by extensions ['colcon_meta']
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/zed-ros2-interfaces) by extension 'colcon_meta'
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/zed-ros2-interfaces) by extensions ['ros']
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/zed-ros2-interfaces) by extension 'ros'
+[0.627s] DEBUG:colcon.colcon_core.package_identification:Package 'src/zed-ros2-wrapper/zed-ros2-interfaces' with type 'ros.ament_cmake' and name 'zed_interfaces'
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/zed_components) by extensions ['ignore', 'ignore_ament_install']
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/zed_components) by extension 'ignore'
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/zed_components) by extension 'ignore_ament_install'
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/zed_components) by extensions ['colcon_pkg']
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/zed_components) by extension 'colcon_pkg'
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/zed_components) by extensions ['colcon_meta']
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/zed_components) by extension 'colcon_meta'
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/zed_components) by extensions ['ros']
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/zed_components) by extension 'ros'
+[0.631s] DEBUG:colcon.colcon_core.package_identification:Package 'src/zed-ros2-wrapper/zed_components' with type 'ros.ament_cmake' and name 'zed_components'
+[0.632s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/zed_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.633s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/zed_ros2) by extension 'ignore'
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/zed_ros2) by extension 'ignore_ament_install'
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/zed_ros2) by extensions ['colcon_pkg']
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/zed_ros2) by extension 'colcon_pkg'
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/zed_ros2) by extensions ['colcon_meta']
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/zed_ros2) by extension 'colcon_meta'
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/zed_ros2) by extensions ['ros']
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/zed_ros2) by extension 'ros'
+[0.636s] DEBUG:colcon.colcon_core.package_identification:Package 'src/zed-ros2-wrapper/zed_ros2' with type 'ros.ament_cmake' and name 'zed_ros2'
+[0.637s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/zed_wrapper) by extensions ['ignore', 'ignore_ament_install']
+[0.637s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/zed_wrapper) by extension 'ignore'
+[0.637s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/zed_wrapper) by extension 'ignore_ament_install'
+[0.637s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/zed_wrapper) by extensions ['colcon_pkg']
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/zed_wrapper) by extension 'colcon_pkg'
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/zed_wrapper) by extensions ['colcon_meta']
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/zed_wrapper) by extension 'colcon_meta'
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/zed_wrapper) by extensions ['ros']
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/zed_wrapper) by extension 'ros'
+[0.639s] DEBUG:colcon.colcon_core.package_identification:Package 'src/zed-ros2-wrapper/zed_wrapper' with type 'ros.ament_cmake' and name 'zed_wrapper'
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed2cpp) by extensions ['ignore', 'ignore_ament_install']
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed2cpp) by extension 'ignore'
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed2cpp) by extension 'ignore_ament_install'
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed2cpp) by extensions ['colcon_pkg']
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed2cpp) by extension 'colcon_pkg'
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed2cpp) by extensions ['colcon_meta']
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed2cpp) by extension 'colcon_meta'
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed2cpp) by extensions ['ros']
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed2cpp) by extension 'ros'
+[0.642s] DEBUG:colcon.colcon_core.package_identification:Package 'src/zed2cpp' with type 'ros.ament_cmake' and name 'zed2cpp'
+[0.642s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed2nodes) by extensions ['ignore', 'ignore_ament_install']
+[0.642s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed2nodes) by extension 'ignore'
+[0.642s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed2nodes) by extension 'ignore_ament_install'
+[0.643s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed2nodes) by extensions ['colcon_pkg']
+[0.643s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed2nodes) by extension 'colcon_pkg'
+[0.643s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed2nodes) by extensions ['colcon_meta']
+[0.643s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed2nodes) by extension 'colcon_meta'
+[0.643s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed2nodes) by extensions ['ros']
+[0.643s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed2nodes) by extension 'ros'
+[0.644s] DEBUG:colcon.colcon_core.package_identification:Package 'src/zed2nodes' with type 'ros.ament_python' and name 'zed2nodes'
+[0.644s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.644s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.644s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.644s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.644s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.683s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.683s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.688s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 10 installed packages in /home/akshat/ros2WS/install
+[0.690s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 295 installed packages in /opt/ros/humble
+[0.749s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.813s] Level 5:colcon.colcon_core.verb:set package 'robot' build argument 'cmake_args' from command line to 'None'
+[0.813s] Level 5:colcon.colcon_core.verb:set package 'robot' build argument 'cmake_target' from command line to 'None'
+[0.813s] Level 5:colcon.colcon_core.verb:set package 'robot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.813s] Level 5:colcon.colcon_core.verb:set package 'robot' build argument 'cmake_clean_cache' from command line to 'False'
+[0.813s] Level 5:colcon.colcon_core.verb:set package 'robot' build argument 'cmake_clean_first' from command line to 'False'
+[0.813s] Level 5:colcon.colcon_core.verb:set package 'robot' build argument 'cmake_force_configure' from command line to 'False'
+[0.813s] Level 5:colcon.colcon_core.verb:set package 'robot' build argument 'ament_cmake_args' from command line to 'None'
+[0.813s] Level 5:colcon.colcon_core.verb:set package 'robot' build argument 'catkin_cmake_args' from command line to 'None'
+[0.813s] Level 5:colcon.colcon_core.verb:set package 'robot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.813s] DEBUG:colcon.colcon_core.verb:Building package 'robot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/akshat/ros2WS/build/robot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/akshat/ros2WS/install/robot', 'merge_install': False, 'path': '/home/akshat/ros2WS/src/robot', 'symlink_install': False, 'test_result_base': None}
+[0.813s] Level 5:colcon.colcon_core.verb:set package 'sensors' build argument 'cmake_args' from command line to 'None'
+[0.813s] Level 5:colcon.colcon_core.verb:set package 'sensors' build argument 'cmake_target' from command line to 'None'
+[0.814s] Level 5:colcon.colcon_core.verb:set package 'sensors' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.814s] Level 5:colcon.colcon_core.verb:set package 'sensors' build argument 'cmake_clean_cache' from command line to 'False'
+[0.814s] Level 5:colcon.colcon_core.verb:set package 'sensors' build argument 'cmake_clean_first' from command line to 'False'
+[0.814s] Level 5:colcon.colcon_core.verb:set package 'sensors' build argument 'cmake_force_configure' from command line to 'False'
+[0.814s] Level 5:colcon.colcon_core.verb:set package 'sensors' build argument 'ament_cmake_args' from command line to 'None'
+[0.814s] Level 5:colcon.colcon_core.verb:set package 'sensors' build argument 'catkin_cmake_args' from command line to 'None'
+[0.814s] Level 5:colcon.colcon_core.verb:set package 'sensors' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.814s] DEBUG:colcon.colcon_core.verb:Building package 'sensors' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/akshat/ros2WS/build/sensors', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/akshat/ros2WS/install/sensors', 'merge_install': False, 'path': '/home/akshat/ros2WS/src/sensors', 'symlink_install': False, 'test_result_base': None}
+[0.814s] Level 5:colcon.colcon_core.verb:set package 'stereo' build argument 'cmake_args' from command line to 'None'
+[0.814s] Level 5:colcon.colcon_core.verb:set package 'stereo' build argument 'cmake_target' from command line to 'None'
+[0.814s] Level 5:colcon.colcon_core.verb:set package 'stereo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.814s] Level 5:colcon.colcon_core.verb:set package 'stereo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.814s] Level 5:colcon.colcon_core.verb:set package 'stereo' build argument 'cmake_clean_first' from command line to 'False'
+[0.814s] Level 5:colcon.colcon_core.verb:set package 'stereo' build argument 'cmake_force_configure' from command line to 'False'
+[0.814s] Level 5:colcon.colcon_core.verb:set package 'stereo' build argument 'ament_cmake_args' from command line to 'None'
+[0.814s] Level 5:colcon.colcon_core.verb:set package 'stereo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.814s] Level 5:colcon.colcon_core.verb:set package 'stereo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.814s] DEBUG:colcon.colcon_core.verb:Building package 'stereo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/akshat/ros2WS/build/stereo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/akshat/ros2WS/install/stereo', 'merge_install': False, 'path': '/home/akshat/ros2WS/src/stereo', 'symlink_install': False, 'test_result_base': None}
+[0.815s] Level 5:colcon.colcon_core.verb:set package 'zed2cpp' build argument 'cmake_args' from command line to 'None'
+[0.815s] Level 5:colcon.colcon_core.verb:set package 'zed2cpp' build argument 'cmake_target' from command line to 'None'
+[0.815s] Level 5:colcon.colcon_core.verb:set package 'zed2cpp' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.815s] Level 5:colcon.colcon_core.verb:set package 'zed2cpp' build argument 'cmake_clean_cache' from command line to 'False'
+[0.815s] Level 5:colcon.colcon_core.verb:set package 'zed2cpp' build argument 'cmake_clean_first' from command line to 'False'
+[0.815s] Level 5:colcon.colcon_core.verb:set package 'zed2cpp' build argument 'cmake_force_configure' from command line to 'False'
+[0.815s] Level 5:colcon.colcon_core.verb:set package 'zed2cpp' build argument 'ament_cmake_args' from command line to 'None'
+[0.815s] Level 5:colcon.colcon_core.verb:set package 'zed2cpp' build argument 'catkin_cmake_args' from command line to 'None'
+[0.815s] Level 5:colcon.colcon_core.verb:set package 'zed2cpp' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.815s] DEBUG:colcon.colcon_core.verb:Building package 'zed2cpp' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/akshat/ros2WS/build/zed2cpp', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/akshat/ros2WS/install/zed2cpp', 'merge_install': False, 'path': '/home/akshat/ros2WS/src/zed2cpp', 'symlink_install': False, 'test_result_base': None}
+[0.816s] Level 5:colcon.colcon_core.verb:set package 'zed2nodes' build argument 'cmake_args' from command line to 'None'
+[0.816s] Level 5:colcon.colcon_core.verb:set package 'zed2nodes' build argument 'cmake_target' from command line to 'None'
+[0.816s] Level 5:colcon.colcon_core.verb:set package 'zed2nodes' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.816s] Level 5:colcon.colcon_core.verb:set package 'zed2nodes' build argument 'cmake_clean_cache' from command line to 'False'
+[0.816s] Level 5:colcon.colcon_core.verb:set package 'zed2nodes' build argument 'cmake_clean_first' from command line to 'False'
+[0.816s] Level 5:colcon.colcon_core.verb:set package 'zed2nodes' build argument 'cmake_force_configure' from command line to 'False'
+[0.816s] Level 5:colcon.colcon_core.verb:set package 'zed2nodes' build argument 'ament_cmake_args' from command line to 'None'
+[0.816s] Level 5:colcon.colcon_core.verb:set package 'zed2nodes' build argument 'catkin_cmake_args' from command line to 'None'
+[0.816s] Level 5:colcon.colcon_core.verb:set package 'zed2nodes' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.817s] DEBUG:colcon.colcon_core.verb:Building package 'zed2nodes' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/akshat/ros2WS/build/zed2nodes', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/akshat/ros2WS/install/zed2nodes', 'merge_install': False, 'path': '/home/akshat/ros2WS/src/zed2nodes', 'symlink_install': False, 'test_result_base': None}
+[0.820s] Level 5:colcon.colcon_core.verb:set package 'zed_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.820s] Level 5:colcon.colcon_core.verb:set package 'zed_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.820s] Level 5:colcon.colcon_core.verb:set package 'zed_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.820s] Level 5:colcon.colcon_core.verb:set package 'zed_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.820s] Level 5:colcon.colcon_core.verb:set package 'zed_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.820s] Level 5:colcon.colcon_core.verb:set package 'zed_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.820s] Level 5:colcon.colcon_core.verb:set package 'zed_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.820s] Level 5:colcon.colcon_core.verb:set package 'zed_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.820s] Level 5:colcon.colcon_core.verb:set package 'zed_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.820s] DEBUG:colcon.colcon_core.verb:Building package 'zed_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/akshat/ros2WS/build/zed_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/akshat/ros2WS/install/zed_interfaces', 'merge_install': False, 'path': '/home/akshat/ros2WS/src/zed-ros2-wrapper/zed-ros2-interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.821s] Level 5:colcon.colcon_core.verb:set package 'planner' build argument 'cmake_args' from command line to 'None'
+[0.821s] Level 5:colcon.colcon_core.verb:set package 'planner' build argument 'cmake_target' from command line to 'None'
+[0.821s] Level 5:colcon.colcon_core.verb:set package 'planner' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.821s] Level 5:colcon.colcon_core.verb:set package 'planner' build argument 'cmake_clean_cache' from command line to 'False'
+[0.821s] Level 5:colcon.colcon_core.verb:set package 'planner' build argument 'cmake_clean_first' from command line to 'False'
+[0.821s] Level 5:colcon.colcon_core.verb:set package 'planner' build argument 'cmake_force_configure' from command line to 'False'
+[0.821s] Level 5:colcon.colcon_core.verb:set package 'planner' build argument 'ament_cmake_args' from command line to 'None'
+[0.821s] Level 5:colcon.colcon_core.verb:set package 'planner' build argument 'catkin_cmake_args' from command line to 'None'
+[0.821s] Level 5:colcon.colcon_core.verb:set package 'planner' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.821s] DEBUG:colcon.colcon_core.verb:Building package 'planner' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/akshat/ros2WS/build/planner', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/akshat/ros2WS/install/planner', 'merge_install': False, 'path': '/home/akshat/ros2WS/src/planner', 'symlink_install': False, 'test_result_base': None}
+[0.822s] Level 5:colcon.colcon_core.verb:set package 'zed_components' build argument 'cmake_args' from command line to 'None'
+[0.822s] Level 5:colcon.colcon_core.verb:set package 'zed_components' build argument 'cmake_target' from command line to 'None'
+[0.822s] Level 5:colcon.colcon_core.verb:set package 'zed_components' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.822s] Level 5:colcon.colcon_core.verb:set package 'zed_components' build argument 'cmake_clean_cache' from command line to 'False'
+[0.822s] Level 5:colcon.colcon_core.verb:set package 'zed_components' build argument 'cmake_clean_first' from command line to 'False'
+[0.822s] Level 5:colcon.colcon_core.verb:set package 'zed_components' build argument 'cmake_force_configure' from command line to 'False'
+[0.822s] Level 5:colcon.colcon_core.verb:set package 'zed_components' build argument 'ament_cmake_args' from command line to 'None'
+[0.822s] Level 5:colcon.colcon_core.verb:set package 'zed_components' build argument 'catkin_cmake_args' from command line to 'None'
+[0.822s] Level 5:colcon.colcon_core.verb:set package 'zed_components' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.822s] DEBUG:colcon.colcon_core.verb:Building package 'zed_components' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/akshat/ros2WS/build/zed_components', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/akshat/ros2WS/install/zed_components', 'merge_install': False, 'path': '/home/akshat/ros2WS/src/zed-ros2-wrapper/zed_components', 'symlink_install': False, 'test_result_base': None}
+[0.823s] Level 5:colcon.colcon_core.verb:set package 'zed_wrapper' build argument 'cmake_args' from command line to 'None'
+[0.823s] Level 5:colcon.colcon_core.verb:set package 'zed_wrapper' build argument 'cmake_target' from command line to 'None'
+[0.823s] Level 5:colcon.colcon_core.verb:set package 'zed_wrapper' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.823s] Level 5:colcon.colcon_core.verb:set package 'zed_wrapper' build argument 'cmake_clean_cache' from command line to 'False'
+[0.824s] Level 5:colcon.colcon_core.verb:set package 'zed_wrapper' build argument 'cmake_clean_first' from command line to 'False'
+[0.824s] Level 5:colcon.colcon_core.verb:set package 'zed_wrapper' build argument 'cmake_force_configure' from command line to 'False'
+[0.824s] Level 5:colcon.colcon_core.verb:set package 'zed_wrapper' build argument 'ament_cmake_args' from command line to 'None'
+[0.824s] Level 5:colcon.colcon_core.verb:set package 'zed_wrapper' build argument 'catkin_cmake_args' from command line to 'None'
+[0.824s] Level 5:colcon.colcon_core.verb:set package 'zed_wrapper' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.824s] DEBUG:colcon.colcon_core.verb:Building package 'zed_wrapper' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/akshat/ros2WS/build/zed_wrapper', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/akshat/ros2WS/install/zed_wrapper', 'merge_install': False, 'path': '/home/akshat/ros2WS/src/zed-ros2-wrapper/zed_wrapper', 'symlink_install': False, 'test_result_base': None}
+[0.824s] Level 5:colcon.colcon_core.verb:set package 'zed_ros2' build argument 'cmake_args' from command line to 'None'
+[0.824s] Level 5:colcon.colcon_core.verb:set package 'zed_ros2' build argument 'cmake_target' from command line to 'None'
+[0.824s] Level 5:colcon.colcon_core.verb:set package 'zed_ros2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.824s] Level 5:colcon.colcon_core.verb:set package 'zed_ros2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.825s] Level 5:colcon.colcon_core.verb:set package 'zed_ros2' build argument 'cmake_clean_first' from command line to 'False'
+[0.825s] Level 5:colcon.colcon_core.verb:set package 'zed_ros2' build argument 'cmake_force_configure' from command line to 'False'
+[0.825s] Level 5:colcon.colcon_core.verb:set package 'zed_ros2' build argument 'ament_cmake_args' from command line to 'None'
+[0.825s] Level 5:colcon.colcon_core.verb:set package 'zed_ros2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.825s] Level 5:colcon.colcon_core.verb:set package 'zed_ros2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.825s] DEBUG:colcon.colcon_core.verb:Building package 'zed_ros2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/akshat/ros2WS/build/zed_ros2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/akshat/ros2WS/install/zed_ros2', 'merge_install': False, 'path': '/home/akshat/ros2WS/src/zed-ros2-wrapper/zed_ros2', 'symlink_install': False, 'test_result_base': None}
+[0.825s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.826s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.826s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/akshat/ros2WS/src/zed-ros2-wrapper/zed-ros2-interfaces' with build type 'ament_cmake'
+[0.827s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/akshat/ros2WS/src/zed-ros2-wrapper/zed-ros2-interfaces'
+[0.829s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.830s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.830s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.835s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/akshat/ros2WS/src/sensors' with build type 'ament_cmake'
+[0.835s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/akshat/ros2WS/src/sensors'
+[0.836s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.836s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.845s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/akshat/ros2WS/src/stereo' with build type 'ament_cmake'
+[0.846s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/akshat/ros2WS/src/stereo'
+[0.846s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.846s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.854s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/akshat/ros2WS/src/robot' with build type 'ament_cmake'
+[0.855s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/akshat/ros2WS/src/robot'
+[0.856s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.856s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.864s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/akshat/ros2WS/src/zed2cpp' with build type 'ament_cmake'
+[0.864s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/akshat/ros2WS/src/zed2cpp'
+[0.864s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.864s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.869s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/akshat/ros2WS/src/zed2nodes' with build type 'ament_python'
+[0.869s] Level 1:colcon.colcon_core.shell:create_environment_hook('zed2nodes', 'ament_prefix_path')
+[0.869s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/akshat/ros2WS/install/zed2nodes/share/zed2nodes/hook/ament_prefix_path.ps1'
+[0.870s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/akshat/ros2WS/install/zed2nodes/share/zed2nodes/hook/ament_prefix_path.dsv'
+[0.870s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/akshat/ros2WS/install/zed2nodes/share/zed2nodes/hook/ament_prefix_path.sh'
+[0.871s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.871s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.884s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/akshat/ros2WS/build/zed_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/akshat/ros2WS/install/zed2nodes:/opt/ros/humble /usr/bin/cmake --build /home/akshat/ros2WS/build/zed_interfaces -- -j12 -l12
+[0.893s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/akshat/ros2WS/build/sensors': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/akshat/ros2WS/install/zed2nodes:/opt/ros/humble /usr/bin/cmake --build /home/akshat/ros2WS/build/sensors -- -j12 -l12
+[0.900s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/akshat/ros2WS/build/stereo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/akshat/ros2WS/install/zed2nodes:/opt/ros/humble /usr/bin/cmake --build /home/akshat/ros2WS/build/stereo -- -j12 -l12
+[0.907s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/akshat/ros2WS/build/robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/akshat/ros2WS/install/zed2nodes:/opt/ros/humble /usr/bin/cmake --build /home/akshat/ros2WS/build/robot -- -j12 -l12
+[0.923s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/akshat/ros2WS/build/zed2cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/akshat/ros2WS/install/zed2nodes:/opt/ros/humble /usr/bin/cmake --build /home/akshat/ros2WS/build/zed2cpp -- -j12 -l12
+[1.822s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/akshat/ros2WS/src/zed2nodes'
+[1.822s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.822s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.834s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/akshat/ros2WS/build/robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/akshat/ros2WS/install/zed2nodes:/opt/ros/humble /usr/bin/cmake --build /home/akshat/ros2WS/build/robot -- -j12 -l12
+[1.917s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/akshat/ros2WS/build/robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/akshat/ros2WS/install/zed2nodes:/opt/ros/humble /usr/bin/cmake --install /home/akshat/ros2WS/build/robot
+[1.953s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot)
+[1.972s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/akshat/ros2WS/build/robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/akshat/ros2WS/install/zed2nodes:/opt/ros/humble /usr/bin/cmake --install /home/akshat/ros2WS/build/robot
+[1.977s] Level 1:colcon.colcon_core.environment:checking '/home/akshat/ros2WS/install/robot' for CMake module files
+[1.979s] Level 1:colcon.colcon_core.environment:checking '/home/akshat/ros2WS/install/robot' for CMake config files
+[1.979s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot', 'cmake_prefix_path')
+[1.981s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/akshat/ros2WS/install/robot/share/robot/hook/cmake_prefix_path.ps1'
+[1.985s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/akshat/ros2WS/install/robot/share/robot/hook/cmake_prefix_path.dsv'
+[1.986s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/akshat/ros2WS/install/robot/share/robot/hook/cmake_prefix_path.sh'
+[1.992s] Level 1:colcon.colcon_core.environment:checking '/home/akshat/ros2WS/install/robot/bin'
+[1.992s] Level 1:colcon.colcon_core.environment:checking '/home/akshat/ros2WS/install/robot/lib/pkgconfig/robot.pc'
+[1.993s] Level 1:colcon.colcon_core.environment:checking '/home/akshat/ros2WS/install/robot/lib/python3.10/site-packages'
+[1.994s] Level 1:colcon.colcon_core.environment:checking '/home/akshat/ros2WS/install/robot/bin'
+[1.995s] INFO:colcon.colcon_core.shell:Creating package script '/home/akshat/ros2WS/install/robot/share/robot/package.ps1'
+[2.000s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/akshat/ros2WS/install/robot/share/robot/package.dsv'
+[2.003s] INFO:colcon.colcon_core.shell:Creating package script '/home/akshat/ros2WS/install/robot/share/robot/package.sh'
+[2.007s] INFO:colcon.colcon_core.shell:Creating package script '/home/akshat/ros2WS/install/robot/share/robot/package.bash'
+[2.010s] INFO:colcon.colcon_core.shell:Creating package script '/home/akshat/ros2WS/install/robot/share/robot/package.zsh'
+[2.014s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/akshat/ros2WS/install/robot/share/colcon-core/packages/robot)
+[2.056s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/akshat/ros2WS/build/sensors' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/akshat/ros2WS/install/zed2nodes:/opt/ros/humble /usr/bin/cmake --build /home/akshat/ros2WS/build/sensors -- -j12 -l12
+[2.067s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/akshat/ros2WS/build/stereo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/akshat/ros2WS/install/zed2nodes:/opt/ros/humble /usr/bin/cmake --build /home/akshat/ros2WS/build/stereo -- -j12 -l12
+[2.070s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot)
+[2.070s] Level 1:colcon.colcon_core.environment:checking '/home/akshat/ros2WS/install/robot' for CMake module files
+[2.071s] Level 1:colcon.colcon_core.environment:checking '/home/akshat/ros2WS/install/robot' for CMake config files
+[2.072s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot', 'cmake_prefix_path')
+[2.076s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/akshat/ros2WS/install/robot/share/robot/hook/cmake_prefix_path.ps1'
+[2.079s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/akshat/ros2WS/install/robot/share/robot/hook/cmake_prefix_path.dsv'
+[2.080s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/akshat/ros2WS/install/robot/share/robot/hook/cmake_prefix_path.sh'
+[2.081s] Level 1:colcon.colcon_core.environment:checking '/home/akshat/ros2WS/install/robot/bin'
+[2.082s] Level 1:colcon.colcon_core.environment:checking '/home/akshat/ros2WS/install/robot/lib/pkgconfig/robot.pc'
+[2.083s] Level 1:colcon.colcon_core.environment:checking '/home/akshat/ros2WS/install/robot/lib/python3.10/site-packages'
+[2.083s] Level 1:colcon.colcon_core.environment:checking '/home/akshat/ros2WS/install/robot/bin'
+[2.084s] INFO:colcon.colcon_core.shell:Creating package script '/home/akshat/ros2WS/install/robot/share/robot/package.ps1'
+[2.085s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/akshat/ros2WS/install/robot/share/robot/package.dsv'
+[2.086s] INFO:colcon.colcon_core.shell:Creating package script '/home/akshat/ros2WS/install/robot/share/robot/package.sh'
+[2.086s] INFO:colcon.colcon_core.shell:Creating package script '/home/akshat/ros2WS/install/robot/share/robot/package.bash'
+[2.087s] INFO:colcon.colcon_core.shell:Creating package script '/home/akshat/ros2WS/install/robot/share/robot/package.zsh'
+[2.088s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/akshat/ros2WS/install/robot/share/colcon-core/packages/robot)
+[2.108s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/akshat/ros2WS/build/zed_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/akshat/ros2WS/install/zed2nodes:/opt/ros/humble /usr/bin/cmake --build /home/akshat/ros2WS/build/zed_interfaces -- -j12 -l12
+[2.171s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/akshat/ros2WS/build/sensors': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/akshat/ros2WS/install/zed2nodes:/opt/ros/humble /usr/bin/cmake --install /home/akshat/ros2WS/build/sensors
+[2.215s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/akshat/ros2WS/build/stereo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/akshat/ros2WS/install/zed2nodes:/opt/ros/humble /usr/bin/cmake --install /home/akshat/ros2WS/build/stereo
+[2.335s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sensors)
+[2.338s] Level 1:colcon.colcon_core.environment:checking '/home/akshat/ros2WS/install/sensors' for CMake module files
+[2.340s] Level 1:colcon.colcon_core.environment:checking '/home/akshat/ros2WS/install/sensors' for CMake config files
+[2.341s] Level 1:colcon.colcon_core.shell:create_environment_hook('sensors', 'cmake_prefix_path')
+[2.342s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/akshat/ros2WS/install/sensors/share/sensors/hook/cmake_prefix_path.ps1'
+[2.343s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/akshat/ros2WS/build/sensors' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/akshat/ros2WS/install/zed2nodes:/opt/ros/humble /usr/bin/cmake --install /home/akshat/ros2WS/build/sensors
+[2.343s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/akshat/ros2WS/install/sensors/share/sensors/hook/cmake_prefix_path.dsv'
+[2.344s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/akshat/ros2WS/install/sensors/share/sensors/hook/cmake_prefix_path.sh'
+[2.345s] Level 1:colcon.colcon_core.environment:checking '/home/akshat/ros2WS/install/sensors/lib'
+[2.345s] Level 1:colcon.colcon_core.shell:create_environment_hook('sensors', 'ld_library_path_lib')
+[2.345s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/akshat/ros2WS/install/sensors/share/sensors/hook/ld_library_path_lib.ps1'
+[2.346s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/akshat/ros2WS/install/sensors/share/sensors/hook/ld_library_path_lib.dsv'
+[2.347s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/akshat/ros2WS/install/sensors/share/sensors/hook/ld_library_path_lib.sh'
+[2.347s] Level 1:colcon.colcon_core.environment:checking '/home/akshat/ros2WS/install/sensors/bin'
+[2.347s] Level 1:colcon.colcon_core.environment:checking '/home/akshat/ros2WS/install/sensors/lib/pkgconfig/sensors.pc'
+[2.348s] Level 1:colcon.colcon_core.environment:checking '/home/akshat/ros2WS/install/sensors/lib/python3.10/site-packages'
+[2.348s] Level 1:colcon.colcon_core.environment:checking '/home/akshat/ros2WS/install/sensors/bin'
+[2.349s] INFO:colcon.colcon_core.shell:Creating package script '/home/akshat/ros2WS/install/sensors/share/sensors/package.ps1'
+[2.350s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/akshat/ros2WS/install/sensors/share/sensors/package.dsv'
+[2.351s] INFO:colcon.colcon_core.shell:Creating package script '/home/akshat/ros2WS/install/sensors/share/sensors/package.sh'
+[2.355s] INFO:colcon.colcon_core.shell:Creating package script '/home/akshat/ros2WS/install/sensors/share/sensors/package.bash'
+[2.357s] INFO:colcon.colcon_core.shell:Creating package script '/home/akshat/ros2WS/install/sensors/share/sensors/package.zsh'
+[2.358s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/akshat/ros2WS/install/sensors/share/colcon-core/packages/sensors)
+[2.385s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(stereo)
+[2.385s] Level 1:colcon.colcon_core.environment:checking '/home/akshat/ros2WS/install/stereo' for CMake module files
+[2.386s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/akshat/ros2WS/build/stereo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/akshat/ros2WS/install/zed2nodes:/opt/ros/humble /usr/bin/cmake --install /home/akshat/ros2WS/build/stereo
+[2.387s] Level 1:colcon.colcon_core.environment:checking '/home/akshat/ros2WS/install/stereo' for CMake config files
+[2.388s] Level 1:colcon.colcon_core.shell:create_environment_hook('stereo', 'cmake_prefix_path')
+[2.388s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/akshat/ros2WS/install/stereo/share/stereo/hook/cmake_prefix_path.ps1'
+[2.389s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/akshat/ros2WS/install/stereo/share/stereo/hook/cmake_prefix_path.dsv'
+[2.389s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/akshat/ros2WS/install/stereo/share/stereo/hook/cmake_prefix_path.sh'
+[2.390s] Level 1:colcon.colcon_core.environment:checking '/home/akshat/ros2WS/install/stereo/lib'
+[2.390s] Level 1:colcon.colcon_core.shell:create_environment_hook('stereo', 'ld_library_path_lib')
+[2.390s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/akshat/ros2WS/install/stereo/share/stereo/hook/ld_library_path_lib.ps1'
+[2.391s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/akshat/ros2WS/install/stereo/share/stereo/hook/ld_library_path_lib.dsv'
+[2.391s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/akshat/ros2WS/install/stereo/share/stereo/hook/ld_library_path_lib.sh'
+[2.392s] Level 1:colcon.colcon_core.environment:checking '/home/akshat/ros2WS/install/stereo/bin'
+[2.392s] Level 1:colcon.colcon_core.environment:checking '/home/akshat/ros2WS/install/stereo/lib/pkgconfig/stereo.pc'
+[2.392s] Level 1:colcon.colcon_core.environment:checking '/home/akshat/ros2WS/install/stereo/lib/python3.10/site-packages'
+[2.393s] Level 1:colcon.colcon_core.environment:checking '/home/akshat/ros2WS/install/stereo/bin'
+[2.394s] INFO:colcon.colcon_core.shell:Creating package script '/home/akshat/ros2WS/install/stereo/share/stereo/package.ps1'
+[2.399s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/akshat/ros2WS/install/stereo/share/stereo/package.dsv'
+[2.400s] INFO:colcon.colcon_core.shell:Creating package script '/home/akshat/ros2WS/install/stereo/share/stereo/package.sh'
+[2.401s] INFO:colcon.colcon_core.shell:Creating package script '/home/akshat/ros2WS/install/stereo/share/stereo/package.bash'
+[2.402s] INFO:colcon.colcon_core.shell:Creating package script '/home/akshat/ros2WS/install/stereo/share/stereo/package.zsh'
+[2.403s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/akshat/ros2WS/install/stereo/share/colcon-core/packages/stereo)
+[2.468s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sensors)
+[2.469s] Level 1:colcon.colcon_core.environment:checking '/home/akshat/ros2WS/install/sensors' for CMake module files
+[2.470s] Level 1:colcon.colcon_core.environment:checking '/home/akshat/ros2WS/install/sensors' for CMake config files
+[2.471s] Level 1:colcon.colcon_core.shell:create_environment_hook('sensors', 'cmake_prefix_path')
+[2.471s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/akshat/ros2WS/install/sensors/share/sensors/hook/cmake_prefix_path.ps1'
+[2.472s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/akshat/ros2WS/install/sensors/share/sensors/hook/cmake_prefix_path.dsv'
+[2.473s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/akshat/ros2WS/install/sensors/share/sensors/hook/cmake_prefix_path.sh'
+[2.474s] Level 1:colcon.colcon_core.environment:checking '/home/akshat/ros2WS/install/sensors/lib'
+[2.474s] Level 1:colcon.colcon_core.shell:create_environment_hook('sensors', 'ld_library_path_lib')
+[2.474s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/akshat/ros2WS/install/sensors/share/sensors/hook/ld_library_path_lib.ps1'
+[2.475s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/akshat/ros2WS/install/sensors/share/sensors/hook/ld_library_path_lib.dsv'
+[2.475s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/akshat/ros2WS/install/sensors/share/sensors/hook/ld_library_path_lib.sh'
+[2.475s] Level 1:colcon.colcon_core.environment:checking '/home/akshat/ros2WS/install/sensors/bin'
+[2.476s] Level 1:colcon.colcon_core.environment:checking '/home/akshat/ros2WS/install/sensors/lib/pkgconfig/sensors.pc'
+[2.476s] Level 1:colcon.colcon_core.environment:checking '/home/akshat/ros2WS/install/sensors/lib/python3.10/site-packages'
+[2.476s] Level 1:colcon.colcon_core.environment:checking '/home/akshat/ros2WS/install/sensors/bin'
+[2.477s] INFO:colcon.colcon_core.shell:Creating package script '/home/akshat/ros2WS/install/sensors/share/sensors/package.ps1'
+[2.479s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/akshat/ros2WS/install/sensors/share/sensors/package.dsv'
+[2.481s] INFO:colcon.colcon_core.shell:Creating package script '/home/akshat/ros2WS/install/sensors/share/sensors/package.sh'
+[2.482s] INFO:colcon.colcon_core.shell:Creating package script '/home/akshat/ros2WS/install/sensors/share/sensors/package.bash'
+[2.483s] INFO:colcon.colcon_core.shell:Creating package script '/home/akshat/ros2WS/install/sensors/share/sensors/package.zsh'
+[2.483s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/akshat/ros2WS/install/sensors/share/colcon-core/packages/sensors)
+[2.560s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(stereo)
+[2.561s] Level 1:colcon.colcon_core.environment:checking '/home/akshat/ros2WS/install/stereo' for CMake module files
+[2.561s] Level 1:colcon.colcon_core.environment:checking '/home/akshat/ros2WS/install/stereo' for CMake config files
+[2.562s] Level 1:colcon.colcon_core.shell:create_environment_hook('stereo', 'cmake_prefix_path')
+[2.563s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/akshat/ros2WS/install/stereo/share/stereo/hook/cmake_prefix_path.ps1'
+[2.565s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/akshat/ros2WS/install/stereo/share/stereo/hook/cmake_prefix_path.dsv'
+[2.570s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/akshat/ros2WS/install/stereo/share/stereo/hook/cmake_prefix_path.sh'
+[2.572s] Level 1:colcon.colcon_core.environment:checking '/home/akshat/ros2WS/install/stereo/lib'
+[2.572s] Level 1:colcon.colcon_core.shell:create_environment_hook('stereo', 'ld_library_path_lib')
+[2.573s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/akshat/ros2WS/install/stereo/share/stereo/hook/ld_library_path_lib.ps1'
+[2.576s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/akshat/ros2WS/install/stereo/share/stereo/hook/ld_library_path_lib.dsv'
+[2.576s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/akshat/ros2WS/install/stereo/share/stereo/hook/ld_library_path_lib.sh'
+[2.577s] Level 1:colcon.colcon_core.environment:checking '/home/akshat/ros2WS/install/stereo/bin'
+[2.577s] Level 1:colcon.colcon_core.environment:checking '/home/akshat/ros2WS/install/stereo/lib/pkgconfig/stereo.pc'
+[2.577s] Level 1:colcon.colcon_core.environment:checking '/home/akshat/ros2WS/install/stereo/lib/python3.10/site-packages'
+[2.578s] Level 1:colcon.colcon_core.environment:checking '/home/akshat/ros2WS/install/stereo/bin'
+[2.578s] INFO:colcon.colcon_core.shell:Creating package script '/home/akshat/ros2WS/install/stereo/share/stereo/package.ps1'
+[2.579s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/akshat/ros2WS/install/stereo/share/stereo/package.dsv'
+[2.580s] INFO:colcon.colcon_core.shell:Creating package script '/home/akshat/ros2WS/install/stereo/share/stereo/package.sh'
+[2.581s] INFO:colcon.colcon_core.shell:Creating package script '/home/akshat/ros2WS/install/stereo/share/stereo/package.bash'
+[2.581s] INFO:colcon.colcon_core.shell:Creating package script '/home/akshat/ros2WS/install/stereo/share/stereo/package.zsh'
+[2.582s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/akshat/ros2WS/install/stereo/share/colcon-core/packages/stereo)
+[2.582s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/akshat/ros2WS/src/planner' with build type 'ament_cmake'
+[2.582s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/akshat/ros2WS/src/planner'
+[2.582s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.583s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.614s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/akshat/ros2WS/build/planner': CMAKE_PREFIX_PATH=/home/akshat/ros2WS/install/stereo:/home/akshat/ros2WS/install/sensors:/home/akshat/ros2WS/install/zed_ros2:/home/akshat/ros2WS/install/zed_wrapper:/home/akshat/ros2WS/install/zed_components:/home/akshat/ros2WS/install/zed_interfaces:/home/akshat/ros2WS/install/zed2cpp:/home/akshat/ros2WS/install/planner:/home/akshat/ros2WS/install/robot:/home/akshat/ros2WS/install/zed2nodes:/opt/ros/humble LD_LIBRARY_PATH=/home/akshat/ros2WS/install/stereo/lib:/home/akshat/ros2WS/install/sensors/lib:/home/akshat/ros2WS/install/zed_components/lib:/home/akshat/ros2WS/install/zed_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-11.8/lib64 /usr/bin/cmake --build /home/akshat/ros2WS/build/planner -- -j12 -l12
+[2.767s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/akshat/ros2WS/build/planner' returned '0': CMAKE_PREFIX_PATH=/home/akshat/ros2WS/install/stereo:/home/akshat/ros2WS/install/sensors:/home/akshat/ros2WS/install/zed_ros2:/home/akshat/ros2WS/install/zed_wrapper:/home/akshat/ros2WS/install/zed_components:/home/akshat/ros2WS/install/zed_interfaces:/home/akshat/ros2WS/install/zed2cpp:/home/akshat/ros2WS/install/planner:/home/akshat/ros2WS/install/robot:/home/akshat/ros2WS/install/zed2nodes:/opt/ros/humble LD_LIBRARY_PATH=/home/akshat/ros2WS/install/stereo/lib:/home/akshat/ros2WS/install/sensors/lib:/home/akshat/ros2WS/install/zed_components/lib:/home/akshat/ros2WS/install/zed_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-11.8/lib64 /usr/bin/cmake --build /home/akshat/ros2WS/build/planner -- -j12 -l12
+[2.833s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/akshat/ros2WS/build/planner': CMAKE_PREFIX_PATH=/home/akshat/ros2WS/install/stereo:/home/akshat/ros2WS/install/sensors:/home/akshat/ros2WS/install/zed_ros2:/home/akshat/ros2WS/install/zed_wrapper:/home/akshat/ros2WS/install/zed_components:/home/akshat/ros2WS/install/zed_interfaces:/home/akshat/ros2WS/install/zed2cpp:/home/akshat/ros2WS/install/planner:/home/akshat/ros2WS/install/robot:/home/akshat/ros2WS/install/zed2nodes:/opt/ros/humble LD_LIBRARY_PATH=/home/akshat/ros2WS/install/stereo/lib:/home/akshat/ros2WS/install/sensors/lib:/home/akshat/ros2WS/install/zed_components/lib:/home/akshat/ros2WS/install/zed_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-11.8/lib64 /usr/bin/cmake --install /home/akshat/ros2WS/build/planner
+[2.854s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(planner)
+[2.855s] Level 1:colcon.colcon_core.environment:checking '/home/akshat/ros2WS/install/planner' for CMake module files
+[2.856s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/akshat/ros2WS/build/planner' returned '0': CMAKE_PREFIX_PATH=/home/akshat/ros2WS/install/stereo:/home/akshat/ros2WS/install/sensors:/home/akshat/ros2WS/install/zed_ros2:/home/akshat/ros2WS/install/zed_wrapper:/home/akshat/ros2WS/install/zed_components:/home/akshat/ros2WS/install/zed_interfaces:/home/akshat/ros2WS/install/zed2cpp:/home/akshat/ros2WS/install/planner:/home/akshat/ros2WS/install/robot:/home/akshat/ros2WS/install/zed2nodes:/opt/ros/humble LD_LIBRARY_PATH=/home/akshat/ros2WS/install/stereo/lib:/home/akshat/ros2WS/install/sensors/lib:/home/akshat/ros2WS/install/zed_components/lib:/home/akshat/ros2WS/install/zed_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-11.8/lib64 /usr/bin/cmake --install /home/akshat/ros2WS/build/planner
+[2.856s] Level 1:colcon.colcon_core.environment:checking '/home/akshat/ros2WS/install/planner' for CMake config files
+[2.857s] Level 1:colcon.colcon_core.shell:create_environment_hook('planner', 'cmake_prefix_path')
+[2.857s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/akshat/ros2WS/install/planner/share/planner/hook/cmake_prefix_path.ps1'
+[2.858s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/akshat/ros2WS/install/planner/share/planner/hook/cmake_prefix_path.dsv'
+[2.859s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/akshat/ros2WS/install/planner/share/planner/hook/cmake_prefix_path.sh'
+[2.860s] Level 1:colcon.colcon_core.environment:checking '/home/akshat/ros2WS/install/planner/lib'
+[2.860s] Level 1:colcon.colcon_core.environment:checking '/home/akshat/ros2WS/install/planner/bin'
+[2.860s] Level 1:colcon.colcon_core.environment:checking '/home/akshat/ros2WS/install/planner/lib/pkgconfig/planner.pc'
+[2.861s] Level 1:colcon.colcon_core.environment:checking '/home/akshat/ros2WS/install/planner/lib/python3.10/site-packages'
+[2.864s] Level 1:colcon.colcon_core.environment:checking '/home/akshat/ros2WS/install/planner/bin'
+[2.866s] INFO:colcon.colcon_core.shell:Creating package script '/home/akshat/ros2WS/install/planner/share/planner/package.ps1'
+[2.867s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/akshat/ros2WS/install/planner/share/planner/package.dsv'
+[2.868s] INFO:colcon.colcon_core.shell:Creating package script '/home/akshat/ros2WS/install/planner/share/planner/package.sh'
+[2.869s] INFO:colcon.colcon_core.shell:Creating package script '/home/akshat/ros2WS/install/planner/share/planner/package.bash'
+[2.870s] INFO:colcon.colcon_core.shell:Creating package script '/home/akshat/ros2WS/install/planner/share/planner/package.zsh'
+[2.871s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/akshat/ros2WS/install/planner/share/colcon-core/packages/planner)
+[2.930s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(planner)
+[2.931s] Level 1:colcon.colcon_core.environment:checking '/home/akshat/ros2WS/install/planner' for CMake module files
+[2.933s] Level 1:colcon.colcon_core.environment:checking '/home/akshat/ros2WS/install/planner' for CMake config files
+[2.934s] Level 1:colcon.colcon_core.shell:create_environment_hook('planner', 'cmake_prefix_path')
+[2.934s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/akshat/ros2WS/install/planner/share/planner/hook/cmake_prefix_path.ps1'
+[2.936s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/akshat/ros2WS/install/planner/share/planner/hook/cmake_prefix_path.dsv'
+[2.938s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/akshat/ros2WS/install/planner/share/planner/hook/cmake_prefix_path.sh'
+[2.940s] Level 1:colcon.colcon_core.environment:checking '/home/akshat/ros2WS/install/planner/lib'
+[2.940s] Level 1:colcon.colcon_core.environment:checking '/home/akshat/ros2WS/install/planner/bin'
+[2.940s] Level 1:colcon.colcon_core.environment:checking '/home/akshat/ros2WS/install/planner/lib/pkgconfig/planner.pc'
+[2.941s] Level 1:colcon.colcon_core.environment:checking '/home/akshat/ros2WS/install/planner/lib/python3.10/site-packages'
+[2.941s] Level 1:colcon.colcon_core.environment:checking '/home/akshat/ros2WS/install/planner/bin'
+[2.942s] INFO:colcon.colcon_core.shell:Creating package script '/home/akshat/ros2WS/install/planner/share/planner/package.ps1'
+[2.944s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/akshat/ros2WS/install/planner/share/planner/package.dsv'
+[2.945s] INFO:colcon.colcon_core.shell:Creating package script '/home/akshat/ros2WS/install/planner/share/planner/package.sh'
+[2.948s] INFO:colcon.colcon_core.shell:Creating package script '/home/akshat/ros2WS/install/planner/share/planner/package.bash'
+[2.950s] INFO:colcon.colcon_core.shell:Creating package script '/home/akshat/ros2WS/install/planner/share/planner/package.zsh'
+[2.952s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/akshat/ros2WS/install/planner/share/colcon-core/packages/planner)
+[2.959s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/akshat/ros2WS/build/zed_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/akshat/ros2WS/install/zed2nodes:/opt/ros/humble /usr/bin/cmake --install /home/akshat/ros2WS/build/zed_interfaces
+[2.966s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/akshat/ros2WS/src/zed2nodes': PYTHONPATH=/home/akshat/ros2WS/build/zed2nodes/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/akshat/ros2WS/install/zed2nodes/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/zed2nodes build --build-base /home/akshat/ros2WS/build/zed2nodes/build install --record /home/akshat/ros2WS/build/zed2nodes/install.log --single-version-externally-managed install_data
+[3.188s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(zed_interfaces)
+[3.188s] Level 1:colcon.colcon_core.environment:checking '/home/akshat/ros2WS/install/zed_interfaces' for CMake module files
+[3.189s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/akshat/ros2WS/build/zed_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/akshat/ros2WS/install/zed2nodes:/opt/ros/humble /usr/bin/cmake --install /home/akshat/ros2WS/build/zed_interfaces
+[3.190s] Level 1:colcon.colcon_core.environment:checking '/home/akshat/ros2WS/install/zed_interfaces' for CMake config files
+[3.192s] Level 1:colcon.colcon_core.shell:create_environment_hook('zed_interfaces', 'cmake_prefix_path')
+[3.193s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/akshat/ros2WS/install/zed_interfaces/share/zed_interfaces/hook/cmake_prefix_path.ps1'
+[3.193s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/akshat/ros2WS/install/zed_interfaces/share/zed_interfaces/hook/cmake_prefix_path.dsv'
+[3.194s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/akshat/ros2WS/install/zed_interfaces/share/zed_interfaces/hook/cmake_prefix_path.sh'
+[3.195s] Level 1:colcon.colcon_core.environment:checking '/home/akshat/ros2WS/install/zed_interfaces/lib'
+[3.195s] Level 1:colcon.colcon_core.shell:create_environment_hook('zed_interfaces', 'ld_library_path_lib')
+[3.196s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/akshat/ros2WS/install/zed_interfaces/share/zed_interfaces/hook/ld_library_path_lib.ps1'
+[3.196s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/akshat/ros2WS/install/zed_interfaces/share/zed_interfaces/hook/ld_library_path_lib.dsv'
+[3.199s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/akshat/ros2WS/install/zed_interfaces/share/zed_interfaces/hook/ld_library_path_lib.sh'
+[3.202s] Level 1:colcon.colcon_core.environment:checking '/home/akshat/ros2WS/install/zed_interfaces/bin'
+[3.202s] Level 1:colcon.colcon_core.environment:checking '/home/akshat/ros2WS/install/zed_interfaces/lib/pkgconfig/zed_interfaces.pc'
+[3.203s] Level 1:colcon.colcon_core.environment:checking '/home/akshat/ros2WS/install/zed_interfaces/lib/python3.10/site-packages'
+[3.204s] Level 1:colcon.colcon_core.environment:checking '/home/akshat/ros2WS/install/zed_interfaces/bin'
+[3.205s] INFO:colcon.colcon_core.shell:Creating package script '/home/akshat/ros2WS/install/zed_interfaces/share/zed_interfaces/package.ps1'
+[3.206s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/akshat/ros2WS/install/zed_interfaces/share/zed_interfaces/package.dsv'
+[3.207s] INFO:colcon.colcon_core.shell:Creating package script '/home/akshat/ros2WS/install/zed_interfaces/share/zed_interfaces/package.sh'
+[3.208s] INFO:colcon.colcon_core.shell:Creating package script '/home/akshat/ros2WS/install/zed_interfaces/share/zed_interfaces/package.bash'
+[3.209s] INFO:colcon.colcon_core.shell:Creating package script '/home/akshat/ros2WS/install/zed_interfaces/share/zed_interfaces/package.zsh'
+[3.210s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/akshat/ros2WS/install/zed_interfaces/share/colcon-core/packages/zed_interfaces)
+[3.717s] Level 1:colcon.colcon_core.environment:checking '/home/akshat/ros2WS/install/zed2nodes' for CMake module files
+[3.719s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/akshat/ros2WS/src/zed2nodes' returned '0': PYTHONPATH=/home/akshat/ros2WS/build/zed2nodes/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/akshat/ros2WS/install/zed2nodes/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/zed2nodes build --build-base /home/akshat/ros2WS/build/zed2nodes/build install --record /home/akshat/ros2WS/build/zed2nodes/install.log --single-version-externally-managed install_data
+[3.719s] Level 1:colcon.colcon_core.environment:checking '/home/akshat/ros2WS/install/zed2nodes' for CMake config files
+[3.720s] Level 1:colcon.colcon_core.environment:checking '/home/akshat/ros2WS/install/zed2nodes/lib'
+[3.721s] Level 1:colcon.colcon_core.environment:checking '/home/akshat/ros2WS/install/zed2nodes/bin'
+[3.721s] Level 1:colcon.colcon_core.environment:checking '/home/akshat/ros2WS/install/zed2nodes/lib/pkgconfig/zed2nodes.pc'
+[3.721s] Level 1:colcon.colcon_core.environment:checking '/home/akshat/ros2WS/install/zed2nodes/lib/python3.10/site-packages'
+[3.721s] Level 1:colcon.colcon_core.shell:create_environment_hook('zed2nodes', 'pythonpath')
+[3.722s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/akshat/ros2WS/install/zed2nodes/share/zed2nodes/hook/pythonpath.ps1'
+[3.723s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/akshat/ros2WS/install/zed2nodes/share/zed2nodes/hook/pythonpath.dsv'
+[3.723s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/akshat/ros2WS/install/zed2nodes/share/zed2nodes/hook/pythonpath.sh'
+[3.724s] Level 1:colcon.colcon_core.environment:checking '/home/akshat/ros2WS/install/zed2nodes/bin'
+[3.725s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(zed2nodes)
+[3.725s] INFO:colcon.colcon_core.shell:Creating package script '/home/akshat/ros2WS/install/zed2nodes/share/zed2nodes/package.ps1'
+[3.732s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/akshat/ros2WS/install/zed2nodes/share/zed2nodes/package.dsv'
+[3.733s] INFO:colcon.colcon_core.shell:Creating package script '/home/akshat/ros2WS/install/zed2nodes/share/zed2nodes/package.sh'
+[3.735s] INFO:colcon.colcon_core.shell:Creating package script '/home/akshat/ros2WS/install/zed2nodes/share/zed2nodes/package.bash'
+[3.736s] INFO:colcon.colcon_core.shell:Creating package script '/home/akshat/ros2WS/install/zed2nodes/share/zed2nodes/package.zsh'
+[3.736s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/akshat/ros2WS/install/zed2nodes/share/colcon-core/packages/zed2nodes)
+[3.999s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(zed_interfaces)
+[3.999s] Level 1:colcon.colcon_core.environment:checking '/home/akshat/ros2WS/install/zed_interfaces' for CMake module files
+[4.000s] Level 1:colcon.colcon_core.environment:checking '/home/akshat/ros2WS/install/zed_interfaces' for CMake config files
+[4.007s] Level 1:colcon.colcon_core.shell:create_environment_hook('zed_interfaces', 'cmake_prefix_path')
+[4.008s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/akshat/ros2WS/install/zed_interfaces/share/zed_interfaces/hook/cmake_prefix_path.ps1'
+[4.010s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/akshat/ros2WS/install/zed_interfaces/share/zed_interfaces/hook/cmake_prefix_path.dsv'
+[4.010s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/akshat/ros2WS/install/zed_interfaces/share/zed_interfaces/hook/cmake_prefix_path.sh'
+[4.011s] Level 1:colcon.colcon_core.environment:checking '/home/akshat/ros2WS/install/zed_interfaces/lib'
+[4.011s] Level 1:colcon.colcon_core.shell:create_environment_hook('zed_interfaces', 'ld_library_path_lib')
+[4.012s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/akshat/ros2WS/install/zed_interfaces/share/zed_interfaces/hook/ld_library_path_lib.ps1'
+[4.012s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/akshat/ros2WS/install/zed_interfaces/share/zed_interfaces/hook/ld_library_path_lib.dsv'
+[4.013s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/akshat/ros2WS/install/zed_interfaces/share/zed_interfaces/hook/ld_library_path_lib.sh'
+[4.013s] Level 1:colcon.colcon_core.environment:checking '/home/akshat/ros2WS/install/zed_interfaces/bin'
+[4.013s] Level 1:colcon.colcon_core.environment:checking '/home/akshat/ros2WS/install/zed_interfaces/lib/pkgconfig/zed_interfaces.pc'
+[4.013s] Level 1:colcon.colcon_core.environment:checking '/home/akshat/ros2WS/install/zed_interfaces/lib/python3.10/site-packages'
+[4.014s] Level 1:colcon.colcon_core.environment:checking '/home/akshat/ros2WS/install/zed_interfaces/bin'
+[4.014s] INFO:colcon.colcon_core.shell:Creating package script '/home/akshat/ros2WS/install/zed_interfaces/share/zed_interfaces/package.ps1'
+[4.015s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/akshat/ros2WS/install/zed_interfaces/share/zed_interfaces/package.dsv'
+[4.016s] INFO:colcon.colcon_core.shell:Creating package script '/home/akshat/ros2WS/install/zed_interfaces/share/zed_interfaces/package.sh'
+[4.016s] INFO:colcon.colcon_core.shell:Creating package script '/home/akshat/ros2WS/install/zed_interfaces/share/zed_interfaces/package.bash'
+[4.021s] INFO:colcon.colcon_core.shell:Creating package script '/home/akshat/ros2WS/install/zed_interfaces/share/zed_interfaces/package.zsh'
+[4.023s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/akshat/ros2WS/install/zed_interfaces/share/colcon-core/packages/zed_interfaces)
+[4.023s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/akshat/ros2WS/src/zed-ros2-wrapper/zed_components' with build type 'ament_cmake'
+[4.024s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/akshat/ros2WS/src/zed-ros2-wrapper/zed_components'
+[4.025s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.025s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.046s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/akshat/ros2WS/build/zed_components': CMAKE_PREFIX_PATH=/home/akshat/ros2WS/install/zed_interfaces:/home/akshat/ros2WS/install/zed_ros2:/home/akshat/ros2WS/install/zed_wrapper:/home/akshat/ros2WS/install/zed_components:/home/akshat/ros2WS/install/zed2cpp:/home/akshat/ros2WS/install/planner:/home/akshat/ros2WS/install/stereo:/home/akshat/ros2WS/install/sensors:/home/akshat/ros2WS/install/robot:/home/akshat/ros2WS/install/zed2nodes:/opt/ros/humble LD_LIBRARY_PATH=/home/akshat/ros2WS/install/zed_interfaces/lib:/home/akshat/ros2WS/install/zed_components/lib:/home/akshat/ros2WS/install/stereo/lib:/home/akshat/ros2WS/install/sensors/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-11.8/lib64 /usr/bin/cmake --build /home/akshat/ros2WS/build/zed_components -- -j12 -l12
+[4.182s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/akshat/ros2WS/build/zed_components' returned '0': CMAKE_PREFIX_PATH=/home/akshat/ros2WS/install/zed_interfaces:/home/akshat/ros2WS/install/zed_ros2:/home/akshat/ros2WS/install/zed_wrapper:/home/akshat/ros2WS/install/zed_components:/home/akshat/ros2WS/install/zed2cpp:/home/akshat/ros2WS/install/planner:/home/akshat/ros2WS/install/stereo:/home/akshat/ros2WS/install/sensors:/home/akshat/ros2WS/install/robot:/home/akshat/ros2WS/install/zed2nodes:/opt/ros/humble LD_LIBRARY_PATH=/home/akshat/ros2WS/install/zed_interfaces/lib:/home/akshat/ros2WS/install/zed_components/lib:/home/akshat/ros2WS/install/stereo/lib:/home/akshat/ros2WS/install/sensors/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-11.8/lib64 /usr/bin/cmake --build /home/akshat/ros2WS/build/zed_components -- -j12 -l12
+[4.249s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/akshat/ros2WS/build/zed_components': CMAKE_PREFIX_PATH=/home/akshat/ros2WS/install/zed_interfaces:/home/akshat/ros2WS/install/zed_ros2:/home/akshat/ros2WS/install/zed_wrapper:/home/akshat/ros2WS/install/zed_components:/home/akshat/ros2WS/install/zed2cpp:/home/akshat/ros2WS/install/planner:/home/akshat/ros2WS/install/stereo:/home/akshat/ros2WS/install/sensors:/home/akshat/ros2WS/install/robot:/home/akshat/ros2WS/install/zed2nodes:/opt/ros/humble LD_LIBRARY_PATH=/home/akshat/ros2WS/install/zed_interfaces/lib:/home/akshat/ros2WS/install/zed_components/lib:/home/akshat/ros2WS/install/stereo/lib:/home/akshat/ros2WS/install/sensors/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-11.8/lib64 /usr/bin/cmake --install /home/akshat/ros2WS/build/zed_components
+[4.290s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(zed_components)
+[4.295s] Level 1:colcon.colcon_core.environment:checking '/home/akshat/ros2WS/install/zed_components' for CMake module files
+[4.297s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/akshat/ros2WS/build/zed_components' returned '0': CMAKE_PREFIX_PATH=/home/akshat/ros2WS/install/zed_interfaces:/home/akshat/ros2WS/install/zed_ros2:/home/akshat/ros2WS/install/zed_wrapper:/home/akshat/ros2WS/install/zed_components:/home/akshat/ros2WS/install/zed2cpp:/home/akshat/ros2WS/install/planner:/home/akshat/ros2WS/install/stereo:/home/akshat/ros2WS/install/sensors:/home/akshat/ros2WS/install/robot:/home/akshat/ros2WS/install/zed2nodes:/opt/ros/humble LD_LIBRARY_PATH=/home/akshat/ros2WS/install/zed_interfaces/lib:/home/akshat/ros2WS/install/zed_components/lib:/home/akshat/ros2WS/install/stereo/lib:/home/akshat/ros2WS/install/sensors/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-11.8/lib64 /usr/bin/cmake --install /home/akshat/ros2WS/build/zed_components
+[4.299s] Level 1:colcon.colcon_core.environment:checking '/home/akshat/ros2WS/install/zed_components' for CMake config files
+[4.301s] Level 1:colcon.colcon_core.shell:create_environment_hook('zed_components', 'cmake_prefix_path')
+[4.301s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/akshat/ros2WS/install/zed_components/share/zed_components/hook/cmake_prefix_path.ps1'
+[4.302s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/akshat/ros2WS/install/zed_components/share/zed_components/hook/cmake_prefix_path.dsv'
+[4.303s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/akshat/ros2WS/install/zed_components/share/zed_components/hook/cmake_prefix_path.sh'
+[4.304s] Level 1:colcon.colcon_core.environment:checking '/home/akshat/ros2WS/install/zed_components/lib'
+[4.304s] Level 1:colcon.colcon_core.shell:create_environment_hook('zed_components', 'ld_library_path_lib')
+[4.305s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/akshat/ros2WS/install/zed_components/share/zed_components/hook/ld_library_path_lib.ps1'
+[4.306s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/akshat/ros2WS/install/zed_components/share/zed_components/hook/ld_library_path_lib.dsv'
+[4.306s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/akshat/ros2WS/install/zed_components/share/zed_components/hook/ld_library_path_lib.sh'
+[4.307s] Level 1:colcon.colcon_core.environment:checking '/home/akshat/ros2WS/install/zed_components/bin'
+[4.307s] Level 1:colcon.colcon_core.environment:checking '/home/akshat/ros2WS/install/zed_components/lib/pkgconfig/zed_components.pc'
+[4.308s] Level 1:colcon.colcon_core.environment:checking '/home/akshat/ros2WS/install/zed_components/lib/python3.10/site-packages'
+[4.309s] Level 1:colcon.colcon_core.environment:checking '/home/akshat/ros2WS/install/zed_components/bin'
+[4.310s] INFO:colcon.colcon_core.shell:Creating package script '/home/akshat/ros2WS/install/zed_components/share/zed_components/package.ps1'
+[4.314s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/akshat/ros2WS/install/zed_components/share/zed_components/package.dsv'
+[4.316s] INFO:colcon.colcon_core.shell:Creating package script '/home/akshat/ros2WS/install/zed_components/share/zed_components/package.sh'
+[4.317s] INFO:colcon.colcon_core.shell:Creating package script '/home/akshat/ros2WS/install/zed_components/share/zed_components/package.bash'
+[4.318s] INFO:colcon.colcon_core.shell:Creating package script '/home/akshat/ros2WS/install/zed_components/share/zed_components/package.zsh'
+[4.318s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/akshat/ros2WS/install/zed_components/share/colcon-core/packages/zed_components)
+[4.378s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(zed_components)
+[4.378s] Level 1:colcon.colcon_core.environment:checking '/home/akshat/ros2WS/install/zed_components' for CMake module files
+[4.379s] Level 1:colcon.colcon_core.environment:checking '/home/akshat/ros2WS/install/zed_components' for CMake config files
+[4.379s] Level 1:colcon.colcon_core.shell:create_environment_hook('zed_components', 'cmake_prefix_path')
+[4.380s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/akshat/ros2WS/install/zed_components/share/zed_components/hook/cmake_prefix_path.ps1'
+[4.380s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/akshat/ros2WS/install/zed_components/share/zed_components/hook/cmake_prefix_path.dsv'
+[4.381s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/akshat/ros2WS/install/zed_components/share/zed_components/hook/cmake_prefix_path.sh'
+[4.381s] Level 1:colcon.colcon_core.environment:checking '/home/akshat/ros2WS/install/zed_components/lib'
+[4.381s] Level 1:colcon.colcon_core.shell:create_environment_hook('zed_components', 'ld_library_path_lib')
+[4.382s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/akshat/ros2WS/install/zed_components/share/zed_components/hook/ld_library_path_lib.ps1'
+[4.382s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/akshat/ros2WS/install/zed_components/share/zed_components/hook/ld_library_path_lib.dsv'
+[4.383s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/akshat/ros2WS/install/zed_components/share/zed_components/hook/ld_library_path_lib.sh'
+[4.383s] Level 1:colcon.colcon_core.environment:checking '/home/akshat/ros2WS/install/zed_components/bin'
+[4.383s] Level 1:colcon.colcon_core.environment:checking '/home/akshat/ros2WS/install/zed_components/lib/pkgconfig/zed_components.pc'
+[4.384s] Level 1:colcon.colcon_core.environment:checking '/home/akshat/ros2WS/install/zed_components/lib/python3.10/site-packages'
+[4.384s] Level 1:colcon.colcon_core.environment:checking '/home/akshat/ros2WS/install/zed_components/bin'
+[4.384s] INFO:colcon.colcon_core.shell:Creating package script '/home/akshat/ros2WS/install/zed_components/share/zed_components/package.ps1'
+[4.388s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/akshat/ros2WS/install/zed_components/share/zed_components/package.dsv'
+[4.391s] INFO:colcon.colcon_core.shell:Creating package script '/home/akshat/ros2WS/install/zed_components/share/zed_components/package.sh'
+[4.395s] INFO:colcon.colcon_core.shell:Creating package script '/home/akshat/ros2WS/install/zed_components/share/zed_components/package.bash'
+[4.396s] INFO:colcon.colcon_core.shell:Creating package script '/home/akshat/ros2WS/install/zed_components/share/zed_components/package.zsh'
+[4.399s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/akshat/ros2WS/install/zed_components/share/colcon-core/packages/zed_components)
+[4.400s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/akshat/ros2WS/src/zed-ros2-wrapper/zed_wrapper' with build type 'ament_cmake'
+[4.400s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/akshat/ros2WS/src/zed-ros2-wrapper/zed_wrapper'
+[4.401s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.402s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.437s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/akshat/ros2WS/build/zed_wrapper': CMAKE_PREFIX_PATH=/home/akshat/ros2WS/install/zed_components:/home/akshat/ros2WS/install/zed_interfaces:/home/akshat/ros2WS/install/zed_ros2:/home/akshat/ros2WS/install/zed_wrapper:/home/akshat/ros2WS/install/zed2cpp:/home/akshat/ros2WS/install/planner:/home/akshat/ros2WS/install/stereo:/home/akshat/ros2WS/install/sensors:/home/akshat/ros2WS/install/robot:/home/akshat/ros2WS/install/zed2nodes:/opt/ros/humble /usr/bin/cmake --build /home/akshat/ros2WS/build/zed_wrapper -- -j12 -l12
+[4.555s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/akshat/ros2WS/build/zed_wrapper' returned '0': CMAKE_PREFIX_PATH=/home/akshat/ros2WS/install/zed_components:/home/akshat/ros2WS/install/zed_interfaces:/home/akshat/ros2WS/install/zed_ros2:/home/akshat/ros2WS/install/zed_wrapper:/home/akshat/ros2WS/install/zed2cpp:/home/akshat/ros2WS/install/planner:/home/akshat/ros2WS/install/stereo:/home/akshat/ros2WS/install/sensors:/home/akshat/ros2WS/install/robot:/home/akshat/ros2WS/install/zed2nodes:/opt/ros/humble /usr/bin/cmake --build /home/akshat/ros2WS/build/zed_wrapper -- -j12 -l12
+[4.616s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/akshat/ros2WS/build/zed_wrapper': CMAKE_PREFIX_PATH=/home/akshat/ros2WS/install/zed_components:/home/akshat/ros2WS/install/zed_interfaces:/home/akshat/ros2WS/install/zed_ros2:/home/akshat/ros2WS/install/zed_wrapper:/home/akshat/ros2WS/install/zed2cpp:/home/akshat/ros2WS/install/planner:/home/akshat/ros2WS/install/stereo:/home/akshat/ros2WS/install/sensors:/home/akshat/ros2WS/install/robot:/home/akshat/ros2WS/install/zed2nodes:/opt/ros/humble /usr/bin/cmake --install /home/akshat/ros2WS/build/zed_wrapper
+[4.676s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(zed_wrapper)
+[4.677s] Level 1:colcon.colcon_core.environment:checking '/home/akshat/ros2WS/install/zed_wrapper' for CMake module files
+[4.678s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/akshat/ros2WS/build/zed_wrapper' returned '0': CMAKE_PREFIX_PATH=/home/akshat/ros2WS/install/zed_components:/home/akshat/ros2WS/install/zed_interfaces:/home/akshat/ros2WS/install/zed_ros2:/home/akshat/ros2WS/install/zed_wrapper:/home/akshat/ros2WS/install/zed2cpp:/home/akshat/ros2WS/install/planner:/home/akshat/ros2WS/install/stereo:/home/akshat/ros2WS/install/sensors:/home/akshat/ros2WS/install/robot:/home/akshat/ros2WS/install/zed2nodes:/opt/ros/humble /usr/bin/cmake --install /home/akshat/ros2WS/build/zed_wrapper
+[4.679s] Level 1:colcon.colcon_core.environment:checking '/home/akshat/ros2WS/install/zed_wrapper' for CMake config files
+[4.679s] Level 1:colcon.colcon_core.shell:create_environment_hook('zed_wrapper', 'cmake_prefix_path')
+[4.680s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/akshat/ros2WS/install/zed_wrapper/share/zed_wrapper/hook/cmake_prefix_path.ps1'
+[4.680s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/akshat/ros2WS/install/zed_wrapper/share/zed_wrapper/hook/cmake_prefix_path.dsv'
+[4.681s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/akshat/ros2WS/install/zed_wrapper/share/zed_wrapper/hook/cmake_prefix_path.sh'
+[4.682s] Level 1:colcon.colcon_core.environment:checking '/home/akshat/ros2WS/install/zed_wrapper/lib'
+[4.682s] Level 1:colcon.colcon_core.environment:checking '/home/akshat/ros2WS/install/zed_wrapper/bin'
+[4.682s] Level 1:colcon.colcon_core.environment:checking '/home/akshat/ros2WS/install/zed_wrapper/lib/pkgconfig/zed_wrapper.pc'
+[4.682s] Level 1:colcon.colcon_core.environment:checking '/home/akshat/ros2WS/install/zed_wrapper/lib/python3.10/site-packages'
+[4.683s] Level 1:colcon.colcon_core.environment:checking '/home/akshat/ros2WS/install/zed_wrapper/bin'
+[4.683s] INFO:colcon.colcon_core.shell:Creating package script '/home/akshat/ros2WS/install/zed_wrapper/share/zed_wrapper/package.ps1'
+[4.684s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/akshat/ros2WS/install/zed_wrapper/share/zed_wrapper/package.dsv'
+[4.684s] INFO:colcon.colcon_core.shell:Creating package script '/home/akshat/ros2WS/install/zed_wrapper/share/zed_wrapper/package.sh'
+[4.685s] INFO:colcon.colcon_core.shell:Creating package script '/home/akshat/ros2WS/install/zed_wrapper/share/zed_wrapper/package.bash'
+[4.685s] INFO:colcon.colcon_core.shell:Creating package script '/home/akshat/ros2WS/install/zed_wrapper/share/zed_wrapper/package.zsh'
+[4.686s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/akshat/ros2WS/install/zed_wrapper/share/colcon-core/packages/zed_wrapper)
+[4.734s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(zed_wrapper)
+[4.735s] Level 1:colcon.colcon_core.environment:checking '/home/akshat/ros2WS/install/zed_wrapper' for CMake module files
+[4.735s] Level 1:colcon.colcon_core.environment:checking '/home/akshat/ros2WS/install/zed_wrapper' for CMake config files
+[4.736s] Level 1:colcon.colcon_core.shell:create_environment_hook('zed_wrapper', 'cmake_prefix_path')
+[4.736s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/akshat/ros2WS/install/zed_wrapper/share/zed_wrapper/hook/cmake_prefix_path.ps1'
+[4.737s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/akshat/ros2WS/install/zed_wrapper/share/zed_wrapper/hook/cmake_prefix_path.dsv'
+[4.738s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/akshat/ros2WS/install/zed_wrapper/share/zed_wrapper/hook/cmake_prefix_path.sh'
+[4.739s] Level 1:colcon.colcon_core.environment:checking '/home/akshat/ros2WS/install/zed_wrapper/lib'
+[4.739s] Level 1:colcon.colcon_core.environment:checking '/home/akshat/ros2WS/install/zed_wrapper/bin'
+[4.739s] Level 1:colcon.colcon_core.environment:checking '/home/akshat/ros2WS/install/zed_wrapper/lib/pkgconfig/zed_wrapper.pc'
+[4.739s] Level 1:colcon.colcon_core.environment:checking '/home/akshat/ros2WS/install/zed_wrapper/lib/python3.10/site-packages'
+[4.741s] Level 1:colcon.colcon_core.environment:checking '/home/akshat/ros2WS/install/zed_wrapper/bin'
+[4.742s] INFO:colcon.colcon_core.shell:Creating package script '/home/akshat/ros2WS/install/zed_wrapper/share/zed_wrapper/package.ps1'
+[4.743s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/akshat/ros2WS/install/zed_wrapper/share/zed_wrapper/package.dsv'
+[4.744s] INFO:colcon.colcon_core.shell:Creating package script '/home/akshat/ros2WS/install/zed_wrapper/share/zed_wrapper/package.sh'
+[4.745s] INFO:colcon.colcon_core.shell:Creating package script '/home/akshat/ros2WS/install/zed_wrapper/share/zed_wrapper/package.bash'
+[4.746s] INFO:colcon.colcon_core.shell:Creating package script '/home/akshat/ros2WS/install/zed_wrapper/share/zed_wrapper/package.zsh'
+[4.748s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/akshat/ros2WS/install/zed_wrapper/share/colcon-core/packages/zed_wrapper)
+[4.751s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/akshat/ros2WS/src/zed-ros2-wrapper/zed_ros2' with build type 'ament_cmake'
+[4.751s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/akshat/ros2WS/src/zed-ros2-wrapper/zed_ros2'
+[4.752s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.752s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.781s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/akshat/ros2WS/build/zed_ros2': CMAKE_PREFIX_PATH=/home/akshat/ros2WS/install/zed_wrapper:/home/akshat/ros2WS/install/zed_components:/home/akshat/ros2WS/install/zed_interfaces:/home/akshat/ros2WS/install/zed_ros2:/home/akshat/ros2WS/install/zed2cpp:/home/akshat/ros2WS/install/planner:/home/akshat/ros2WS/install/stereo:/home/akshat/ros2WS/install/sensors:/home/akshat/ros2WS/install/robot:/home/akshat/ros2WS/install/zed2nodes:/opt/ros/humble /usr/bin/cmake --build /home/akshat/ros2WS/build/zed_ros2 -- -j12 -l12
+[4.855s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/akshat/ros2WS/build/zed_ros2' returned '0': CMAKE_PREFIX_PATH=/home/akshat/ros2WS/install/zed_wrapper:/home/akshat/ros2WS/install/zed_components:/home/akshat/ros2WS/install/zed_interfaces:/home/akshat/ros2WS/install/zed_ros2:/home/akshat/ros2WS/install/zed2cpp:/home/akshat/ros2WS/install/planner:/home/akshat/ros2WS/install/stereo:/home/akshat/ros2WS/install/sensors:/home/akshat/ros2WS/install/robot:/home/akshat/ros2WS/install/zed2nodes:/opt/ros/humble /usr/bin/cmake --build /home/akshat/ros2WS/build/zed_ros2 -- -j12 -l12
+[4.910s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/akshat/ros2WS/build/zed_ros2': CMAKE_PREFIX_PATH=/home/akshat/ros2WS/install/zed_wrapper:/home/akshat/ros2WS/install/zed_components:/home/akshat/ros2WS/install/zed_interfaces:/home/akshat/ros2WS/install/zed_ros2:/home/akshat/ros2WS/install/zed2cpp:/home/akshat/ros2WS/install/planner:/home/akshat/ros2WS/install/stereo:/home/akshat/ros2WS/install/sensors:/home/akshat/ros2WS/install/robot:/home/akshat/ros2WS/install/zed2nodes:/opt/ros/humble /usr/bin/cmake --install /home/akshat/ros2WS/build/zed_ros2
+[4.946s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(zed_ros2)
+[4.947s] Level 1:colcon.colcon_core.environment:checking '/home/akshat/ros2WS/install/zed_ros2' for CMake module files
+[4.947s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/akshat/ros2WS/build/zed_ros2' returned '0': CMAKE_PREFIX_PATH=/home/akshat/ros2WS/install/zed_wrapper:/home/akshat/ros2WS/install/zed_components:/home/akshat/ros2WS/install/zed_interfaces:/home/akshat/ros2WS/install/zed_ros2:/home/akshat/ros2WS/install/zed2cpp:/home/akshat/ros2WS/install/planner:/home/akshat/ros2WS/install/stereo:/home/akshat/ros2WS/install/sensors:/home/akshat/ros2WS/install/robot:/home/akshat/ros2WS/install/zed2nodes:/opt/ros/humble /usr/bin/cmake --install /home/akshat/ros2WS/build/zed_ros2
+[4.949s] Level 1:colcon.colcon_core.environment:checking '/home/akshat/ros2WS/install/zed_ros2' for CMake config files
+[4.952s] Level 1:colcon.colcon_core.shell:create_environment_hook('zed_ros2', 'cmake_prefix_path')
+[4.954s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/akshat/ros2WS/install/zed_ros2/share/zed_ros2/hook/cmake_prefix_path.ps1'
+[4.956s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/akshat/ros2WS/install/zed_ros2/share/zed_ros2/hook/cmake_prefix_path.dsv'
+[4.957s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/akshat/ros2WS/install/zed_ros2/share/zed_ros2/hook/cmake_prefix_path.sh'
+[4.960s] Level 1:colcon.colcon_core.environment:checking '/home/akshat/ros2WS/install/zed_ros2/bin'
+[4.960s] Level 1:colcon.colcon_core.environment:checking '/home/akshat/ros2WS/install/zed_ros2/lib/pkgconfig/zed_ros2.pc'
+[4.961s] Level 1:colcon.colcon_core.environment:checking '/home/akshat/ros2WS/install/zed_ros2/lib/python3.10/site-packages'
+[4.961s] Level 1:colcon.colcon_core.environment:checking '/home/akshat/ros2WS/install/zed_ros2/bin'
+[4.962s] INFO:colcon.colcon_core.shell:Creating package script '/home/akshat/ros2WS/install/zed_ros2/share/zed_ros2/package.ps1'
+[4.964s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/akshat/ros2WS/install/zed_ros2/share/zed_ros2/package.dsv'
+[4.965s] INFO:colcon.colcon_core.shell:Creating package script '/home/akshat/ros2WS/install/zed_ros2/share/zed_ros2/package.sh'
+[4.966s] INFO:colcon.colcon_core.shell:Creating package script '/home/akshat/ros2WS/install/zed_ros2/share/zed_ros2/package.bash'
+[4.967s] INFO:colcon.colcon_core.shell:Creating package script '/home/akshat/ros2WS/install/zed_ros2/share/zed_ros2/package.zsh'
+[4.970s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/akshat/ros2WS/install/zed_ros2/share/colcon-core/packages/zed_ros2)
+[5.013s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(zed_ros2)
+[5.013s] Level 1:colcon.colcon_core.environment:checking '/home/akshat/ros2WS/install/zed_ros2' for CMake module files
+[5.014s] Level 1:colcon.colcon_core.environment:checking '/home/akshat/ros2WS/install/zed_ros2' for CMake config files
+[5.014s] Level 1:colcon.colcon_core.shell:create_environment_hook('zed_ros2', 'cmake_prefix_path')
+[5.014s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/akshat/ros2WS/install/zed_ros2/share/zed_ros2/hook/cmake_prefix_path.ps1'
+[5.015s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/akshat/ros2WS/install/zed_ros2/share/zed_ros2/hook/cmake_prefix_path.dsv'
+[5.015s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/akshat/ros2WS/install/zed_ros2/share/zed_ros2/hook/cmake_prefix_path.sh'
+[5.015s] Level 1:colcon.colcon_core.environment:checking '/home/akshat/ros2WS/install/zed_ros2/bin'
+[5.016s] Level 1:colcon.colcon_core.environment:checking '/home/akshat/ros2WS/install/zed_ros2/lib/pkgconfig/zed_ros2.pc'
+[5.016s] Level 1:colcon.colcon_core.environment:checking '/home/akshat/ros2WS/install/zed_ros2/lib/python3.10/site-packages'
+[5.016s] Level 1:colcon.colcon_core.environment:checking '/home/akshat/ros2WS/install/zed_ros2/bin'
+[5.017s] INFO:colcon.colcon_core.shell:Creating package script '/home/akshat/ros2WS/install/zed_ros2/share/zed_ros2/package.ps1'
+[5.017s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/akshat/ros2WS/install/zed_ros2/share/zed_ros2/package.dsv'
+[5.018s] INFO:colcon.colcon_core.shell:Creating package script '/home/akshat/ros2WS/install/zed_ros2/share/zed_ros2/package.sh'
+[5.018s] INFO:colcon.colcon_core.shell:Creating package script '/home/akshat/ros2WS/install/zed_ros2/share/zed_ros2/package.bash'
+[5.018s] INFO:colcon.colcon_core.shell:Creating package script '/home/akshat/ros2WS/install/zed_ros2/share/zed_ros2/package.zsh'
+[5.019s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/akshat/ros2WS/install/zed_ros2/share/colcon-core/packages/zed_ros2)
+[45.445s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/akshat/ros2WS/build/zed2cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/akshat/ros2WS/install/zed2nodes:/opt/ros/humble /usr/bin/cmake --build /home/akshat/ros2WS/build/zed2cpp -- -j12 -l12
+[45.496s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/akshat/ros2WS/build/zed2cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/akshat/ros2WS/install/zed2nodes:/opt/ros/humble /usr/bin/cmake --install /home/akshat/ros2WS/build/zed2cpp
+[45.523s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(zed2cpp)
+[45.523s] Level 1:colcon.colcon_core.environment:checking '/home/akshat/ros2WS/install/zed2cpp' for CMake module files
+[45.524s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/akshat/ros2WS/build/zed2cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/akshat/ros2WS/install/zed2nodes:/opt/ros/humble /usr/bin/cmake --install /home/akshat/ros2WS/build/zed2cpp
+[45.526s] Level 1:colcon.colcon_core.environment:checking '/home/akshat/ros2WS/install/zed2cpp' for CMake config files
+[45.526s] Level 1:colcon.colcon_core.shell:create_environment_hook('zed2cpp', 'cmake_prefix_path')
+[45.527s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/akshat/ros2WS/install/zed2cpp/share/zed2cpp/hook/cmake_prefix_path.ps1'
+[45.528s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/akshat/ros2WS/install/zed2cpp/share/zed2cpp/hook/cmake_prefix_path.dsv'
+[45.528s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/akshat/ros2WS/install/zed2cpp/share/zed2cpp/hook/cmake_prefix_path.sh'
+[45.528s] Level 1:colcon.colcon_core.environment:checking '/home/akshat/ros2WS/install/zed2cpp/lib'
+[45.529s] Level 1:colcon.colcon_core.environment:checking '/home/akshat/ros2WS/install/zed2cpp/bin'
+[45.529s] Level 1:colcon.colcon_core.environment:checking '/home/akshat/ros2WS/install/zed2cpp/lib/pkgconfig/zed2cpp.pc'
+[45.529s] Level 1:colcon.colcon_core.environment:checking '/home/akshat/ros2WS/install/zed2cpp/lib/python3.10/site-packages'
+[45.529s] Level 1:colcon.colcon_core.environment:checking '/home/akshat/ros2WS/install/zed2cpp/bin'
+[45.530s] INFO:colcon.colcon_core.shell:Creating package script '/home/akshat/ros2WS/install/zed2cpp/share/zed2cpp/package.ps1'
+[45.530s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/akshat/ros2WS/install/zed2cpp/share/zed2cpp/package.dsv'
+[45.530s] INFO:colcon.colcon_core.shell:Creating package script '/home/akshat/ros2WS/install/zed2cpp/share/zed2cpp/package.sh'
+[45.531s] INFO:colcon.colcon_core.shell:Creating package script '/home/akshat/ros2WS/install/zed2cpp/share/zed2cpp/package.bash'
+[45.532s] INFO:colcon.colcon_core.shell:Creating package script '/home/akshat/ros2WS/install/zed2cpp/share/zed2cpp/package.zsh'
+[45.532s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/akshat/ros2WS/install/zed2cpp/share/colcon-core/packages/zed2cpp)
+[45.579s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(zed2cpp)
+[45.580s] Level 1:colcon.colcon_core.environment:checking '/home/akshat/ros2WS/install/zed2cpp' for CMake module files
+[45.580s] Level 1:colcon.colcon_core.environment:checking '/home/akshat/ros2WS/install/zed2cpp' for CMake config files
+[45.581s] Level 1:colcon.colcon_core.shell:create_environment_hook('zed2cpp', 'cmake_prefix_path')
+[45.581s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/akshat/ros2WS/install/zed2cpp/share/zed2cpp/hook/cmake_prefix_path.ps1'
+[45.582s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/akshat/ros2WS/install/zed2cpp/share/zed2cpp/hook/cmake_prefix_path.dsv'
+[45.583s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/akshat/ros2WS/install/zed2cpp/share/zed2cpp/hook/cmake_prefix_path.sh'
+[45.583s] Level 1:colcon.colcon_core.environment:checking '/home/akshat/ros2WS/install/zed2cpp/lib'
+[45.583s] Level 1:colcon.colcon_core.environment:checking '/home/akshat/ros2WS/install/zed2cpp/bin'
+[45.584s] Level 1:colcon.colcon_core.environment:checking '/home/akshat/ros2WS/install/zed2cpp/lib/pkgconfig/zed2cpp.pc'
+[45.584s] Level 1:colcon.colcon_core.environment:checking '/home/akshat/ros2WS/install/zed2cpp/lib/python3.10/site-packages'
+[45.584s] Level 1:colcon.colcon_core.environment:checking '/home/akshat/ros2WS/install/zed2cpp/bin'
+[45.585s] INFO:colcon.colcon_core.shell:Creating package script '/home/akshat/ros2WS/install/zed2cpp/share/zed2cpp/package.ps1'
+[45.585s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/akshat/ros2WS/install/zed2cpp/share/zed2cpp/package.dsv'
+[45.586s] INFO:colcon.colcon_core.shell:Creating package script '/home/akshat/ros2WS/install/zed2cpp/share/zed2cpp/package.sh'
+[45.586s] INFO:colcon.colcon_core.shell:Creating package script '/home/akshat/ros2WS/install/zed2cpp/share/zed2cpp/package.bash'
+[45.587s] INFO:colcon.colcon_core.shell:Creating package script '/home/akshat/ros2WS/install/zed2cpp/share/zed2cpp/package.zsh'
+[45.588s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/akshat/ros2WS/install/zed2cpp/share/colcon-core/packages/zed2cpp)
+[45.588s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[45.588s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[45.589s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[45.589s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[45.603s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[45.604s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[45.604s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[45.643s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[45.644s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/akshat/ros2WS/install/local_setup.ps1'
+[45.646s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/akshat/ros2WS/install/_local_setup_util_ps1.py'
+[45.649s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/akshat/ros2WS/install/setup.ps1'
+[45.653s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/akshat/ros2WS/install/local_setup.sh'
+[45.656s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/akshat/ros2WS/install/_local_setup_util_sh.py'
+[45.657s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/akshat/ros2WS/install/setup.sh'
+[45.661s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/akshat/ros2WS/install/local_setup.bash'
+[45.662s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/akshat/ros2WS/install/setup.bash'
+[45.670s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/akshat/ros2WS/install/local_setup.zsh'
+[45.672s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/akshat/ros2WS/install/setup.zsh'

@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/zed2nodes/zed2nodes.egg-info
+writing ../../build/zed2nodes/zed2nodes.egg-info/PKG-INFO
+writing dependency_links to ../../build/zed2nodes/zed2nodes.egg-info/dependency_links.txt
+writing entry points to ../../build/zed2nodes/zed2nodes.egg-info/entry_points.txt
+writing requirements to ../../build/zed2nodes/zed2nodes.egg-info/requires.txt
+writing top-level names to ../../build/zed2nodes/zed2nodes.egg-info/top_level.txt
+writing manifest file '../../build/zed2nodes/zed2nodes.egg-info/SOURCES.txt'
+reading manifest file '../../build/zed2nodes/zed2nodes.egg-info/SOURCES.txt'
+writing manifest file '../../build/zed2nodes/zed2nodes.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/akshat/ros2WS/build/zed2nodes/build
+creating /home/akshat/ros2WS/build/zed2nodes/build/lib
+creating /home/akshat/ros2WS/build/zed2nodes/build/lib/zed2nodes
+copying zed2nodes/obsticle.py -> /home/akshat/ros2WS/build/zed2nodes/build/lib/zed2nodes
+copying zed2nodes/__init__.py -> /home/akshat/ros2WS/build/zed2nodes/build/lib/zed2nodes
+running install
+running install_lib
+creating /home/akshat/ros2WS/install/zed2nodes/lib/python3.10/site-packages/zed2nodes
+copying /home/akshat/ros2WS/build/zed2nodes/build/lib/zed2nodes/obsticle.py -> /home/akshat/ros2WS/install/zed2nodes/lib/python3.10/site-packages/zed2nodes
+copying /home/akshat/ros2WS/build/zed2nodes/build/lib/zed2nodes/__init__.py -> /home/akshat/ros2WS/install/zed2nodes/lib/python3.10/site-packages/zed2nodes
+byte-compiling /home/akshat/ros2WS/install/zed2nodes/lib/python3.10/site-packages/zed2nodes/obsticle.py to obsticle.cpython-310.pyc
+byte-compiling /home/akshat/ros2WS/install/zed2nodes/lib/python3.10/site-packages/zed2nodes/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/akshat/ros2WS/install/zed2nodes/share/ament_index
+creating /home/akshat/ros2WS/install/zed2nodes/share/ament_index/resource_index
+creating /home/akshat/ros2WS/install/zed2nodes/share/ament_index/resource_index/packages
+copying resource/zed2nodes -> /home/akshat/ros2WS/install/zed2nodes/share/ament_index/resource_index/packages
+copying package.xml -> /home/akshat/ros2WS/install/zed2nodes/share/zed2nodes
+running install_egg_info
+Copying ../../build/zed2nodes/zed2nodes.egg-info to /home/akshat/ros2WS/install/zed2nodes/lib/python3.10/site-packages/zed2nodes-0.0.0-py3.10.egg-info
+running install_scripts
+Installing obsticle script to /home/akshat/ros2WS/install/zed2nodes/lib/zed2nodes
+writing list of installed files to '/home/akshat/ros2WS/build/zed2nodes/install.log'

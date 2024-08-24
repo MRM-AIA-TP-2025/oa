@@ -1,0 +1,62 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/akshat/ros2WS/build/robot
+-- Install configuration: ""
+-- Installing: /home/akshat/ros2WS/install/robot/share/robot/launch
+-- Installing: /home/akshat/ros2WS/install/robot/share/robot/launch/MarsYard.launch.xml
+-- Installing: /home/akshat/ros2WS/install/robot/share/robot/launch/world.launch.py
+-- Installing: /home/akshat/ros2WS/install/robot/share/robot/meshes
+-- Installing: /home/akshat/ros2WS/install/robot/share/robot/meshes/zed2_base.dae
+-- Installing: /home/akshat/ros2WS/install/robot/share/robot/meshes/stand.stl
+-- Installing: /home/akshat/ros2WS/install/robot/share/robot/meshes/wheel_rear_right_1.stl
+-- Installing: /home/akshat/ros2WS/install/robot/share/robot/meshes/aruco1.stl
+-- Installing: /home/akshat/ros2WS/install/robot/share/robot/meshes/wheel_rear_left_1.stl
+-- Installing: /home/akshat/ros2WS/install/robot/share/robot/meshes/wheel.dae
+-- Installing: /home/akshat/ros2WS/install/robot/share/robot/meshes/wheel_front_right_1.stl
+-- Installing: /home/akshat/ros2WS/install/robot/share/robot/meshes/zed2.dae
+-- Installing: /home/akshat/ros2WS/install/robot/share/robot/meshes/wheel_front_left_1.stl
+-- Installing: /home/akshat/ros2WS/install/robot/share/robot/meshes/aruco2.stl
+-- Installing: /home/akshat/ros2WS/install/robot/share/robot/meshes/sick_scan.dae
+-- Installing: /home/akshat/ros2WS/install/robot/share/robot/meshes/base_link.stl
+-- Installing: /home/akshat/ros2WS/install/robot/share/robot/meshes/aruco0.stl
+-- Installing: /home/akshat/ros2WS/install/robot/share/robot/worlds
+-- Installing: /home/akshat/ros2WS/install/robot/share/robot/worlds/irc.world
+-- Installing: /home/akshat/ros2WS/install/robot/share/robot/worlds/urc.world
+-- Installing: /home/akshat/ros2WS/install/robot/share/robot/worlds/urc_1.world
+-- Installing: /home/akshat/ros2WS/install/robot/share/robot/urdf
+-- Installing: /home/akshat/ros2WS/install/robot/share/robot/urdf/obj.xacro
+-- Installing: /home/akshat/ros2WS/install/robot/share/robot/urdf/martin.gazebo
+-- Installing: /home/akshat/ros2WS/install/robot/share/robot/urdf/materials.xacro
+-- Installing: /home/akshat/ros2WS/install/robot/share/robot/urdf/martin.urdf
+-- Installing: /home/akshat/ros2WS/install/robot/share/robot/urdf/martin.trans
+-- Installing: /home/akshat/ros2WS/install/robot/share/robot/urdf/arrow2.xacro
+-- Installing: /home/akshat/ros2WS/install/robot/share/robot/urdf/arrow1.xacro
+-- Installing: /home/akshat/ros2WS/install/robot/share/ament_index/resource_index/package_run_dependencies/robot
+-- Installing: /home/akshat/ros2WS/install/robot/share/ament_index/resource_index/parent_prefix_path/robot
+-- Installing: /home/akshat/ros2WS/install/robot/share/robot/environment/ament_prefix_path.sh
+-- Installing: /home/akshat/ros2WS/install/robot/share/robot/environment/ament_prefix_path.dsv
+-- Installing: /home/akshat/ros2WS/install/robot/share/robot/environment/path.sh
+-- Installing: /home/akshat/ros2WS/install/robot/share/robot/environment/path.dsv
+-- Installing: /home/akshat/ros2WS/install/robot/share/robot/local_setup.bash
+-- Installing: /home/akshat/ros2WS/install/robot/share/robot/local_setup.sh
+-- Installing: /home/akshat/ros2WS/install/robot/share/robot/local_setup.zsh
+-- Installing: /home/akshat/ros2WS/install/robot/share/robot/local_setup.dsv
+-- Installing: /home/akshat/ros2WS/install/robot/share/robot/package.dsv
+-- Installing: /home/akshat/ros2WS/install/robot/share/ament_index/resource_index/packages/robot
+-- Installing: /home/akshat/ros2WS/install/robot/share/robot/cmake/robotConfig.cmake
+-- Installing: /home/akshat/ros2WS/install/robot/share/robot/cmake/robotConfig-version.cmake
+-- Installing: /home/akshat/ros2WS/install/robot/share/robot/package.xml

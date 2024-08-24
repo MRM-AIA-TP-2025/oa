@@ -1,0 +1,37 @@
+[0.883s] Invoking command in '/home/akshat/ros2WS/src/zed2nodes': PYTHONPATH=/home/akshat/ros2WS/build/zed2nodes/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/akshat/ros2WS/install/zed2nodes/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/zed2nodes build --build-base /home/akshat/ros2WS/build/zed2nodes/build install --record /home/akshat/ros2WS/build/zed2nodes/install.log --single-version-externally-managed install_data
+[1.173s] running egg_info
+[1.173s] creating ../../build/zed2nodes/zed2nodes.egg-info
+[1.174s] writing ../../build/zed2nodes/zed2nodes.egg-info/PKG-INFO
+[1.174s] writing dependency_links to ../../build/zed2nodes/zed2nodes.egg-info/dependency_links.txt
+[1.174s] writing entry points to ../../build/zed2nodes/zed2nodes.egg-info/entry_points.txt
+[1.174s] writing requirements to ../../build/zed2nodes/zed2nodes.egg-info/requires.txt
+[1.174s] writing top-level names to ../../build/zed2nodes/zed2nodes.egg-info/top_level.txt
+[1.175s] writing manifest file '../../build/zed2nodes/zed2nodes.egg-info/SOURCES.txt'
+[1.176s] reading manifest file '../../build/zed2nodes/zed2nodes.egg-info/SOURCES.txt'
+[1.177s] writing manifest file '../../build/zed2nodes/zed2nodes.egg-info/SOURCES.txt'
+[1.177s] running build
+[1.177s] running build_py
+[1.178s] creating /home/akshat/ros2WS/build/zed2nodes/build
+[1.178s] creating /home/akshat/ros2WS/build/zed2nodes/build/lib
+[1.178s] creating /home/akshat/ros2WS/build/zed2nodes/build/lib/zed2nodes
+[1.178s] copying zed2nodes/obsticle.py -> /home/akshat/ros2WS/build/zed2nodes/build/lib/zed2nodes
+[1.178s] copying zed2nodes/__init__.py -> /home/akshat/ros2WS/build/zed2nodes/build/lib/zed2nodes
+[1.179s] running install
+[1.179s] running install_lib
+[1.179s] creating /home/akshat/ros2WS/install/zed2nodes/lib/python3.10/site-packages/zed2nodes
+[1.179s] copying /home/akshat/ros2WS/build/zed2nodes/build/lib/zed2nodes/obsticle.py -> /home/akshat/ros2WS/install/zed2nodes/lib/python3.10/site-packages/zed2nodes
+[1.179s] copying /home/akshat/ros2WS/build/zed2nodes/build/lib/zed2nodes/__init__.py -> /home/akshat/ros2WS/install/zed2nodes/lib/python3.10/site-packages/zed2nodes
+[1.180s] byte-compiling /home/akshat/ros2WS/install/zed2nodes/lib/python3.10/site-packages/zed2nodes/obsticle.py to obsticle.cpython-310.pyc
+[1.180s] byte-compiling /home/akshat/ros2WS/install/zed2nodes/lib/python3.10/site-packages/zed2nodes/__init__.py to __init__.cpython-310.pyc
+[1.181s] running install_data
+[1.181s] creating /home/akshat/ros2WS/install/zed2nodes/share/ament_index
+[1.181s] creating /home/akshat/ros2WS/install/zed2nodes/share/ament_index/resource_index
+[1.181s] creating /home/akshat/ros2WS/install/zed2nodes/share/ament_index/resource_index/packages
+[1.182s] copying resource/zed2nodes -> /home/akshat/ros2WS/install/zed2nodes/share/ament_index/resource_index/packages
+[1.182s] copying package.xml -> /home/akshat/ros2WS/install/zed2nodes/share/zed2nodes
+[1.182s] running install_egg_info
+[1.183s] Copying ../../build/zed2nodes/zed2nodes.egg-info to /home/akshat/ros2WS/install/zed2nodes/lib/python3.10/site-packages/zed2nodes-0.0.0-py3.10.egg-info
+[1.184s] running install_scripts
+[1.209s] Installing obsticle script to /home/akshat/ros2WS/install/zed2nodes/lib/zed2nodes
+[1.209s] writing list of installed files to '/home/akshat/ros2WS/build/zed2nodes/install.log'
+[1.240s] Invoked command in '/home/akshat/ros2WS/src/zed2nodes' returned '0': PYTHONPATH=/home/akshat/ros2WS/build/zed2nodes/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/akshat/ros2WS/install/zed2nodes/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/zed2nodes build --build-base /home/akshat/ros2WS/build/zed2nodes/build install --record /home/akshat/ros2WS/build/zed2nodes/install.log --single-version-externally-managed install_data

@@ -1,0 +1,4 @@
+source;share/stereo/local_setup.bash
+source;share/stereo/local_setup.dsv
+source;share/stereo/local_setup.sh
+source;share/stereo/local_setup.zsh

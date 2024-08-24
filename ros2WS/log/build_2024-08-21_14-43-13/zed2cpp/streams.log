@@ -1,0 +1,32 @@
+[0.024s] Invoking command in '/home/akshat/ros2WS/build/zed2cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/akshat/ros2WS/install/zed2nodes:/opt/ros/humble /usr/bin/cmake --build /home/akshat/ros2WS/build/zed2cpp -- -j12 -l12
+[0.077s] [35m[1mConsolidate compiler generated dependencies of target pcloa[0m
+[0.108s] [ 50%] [32mBuilding CXX object CMakeFiles/pcloa.dir/src/pcloa.cpp.o[0m
+[4.824s] [01m[K/home/akshat/ros2WS/src/zed2cpp/src/pcloa.cpp:[m[K In member function ‘[01m[Kvoid PCLPreprocessingNode::point_cloud_callback(sensor_msgs::msg::PointCloud2_<std::allocator<void> >::SharedPtr)[m[K’:
+[4.824s] [01m[K/home/akshat/ros2WS/src/zed2cpp/src/pcloa.cpp:31:10:[m[K [01;31m[Kerror: [m[K‘[01m[KSACSegmentation[m[K’ is not a member of ‘[01m[Kpcl[m[K’
+[4.824s]    31 |     pcl::[01;31m[KSACSegmentation[m[K<pcl::PointXYZ> seg;
+[4.824s]       |          [01;31m[K^~~~~~~~~~~~~~~[m[K
+[4.824s] [01m[K/home/akshat/ros2WS/src/zed2cpp/src/pcloa.cpp:31:39:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+[4.824s]    31 |     pcl::SACSegmentation<pcl::PointXYZ[01;31m[K>[m[K seg;
+[4.824s]       |                                       [01;31m[K^[m[K
+[4.984s] [01m[K/home/akshat/ros2WS/src/zed2cpp/src/pcloa.cpp:31:41:[m[K [01;31m[Kerror: [m[K‘[01m[Kseg[m[K’ was not declared in this scope
+[4.984s]    31 |     pcl::SACSegmentation<pcl::PointXYZ> [01;31m[Kseg[m[K;
+[4.984s]       |                                         [01;31m[K^~~[m[K
+[5.006s] [01m[K/home/akshat/ros2WS/src/zed2cpp/src/pcloa.cpp:36:27:[m[K [01;31m[Kerror: [m[K‘[01m[KSACMODEL_PLANE[m[K’ is not a member of ‘[01m[Kpcl[m[K’
+[5.006s]    36 |     seg.setModelType(pcl::[01;31m[KSACMODEL_PLANE[m[K);
+[5.006s]       |                           [01;31m[K^~~~~~~~~~~~~~[m[K
+[5.007s] [01m[K/home/akshat/ros2WS/src/zed2cpp/src/pcloa.cpp:37:28:[m[K [01;31m[Kerror: [m[K‘[01m[KSAC_RANSAC[m[K’ is not a member of ‘[01m[Kpcl[m[K’
+[5.007s]    37 |     seg.setMethodType(pcl::[01;31m[KSAC_RANSAC[m[K);
+[5.008s]       |                            [01;31m[K^~~~~~~~~~[m[K
+[5.009s] [01m[K/home/akshat/ros2WS/src/zed2cpp/src/pcloa.cpp:50:10:[m[K [01;31m[Kerror: [m[K‘[01m[KExtractIndices[m[K’ is not a member of ‘[01m[Kpcl[m[K’
+[5.009s]    50 |     pcl::[01;31m[KExtractIndices[m[K<pcl::PointXYZ> extract;
+[5.009s]       |          [01;31m[K^~~~~~~~~~~~~~[m[K
+[5.009s] [01m[K/home/akshat/ros2WS/src/zed2cpp/src/pcloa.cpp:50:38:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+[5.010s]    50 |     pcl::ExtractIndices<pcl::PointXYZ[01;31m[K>[m[K extract;
+[5.010s]       |                                      [01;31m[K^[m[K
+[5.019s] [01m[K/home/akshat/ros2WS/src/zed2cpp/src/pcloa.cpp:50:40:[m[K [01;31m[Kerror: [m[K‘[01m[Kextract[m[K’ was not declared in this scope
+[5.019s]    50 |     pcl::ExtractIndices<pcl::PointXYZ> [01;31m[Kextract[m[K;
+[5.019s]       |                                        [01;31m[K^~~~~~~[m[K
+[7.771s] gmake[2]: *** [CMakeFiles/pcloa.dir/build.make:76: CMakeFiles/pcloa.dir/src/pcloa.cpp.o] Error 1
+[7.771s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/pcloa.dir/all] Error 2
+[7.772s] gmake: *** [Makefile:146: all] Error 2
+[7.774s] Invoked command in '/home/akshat/ros2WS/build/zed2cpp' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/akshat/ros2WS/install/zed2nodes:/opt/ros/humble /usr/bin/cmake --build /home/akshat/ros2WS/build/zed2cpp -- -j12 -l12

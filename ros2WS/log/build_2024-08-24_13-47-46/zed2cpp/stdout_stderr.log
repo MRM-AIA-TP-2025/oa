@@ -1,0 +1,11 @@
+[35m[1mConsolidate compiler generated dependencies of target navdata[0m
+[ 33%] Built target nav
+[ 50%] [32mBuilding CXX object CMakeFiles/navdata.dir/src/navdata.cpp.o[0m
+[ 83%] Built target pcloa
+[01m[K/home/akshat/ros2WS/src/zed2cpp/src/navdata.cpp:26:34:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   26 |     rclcpp::TimerBase::SharedPtr [01;31m[Ktimer_[m[K
+      |                                  [01;31m[K^~~~~~[m[K
+      |                                        [32m[K;[m[K
+gmake[2]: *** [CMakeFiles/navdata.dir/build.make:76: CMakeFiles/navdata.dir/src/navdata.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/navdata.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

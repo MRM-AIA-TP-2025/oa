@@ -1,0 +1,61 @@
+[0.010s] Invoking command in '/home/akshat/ros2WS/build/sensors': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/akshat/ros2WS/install/zed2nodes:/opt/ros/humble /usr/bin/cmake --build /home/akshat/ros2WS/build/sensors -- -j12 -l12
+[0.031s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.082s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.143s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.168s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.171s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.176s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.185s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.197s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.227s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.228s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.319s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.366s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.377s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.393s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.503s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter Development Development.Module Development.Embed 
+[0.632s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.006s] [31mCMake Error at /opt/ros/humble/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:59 (message):
+[1.006s]   execute_process(/usr/bin/python3 -m rosidl_adapter --package-name sensors
+[1.006s]   --arguments-file
+[1.006s]   /home/akshat/ros2WS/build/sensors/rosidl_adapter__arguments__sensors.json
+[1.006s]   --output-dir /home/akshat/ros2WS/build/sensors/rosidl_adapter/sensors
+[1.007s]   --output-file
+[1.007s]   /home/akshat/ros2WS/build/sensors/rosidl_adapter/sensors.idls) returned
+[1.007s]   error code 1:
+[1.007s] 
+[1.007s]   Error processing 'bool isOnLine' of 'sensors/NavigationData': ''isOnLine'
+[1.007s]   is an invalid field name.  It should have the pattern
+[1.007s]   '^(?!.*__)(?!.*_$)[a-z][a-z0-9_]*$''
+[1.007s] 
+[1.007s]   Traceback (most recent call last):
+[1.007s] 
+[1.007s]     File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+[1.007s]       return _run_code(code, main_globals, None,
+[1.007s]     File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+[1.007s]       exec(code, run_globals)
+[1.007s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__main__.py", line 19, in <module>
+[1.007s]       sys.exit(main())
+[1.007s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/main.py", line 53, in main
+[1.007s]       abs_idl_file = convert_to_idl(
+[1.007s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__init__.py", line 19, in convert_to_idl
+[1.008s]       return convert_msg_to_idl(
+[1.008s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/msg/__init__.py", line 28, in convert_msg_to_idl
+[1.008s]       msg = parse_message_string(package_name, input_file.stem, content)
+[1.008s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 519, in parse_message_string
+[1.008s]       fields.append(Field(
+[1.008s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 354, in __init__
+[1.008s]       raise NameError(
+[1.008s] 
+[1.008s]   NameError: 'isOnLine' is an invalid field name.  It should have the pattern
+[1.008s]   '^(?!.*__)(?!.*_$)[a-z][a-z0-9_]*$'
+[1.008s] 
+[1.008s] Call Stack (most recent call first):
+[1.008s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)
+[1.008s]   CMakeLists.txt:18 (rosidl_generate_interfaces)
+[1.008s] 
+[1.008s] [0m
+[1.008s] -- Configuring incomplete, errors occurred!
+[1.008s] See also "/home/akshat/ros2WS/build/sensors/CMakeFiles/CMakeOutput.log".
+[1.013s] gmake: *** [Makefile:747: cmake_check_build_system] Error 1
+[1.015s] Invoked command in '/home/akshat/ros2WS/build/sensors' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/akshat/ros2WS/install/zed2nodes:/opt/ros/humble /usr/bin/cmake --build /home/akshat/ros2WS/build/sensors -- -j12 -l12

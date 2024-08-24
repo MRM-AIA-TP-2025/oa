@@ -1,0 +1,72 @@
+[0.013s] Invoking command in '/home/akshat/ros2WS/build/zed2cpp': CMAKE_PREFIX_PATH=/home/akshat/ros2WS/install/sensors:/home/akshat/ros2WS/install/zed_ros2:/home/akshat/ros2WS/install/zed_wrapper:/home/akshat/ros2WS/install/zed_components:/home/akshat/ros2WS/install/zed_interfaces:/home/akshat/ros2WS/install/zed2cpp:/home/akshat/ros2WS/install/planner:/home/akshat/ros2WS/install/stereo:/home/akshat/ros2WS/install/robot:/home/akshat/ros2WS/install/zed2nodes:/opt/ros/humble LD_LIBRARY_PATH=/home/akshat/ros2WS/install/sensors/lib:/home/akshat/ros2WS/install/zed_components/lib:/home/akshat/ros2WS/install/zed_interfaces/lib:/home/akshat/ros2WS/install/stereo/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-11.8/lib64 /usr/bin/cmake --build /home/akshat/ros2WS/build/zed2cpp -- -j12 -l12
+[0.036s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.148s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.174s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.176s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.181s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.191s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.202s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.234s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.235s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.365s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.412s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.441s] -- Found pcl_conversions: 2.4.0 (/opt/ros/humble/share/pcl_conversions/cmake)
+[0.474s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[0.492s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[0.496s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[0.497s] [0m** WARNING ** io features related to pcap will be disabled[0m
+[0.497s] [0m** WARNING ** io features related to png will be disabled[0m
+[0.870s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[0.888s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[1.143s] -- looking for PCL_COMMON
+[1.143s] -- looking for PCL_OCTREE
+[1.144s] -- looking for PCL_IO
+[1.144s] -- looking for PCL_KDTREE
+[1.144s] -- looking for PCL_SEARCH
+[1.145s] -- looking for PCL_SAMPLE_CONSENSUS
+[1.145s] -- looking for PCL_FILTERS
+[1.145s] -- looking for PCL_GEOMETRY
+[1.146s] -- looking for PCL_2D
+[1.146s] -- looking for PCL_FEATURES
+[1.146s] -- looking for PCL_ML
+[1.147s] -- looking for PCL_SEGMENTATION
+[1.148s] -- Found sensors: 0.0.0 (/home/akshat/ros2WS/install/sensors/share/sensors/cmake)
+[1.231s] -- Configuring done
+[1.257s] -- Generating done
+[1.259s] -- Build files have been written to: /home/akshat/ros2WS/build/zed2cpp
+[1.286s] [35m[1mConsolidate compiler generated dependencies of target nav[0m
+[1.287s] [35m[1mConsolidate compiler generated dependencies of target pcloa[0m
+[1.294s] [ 16%] [32mBuilding CXX object CMakeFiles/navdata.dir/src/navdata.cpp.o[0m
+[1.299s] [ 33%] [32mBuilding CXX object CMakeFiles/nav.dir/src/navigation.cpp.o[0m
+[1.309s] [ 66%] Built target pcloa
+[1.489s] [01m[K/home/akshat/ros2WS/src/zed2cpp/src/navdata.cpp:4:10:[m[K [01;31m[Kfatal error: [m[Ksensors/msg/navigationdata.hpp: No such file or directory
+[1.489s]     4 | #include [01;31m[K"sensors/msg/navigationdata.hpp"[m[K
+[1.489s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.489s] compilation terminated.
+[1.491s] gmake[2]: *** [CMakeFiles/navdata.dir/build.make:76: CMakeFiles/navdata.dir/src/navdata.cpp.o] Error 1
+[1.491s] gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/navdata.dir/all] Error 2
+[1.491s] gmake[1]: *** Waiting for unfinished jobs....
+[3.454s] [01m[K/home/akshat/ros2WS/src/zed2cpp/src/navigation.cpp:[m[K In constructor ‘[01m[KObstacleAvoidancePCL::ObstacleAvoidancePCL()[m[K’:
+[3.455s] [01m[K/home/akshat/ros2WS/src/zed2cpp/src/navigation.cpp:150:55:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp::Duration::Duration()[m[K’ is private within this context
+[3.455s]   150 |     ObstacleAvoidancePCL() : Node("obstacle_avoidance"[01;31m[K)[m[K
+[3.455s]       |                                                       [01;31m[K^[m[K
+[3.455s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/qos.hpp:20[m[K,
+[3.455s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_graph_interface.hpp:32[m[K,
+[3.455s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:42[m[K,
+[3.455s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[3.455s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[3.455s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[3.455s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[3.455s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[3.455s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[3.455s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.455s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.455s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.455s]                  from [01m[K/home/akshat/ros2WS/src/zed2cpp/src/navigation.cpp:1[m[K:
+[3.455s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/duration.hpp:151:3:[m[K [01;36m[Knote: [m[Kdeclared private here
+[3.455s]   151 |   [01;36m[KDuration[m[K() = default;
+[3.455s]       |   [01;36m[K^~~~~~~~[m[K
+[6.465s] gmake[2]: *** [CMakeFiles/nav.dir/build.make:76: CMakeFiles/nav.dir/src/navigation.cpp.o] Error 1
+[6.466s] gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/nav.dir/all] Error 2
+[6.466s] gmake: *** [Makefile:146: all] Error 2
+[6.468s] Invoked command in '/home/akshat/ros2WS/build/zed2cpp' returned '2': CMAKE_PREFIX_PATH=/home/akshat/ros2WS/install/sensors:/home/akshat/ros2WS/install/zed_ros2:/home/akshat/ros2WS/install/zed_wrapper:/home/akshat/ros2WS/install/zed_components:/home/akshat/ros2WS/install/zed_interfaces:/home/akshat/ros2WS/install/zed2cpp:/home/akshat/ros2WS/install/planner:/home/akshat/ros2WS/install/stereo:/home/akshat/ros2WS/install/robot:/home/akshat/ros2WS/install/zed2nodes:/opt/ros/humble LD_LIBRARY_PATH=/home/akshat/ros2WS/install/sensors/lib:/home/akshat/ros2WS/install/zed_components/lib:/home/akshat/ros2WS/install/zed_interfaces/lib:/home/akshat/ros2WS/install/stereo/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-11.8/lib64 /usr/bin/cmake --build /home/akshat/ros2WS/build/zed2cpp -- -j12 -l12

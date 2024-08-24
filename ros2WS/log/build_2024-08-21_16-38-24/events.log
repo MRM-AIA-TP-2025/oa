@@ -1,0 +1,110 @@
+[0.000000] (-) TimerEvent: {}
+[0.000409] (-) JobUnselected: {'identifier': 'planner'}
+[0.000435] (-) JobUnselected: {'identifier': 'robot'}
+[0.000452] (-) JobUnselected: {'identifier': 'sensors'}
+[0.000474] (-) JobUnselected: {'identifier': 'stereo'}
+[0.000555] (-) JobUnselected: {'identifier': 'zed2nodes'}
+[0.000571] (-) JobUnselected: {'identifier': 'zed_components'}
+[0.000586] (-) JobUnselected: {'identifier': 'zed_interfaces'}
+[0.000599] (-) JobUnselected: {'identifier': 'zed_ros2'}
+[0.000613] (-) JobUnselected: {'identifier': 'zed_wrapper'}
+[0.000629] (zed2cpp) JobQueued: {'identifier': 'zed2cpp', 'dependencies': OrderedDict()}
+[0.000646] (zed2cpp) JobStarted: {'identifier': 'zed2cpp'}
+[0.007363] (zed2cpp) JobProgress: {'identifier': 'zed2cpp', 'progress': 'cmake'}
+[0.008907] (zed2cpp) JobProgress: {'identifier': 'zed2cpp', 'progress': 'build'}
+[0.009484] (zed2cpp) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/akshat/ros2WS/build/zed2cpp', '--', '-j12', '-l12'], 'cwd': '/home/akshat/ros2WS/build/zed2cpp', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'akshat'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/akshat/ros2WS/install/zed_components/lib:/home/akshat/ros2WS/install/zed_interfaces/lib:/home/akshat/ros2WS/install/stereo/lib:/home/akshat/ros2WS/install/sensors/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-11.8/lib64'), ('HOME', '/home/akshat'), ('OLDPWD', '/home/akshat/ros2WS/src/zed2cpp'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2392'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/akshat/ros2WS/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'akshat'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'akshat'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/cuda-11.8/bin:/home/akshat/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/akshat-G3-3500:@/tmp/.ICE-unix/2108,unix/akshat-G3-3500:/tmp/.ICE-unix/2108'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/15e834ba_4bbe_4493_80f4_2481ba5287dc'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.91'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/akshat/ros2WS/install/zed_ros2:/home/akshat/ros2WS/install/zed_wrapper:/home/akshat/ros2WS/install/zed_components:/home/akshat/ros2WS/install/zed_interfaces:/home/akshat/ros2WS/install/zed2nodes:/home/akshat/ros2WS/install/zed2cpp:/home/akshat/ros2WS/install/planner:/home/akshat/ros2WS/install/stereo:/home/akshat/ros2WS/install/sensors:/home/akshat/ros2WS/install/robot:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/akshat/ros2WS/build/zed2cpp'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/akshat/ros2WS/install/zed_interfaces/local/lib/python3.10/dist-packages:/home/akshat/ros2WS/install/zed2nodes/lib/python3.10/site-packages:/home/akshat/ros2WS/install/stereo/local/lib/python3.10/dist-packages:/home/akshat/ros2WS/install/sensors/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/akshat/ros2WS/install/zed_ros2:/home/akshat/ros2WS/install/zed_wrapper:/home/akshat/ros2WS/install/zed_components:/home/akshat/ros2WS/install/zed_interfaces:/home/akshat/ros2WS/install/zed2cpp:/home/akshat/ros2WS/install/planner:/home/akshat/ros2WS/install/stereo:/home/akshat/ros2WS/install/sensors:/home/akshat/ros2WS/install/robot:/home/akshat/ros2WS/install/zed2nodes:/opt/ros/humble')]), 'shell': False}
+[0.049175] (zed2cpp) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target pcloa\x1b[0m\n'}
+[0.067902] (zed2cpp) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/pcloa.dir/src/pcloa.cpp.o\x1b[0m\n'}
+[0.099720] (-) TimerEvent: {}
+[0.200017] (-) TimerEvent: {}
+[0.300327] (-) TimerEvent: {}
+[0.400580] (-) TimerEvent: {}
+[0.500815] (-) TimerEvent: {}
+[0.601117] (-) TimerEvent: {}
+[0.701347] (-) TimerEvent: {}
+[0.801589] (-) TimerEvent: {}
+[0.901860] (-) TimerEvent: {}
+[1.002132] (-) TimerEvent: {}
+[1.102408] (-) TimerEvent: {}
+[1.202694] (-) TimerEvent: {}
+[1.302975] (-) TimerEvent: {}
+[1.403252] (-) TimerEvent: {}
+[1.503524] (-) TimerEvent: {}
+[1.603792] (-) TimerEvent: {}
+[1.704059] (-) TimerEvent: {}
+[1.804329] (-) TimerEvent: {}
+[1.904589] (-) TimerEvent: {}
+[2.004864] (-) TimerEvent: {}
+[2.105134] (-) TimerEvent: {}
+[2.205367] (-) TimerEvent: {}
+[2.305663] (-) TimerEvent: {}
+[2.405926] (-) TimerEvent: {}
+[2.506196] (-) TimerEvent: {}
+[2.606472] (-) TimerEvent: {}
+[2.706741] (-) TimerEvent: {}
+[2.807014] (-) TimerEvent: {}
+[2.907288] (-) TimerEvent: {}
+[3.007570] (-) TimerEvent: {}
+[3.107849] (-) TimerEvent: {}
+[3.208137] (-) TimerEvent: {}
+[3.308408] (-) TimerEvent: {}
+[3.408650] (-) TimerEvent: {}
+[3.508917] (-) TimerEvent: {}
+[3.609184] (-) TimerEvent: {}
+[3.709450] (-) TimerEvent: {}
+[3.809727] (-) TimerEvent: {}
+[3.909993] (-) TimerEvent: {}
+[4.010258] (-) TimerEvent: {}
+[4.110526] (-) TimerEvent: {}
+[4.210798] (-) TimerEvent: {}
+[4.311061] (-) TimerEvent: {}
+[4.411329] (-) TimerEvent: {}
+[4.511589] (-) TimerEvent: {}
+[4.611860] (-) TimerEvent: {}
+[4.712127] (-) TimerEvent: {}
+[4.790495] (zed2cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/akshat/ros2WS/src/zed2cpp/src/pcloa.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid PCLPreprocessingNode::point_cloud_callback(sensor_msgs::msg::PointCloud2_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.790663] (zed2cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/akshat/ros2WS/src/zed2cpp/src/pcloa.cpp:34:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KRandomSample\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kpcl\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.790726] (zed2cpp) StderrLine: {'line': b'   34 |     pcl::\x1b[01;31m\x1b[KRandomSample\x1b[m\x1b[K<pcl::PointXYZ> random_sample;\n'}
+[4.790783] (zed2cpp) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.790837] (zed2cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/akshat/ros2WS/src/zed2cpp/src/pcloa.cpp:34:36:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K>\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[4.790891] (zed2cpp) StderrLine: {'line': b'   34 |     pcl::RandomSample<pcl::PointXYZ\x1b[01;31m\x1b[K>\x1b[m\x1b[K random_sample;\n'}
+[4.790942] (zed2cpp) StderrLine: {'line': b'      |                                    \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[4.802140] (zed2cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/akshat/ros2WS/src/zed2cpp/src/pcloa.cpp:34:38:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Krandom_sample\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krandom_data\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[4.802237] (zed2cpp) StderrLine: {'line': b'   34 |     pcl::RandomSample<pcl::PointXYZ> \x1b[01;31m\x1b[Krandom_sample\x1b[m\x1b[K;\n'}
+[4.802296] (zed2cpp) StderrLine: {'line': b'      |                                      \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.802351] (zed2cpp) StderrLine: {'line': b'      |                                      \x1b[32m\x1b[Krandom_data\x1b[m\x1b[K\n'}
+[4.812231] (-) TimerEvent: {}
+[4.912483] (-) TimerEvent: {}
+[5.012753] (-) TimerEvent: {}
+[5.113023] (-) TimerEvent: {}
+[5.213293] (-) TimerEvent: {}
+[5.313581] (-) TimerEvent: {}
+[5.413846] (-) TimerEvent: {}
+[5.514113] (-) TimerEvent: {}
+[5.614380] (-) TimerEvent: {}
+[5.714649] (-) TimerEvent: {}
+[5.814917] (-) TimerEvent: {}
+[5.915185] (-) TimerEvent: {}
+[6.015458] (-) TimerEvent: {}
+[6.115736] (-) TimerEvent: {}
+[6.216006] (-) TimerEvent: {}
+[6.316282] (-) TimerEvent: {}
+[6.416574] (-) TimerEvent: {}
+[6.516861] (-) TimerEvent: {}
+[6.617150] (-) TimerEvent: {}
+[6.717437] (-) TimerEvent: {}
+[6.817743] (-) TimerEvent: {}
+[6.918040] (-) TimerEvent: {}
+[7.018315] (-) TimerEvent: {}
+[7.118588] (-) TimerEvent: {}
+[7.218857] (-) TimerEvent: {}
+[7.319127] (-) TimerEvent: {}
+[7.419411] (-) TimerEvent: {}
+[7.519691] (-) TimerEvent: {}
+[7.619967] (-) TimerEvent: {}
+[7.665167] (zed2cpp) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/pcloa.dir/build.make:76: CMakeFiles/pcloa.dir/src/pcloa.cpp.o] Error 1\n'}
+[7.665376] (zed2cpp) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/pcloa.dir/all] Error 2\n'}
+[7.665549] (zed2cpp) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[7.667303] (zed2cpp) CommandEnded: {'returncode': 2}
+[7.698008] (zed2cpp) JobEnded: {'identifier': 'zed2cpp', 'rc': 2}
+[7.708424] (-) EventReactorShutdown: {}

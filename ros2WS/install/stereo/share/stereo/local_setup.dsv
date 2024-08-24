@@ -1,0 +1,4 @@
+source;share/stereo/environment/ament_prefix_path.sh
+source;share/stereo/environment/library_path.sh
+source;share/stereo/environment/path.sh
+source;share/stereo/environment/pythonpath.sh

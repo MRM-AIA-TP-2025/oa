@@ -1,0 +1,10 @@
+[ 33%] Built target navdata
+[ 50%] [32mBuilding CXX object CMakeFiles/nav.dir/src/navigation.cpp.o[0m
+[ 83%] Built target pcloa
+[01m[K/home/akshat/ros2WS/src/zed2cpp/src/navigation.cpp:[m[K In member function ‘[01m[Kvoid ObstacleAvoidancePCL::normalNav()[m[K’:
+[01m[K/home/akshat/ros2WS/src/zed2cpp/src/navigation.cpp:125:17:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kif[m[K’
+  125 |                 [01;31m[Kif[m[K (isClockWiseCloser())
+      |                 [01;31m[K^~[m[K
+gmake[2]: *** [CMakeFiles/nav.dir/build.make:76: CMakeFiles/nav.dir/src/navigation.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/nav.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,9 @@
+setup.py
+stereo/__init__.py
+stereo.egg-info/PKG-INFO
+stereo.egg-info/SOURCES.txt
+stereo.egg-info/dependency_links.txt
+stereo.egg-info/top_level.txt
+stereo/msg/__init__.py
+stereo/msg/_tag.py
+stereo/msg/_yolotag.py

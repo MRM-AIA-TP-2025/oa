@@ -1,0 +1,142 @@
+[0.054s] Invoking command in '/home/akshat/ros2WS/build/sensors': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/akshat/ros2WS/install/zed2nodes:/opt/ros/humble /usr/bin/cmake --build /home/akshat/ros2WS/build/sensors -- -j12 -l12
+[0.185s] [  3%] Built target sensors__cpp
+[0.201s] [ 12%] Built target sensors__rosidl_generator_c
+[0.259s] [ 12%] Built target ament_cmake_python_copy_sensors
+[0.294s] [ 22%] Built target sensors__rosidl_typesupport_introspection_c
+[0.303s] [ 32%] Built target sensors__rosidl_typesupport_fastrtps_cpp
+[0.304s] [ 51%] Built target sensors__rosidl_typesupport_cpp
+[0.310s] [ 41%] Built target sensors__rosidl_typesupport_c
+[0.312s] [ 61%] Built target sensors__rosidl_typesupport_fastrtps_c
+[0.315s] [ 70%] Built target sensors__rosidl_typesupport_introspection_cpp
+[0.391s] [ 70%] Built target sensors
+[0.440s] [ 74%] Built target sensors__py
+[0.495s] [ 80%] Built target sensors__rosidl_generator_py
+[0.551s] [ 87%] Built target sensors__rosidl_typesupport_fastrtps_c__pyext
+[0.564s] [ 93%] Built target sensors__rosidl_typesupport_introspection_c__pyext
+[0.571s] [100%] Built target sensors__rosidl_typesupport_c__pyext
+[0.870s] running egg_info
+[0.873s] writing sensors.egg-info/PKG-INFO
+[0.874s] writing dependency_links to sensors.egg-info/dependency_links.txt
+[0.874s] writing top-level names to sensors.egg-info/top_level.txt
+[0.880s] reading manifest file 'sensors.egg-info/SOURCES.txt'
+[0.882s] writing manifest file 'sensors.egg-info/SOURCES.txt'
+[0.986s] [100%] Built target ament_cmake_python_build_sensors_egg
+[1.052s] Invoked command in '/home/akshat/ros2WS/build/sensors' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/akshat/ros2WS/install/zed2nodes:/opt/ros/humble /usr/bin/cmake --build /home/akshat/ros2WS/build/sensors -- -j12 -l12
+[1.152s] Invoking command in '/home/akshat/ros2WS/build/sensors': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/akshat/ros2WS/install/zed2nodes:/opt/ros/humble /usr/bin/cmake --install /home/akshat/ros2WS/build/sensors
+[1.168s] -- Install configuration: ""
+[1.168s] -- Up-to-date: /home/akshat/ros2WS/install/sensors/share/ament_index/resource_index/rosidl_interfaces/sensors
+[1.169s] -- Up-to-date: /home/akshat/ros2WS/install/sensors/include/sensors/sensors
+[1.169s] -- Up-to-date: /home/akshat/ros2WS/install/sensors/include/sensors/sensors/msg
+[1.169s] -- Up-to-date: /home/akshat/ros2WS/install/sensors/include/sensors/sensors/msg/rosidl_generator_c__visibility_control.h
+[1.169s] -- Up-to-date: /home/akshat/ros2WS/install/sensors/include/sensors/sensors/msg/detail
+[1.169s] -- Up-to-date: /home/akshat/ros2WS/install/sensors/include/sensors/sensors/msg/detail/imu_data__struct.h
+[1.170s] -- Up-to-date: /home/akshat/ros2WS/install/sensors/include/sensors/sensors/msg/detail/imu_data__functions.c
+[1.170s] -- Up-to-date: /home/akshat/ros2WS/install/sensors/include/sensors/sensors/msg/detail/imu_data__functions.h
+[1.170s] -- Up-to-date: /home/akshat/ros2WS/install/sensors/include/sensors/sensors/msg/detail/imu_data__type_support.h
+[1.170s] -- Up-to-date: /home/akshat/ros2WS/install/sensors/include/sensors/sensors/msg/imu_data.h
+[1.170s] -- Up-to-date: /home/akshat/ros2WS/install/sensors/share/sensors/environment/library_path.sh
+[1.170s] -- Up-to-date: /home/akshat/ros2WS/install/sensors/share/sensors/environment/library_path.dsv
+[1.170s] -- Up-to-date: /home/akshat/ros2WS/install/sensors/lib/libsensors__rosidl_generator_c.so
+[1.170s] -- Up-to-date: /home/akshat/ros2WS/install/sensors/include/sensors/sensors
+[1.171s] -- Up-to-date: /home/akshat/ros2WS/install/sensors/include/sensors/sensors/msg
+[1.171s] -- Up-to-date: /home/akshat/ros2WS/install/sensors/include/sensors/sensors/msg/detail
+[1.173s] -- Up-to-date: /home/akshat/ros2WS/install/sensors/include/sensors/sensors/msg/detail/imu_data__rosidl_typesupport_fastrtps_c.h
+[1.173s] -- Up-to-date: /home/akshat/ros2WS/install/sensors/include/sensors/sensors/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.173s] -- Up-to-date: /home/akshat/ros2WS/install/sensors/lib/libsensors__rosidl_typesupport_fastrtps_c.so
+[1.173s] -- Up-to-date: /home/akshat/ros2WS/install/sensors/include/sensors/sensors
+[1.174s] -- Up-to-date: /home/akshat/ros2WS/install/sensors/include/sensors/sensors/msg
+[1.174s] -- Up-to-date: /home/akshat/ros2WS/install/sensors/include/sensors/sensors/msg/imu_data.hpp
+[1.174s] -- Up-to-date: /home/akshat/ros2WS/install/sensors/include/sensors/sensors/msg/detail
+[1.174s] -- Up-to-date: /home/akshat/ros2WS/install/sensors/include/sensors/sensors/msg/detail/imu_data__builder.hpp
+[1.174s] -- Up-to-date: /home/akshat/ros2WS/install/sensors/include/sensors/sensors/msg/detail/imu_data__struct.hpp
+[1.174s] -- Up-to-date: /home/akshat/ros2WS/install/sensors/include/sensors/sensors/msg/detail/imu_data__traits.hpp
+[1.174s] -- Up-to-date: /home/akshat/ros2WS/install/sensors/include/sensors/sensors
+[1.174s] -- Up-to-date: /home/akshat/ros2WS/install/sensors/include/sensors/sensors/msg
+[1.174s] -- Up-to-date: /home/akshat/ros2WS/install/sensors/include/sensors/sensors/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.175s] -- Up-to-date: /home/akshat/ros2WS/install/sensors/include/sensors/sensors/msg/detail
+[1.175s] -- Up-to-date: /home/akshat/ros2WS/install/sensors/include/sensors/sensors/msg/detail/dds_fastrtps
+[1.175s] -- Up-to-date: /home/akshat/ros2WS/install/sensors/include/sensors/sensors/msg/detail/imu_data__rosidl_typesupport_fastrtps_cpp.hpp
+[1.175s] -- Up-to-date: /home/akshat/ros2WS/install/sensors/lib/libsensors__rosidl_typesupport_fastrtps_cpp.so
+[1.175s] -- Up-to-date: /home/akshat/ros2WS/install/sensors/include/sensors/sensors
+[1.175s] -- Up-to-date: /home/akshat/ros2WS/install/sensors/include/sensors/sensors/msg
+[1.175s] -- Up-to-date: /home/akshat/ros2WS/install/sensors/include/sensors/sensors/msg/detail
+[1.176s] -- Up-to-date: /home/akshat/ros2WS/install/sensors/include/sensors/sensors/msg/detail/imu_data__type_support.c
+[1.176s] -- Up-to-date: /home/akshat/ros2WS/install/sensors/include/sensors/sensors/msg/detail/imu_data__rosidl_typesupport_introspection_c.h
+[1.176s] -- Up-to-date: /home/akshat/ros2WS/install/sensors/include/sensors/sensors/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.176s] -- Up-to-date: /home/akshat/ros2WS/install/sensors/lib/libsensors__rosidl_typesupport_introspection_c.so
+[1.176s] -- Up-to-date: /home/akshat/ros2WS/install/sensors/lib/libsensors__rosidl_typesupport_c.so
+[1.176s] -- Up-to-date: /home/akshat/ros2WS/install/sensors/include/sensors/sensors
+[1.176s] -- Up-to-date: /home/akshat/ros2WS/install/sensors/include/sensors/sensors/msg
+[1.177s] -- Up-to-date: /home/akshat/ros2WS/install/sensors/include/sensors/sensors/msg/detail
+[1.177s] -- Up-to-date: /home/akshat/ros2WS/install/sensors/include/sensors/sensors/msg/detail/imu_data__type_support.cpp
+[1.177s] -- Up-to-date: /home/akshat/ros2WS/install/sensors/include/sensors/sensors/msg/detail/imu_data__rosidl_typesupport_introspection_cpp.hpp
+[1.177s] -- Up-to-date: /home/akshat/ros2WS/install/sensors/lib/libsensors__rosidl_typesupport_introspection_cpp.so
+[1.177s] -- Up-to-date: /home/akshat/ros2WS/install/sensors/lib/libsensors__rosidl_typesupport_cpp.so
+[1.177s] -- Up-to-date: /home/akshat/ros2WS/install/sensors/share/sensors/environment/pythonpath.sh
+[1.177s] -- Up-to-date: /home/akshat/ros2WS/install/sensors/share/sensors/environment/pythonpath.dsv
+[1.177s] -- Up-to-date: /home/akshat/ros2WS/install/sensors/local/lib/python3.10/dist-packages/sensors-0.0.0-py3.10.egg-info
+[1.178s] -- Installing: /home/akshat/ros2WS/install/sensors/local/lib/python3.10/dist-packages/sensors-0.0.0-py3.10.egg-info/top_level.txt
+[1.178s] -- Installing: /home/akshat/ros2WS/install/sensors/local/lib/python3.10/dist-packages/sensors-0.0.0-py3.10.egg-info/dependency_links.txt
+[1.178s] -- Installing: /home/akshat/ros2WS/install/sensors/local/lib/python3.10/dist-packages/sensors-0.0.0-py3.10.egg-info/PKG-INFO
+[1.178s] -- Installing: /home/akshat/ros2WS/install/sensors/local/lib/python3.10/dist-packages/sensors-0.0.0-py3.10.egg-info/SOURCES.txt
+[1.178s] -- Up-to-date: /home/akshat/ros2WS/install/sensors/local/lib/python3.10/dist-packages/sensors
+[1.178s] -- Up-to-date: /home/akshat/ros2WS/install/sensors/local/lib/python3.10/dist-packages/sensors/sensors_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.178s] -- Up-to-date: /home/akshat/ros2WS/install/sensors/local/lib/python3.10/dist-packages/sensors/sensors_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.179s] -- Up-to-date: /home/akshat/ros2WS/install/sensors/local/lib/python3.10/dist-packages/sensors/_sensors_s.ep.rosidl_typesupport_c.c
+[1.179s] -- Up-to-date: /home/akshat/ros2WS/install/sensors/local/lib/python3.10/dist-packages/sensors/libsensors__rosidl_generator_py.so
+[1.179s] -- Up-to-date: /home/akshat/ros2WS/install/sensors/local/lib/python3.10/dist-packages/sensors/msg
+[1.179s] -- Up-to-date: /home/akshat/ros2WS/install/sensors/local/lib/python3.10/dist-packages/sensors/msg/_imu_data_s.c
+[1.179s] -- Up-to-date: /home/akshat/ros2WS/install/sensors/local/lib/python3.10/dist-packages/sensors/msg/_imu_data.py
+[1.179s] -- Up-to-date: /home/akshat/ros2WS/install/sensors/local/lib/python3.10/dist-packages/sensors/msg/__init__.py
+[1.179s] -- Up-to-date: /home/akshat/ros2WS/install/sensors/local/lib/python3.10/dist-packages/sensors/_sensors_s.ep.rosidl_typesupport_introspection_c.c
+[1.180s] -- Up-to-date: /home/akshat/ros2WS/install/sensors/local/lib/python3.10/dist-packages/sensors/sensors_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.180s] -- Up-to-date: /home/akshat/ros2WS/install/sensors/local/lib/python3.10/dist-packages/sensors/__init__.py
+[1.180s] -- Up-to-date: /home/akshat/ros2WS/install/sensors/local/lib/python3.10/dist-packages/sensors/_sensors_s.ep.rosidl_typesupport_fastrtps_c.c
+[1.278s] Listing '/home/akshat/ros2WS/install/sensors/local/lib/python3.10/dist-packages/sensors'...
+[1.278s] Listing '/home/akshat/ros2WS/install/sensors/local/lib/python3.10/dist-packages/sensors/msg'...
+[1.281s] -- Up-to-date: /home/akshat/ros2WS/install/sensors/local/lib/python3.10/dist-packages/sensors/sensors_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.282s] -- Up-to-date: /home/akshat/ros2WS/install/sensors/local/lib/python3.10/dist-packages/sensors/sensors_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.282s] -- Up-to-date: /home/akshat/ros2WS/install/sensors/local/lib/python3.10/dist-packages/sensors/sensors_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.283s] -- Up-to-date: /home/akshat/ros2WS/install/sensors/lib/libsensors__rosidl_generator_py.so
+[1.284s] -- Up-to-date: /home/akshat/ros2WS/install/sensors/share/sensors/msg/ImuData.idl
+[1.284s] -- Up-to-date: /home/akshat/ros2WS/install/sensors/share/sensors/msg/ImuData.msg
+[1.284s] -- Up-to-date: /home/akshat/ros2WS/install/sensors/share/ament_index/resource_index/package_run_dependencies/sensors
+[1.284s] -- Up-to-date: /home/akshat/ros2WS/install/sensors/share/ament_index/resource_index/parent_prefix_path/sensors
+[1.284s] -- Up-to-date: /home/akshat/ros2WS/install/sensors/share/sensors/environment/ament_prefix_path.sh
+[1.284s] -- Up-to-date: /home/akshat/ros2WS/install/sensors/share/sensors/environment/ament_prefix_path.dsv
+[1.285s] -- Up-to-date: /home/akshat/ros2WS/install/sensors/share/sensors/environment/path.sh
+[1.285s] -- Up-to-date: /home/akshat/ros2WS/install/sensors/share/sensors/environment/path.dsv
+[1.286s] -- Up-to-date: /home/akshat/ros2WS/install/sensors/share/sensors/local_setup.bash
+[1.286s] -- Up-to-date: /home/akshat/ros2WS/install/sensors/share/sensors/local_setup.sh
+[1.286s] -- Up-to-date: /home/akshat/ros2WS/install/sensors/share/sensors/local_setup.zsh
+[1.287s] -- Up-to-date: /home/akshat/ros2WS/install/sensors/share/sensors/local_setup.dsv
+[1.287s] -- Installing: /home/akshat/ros2WS/install/sensors/share/sensors/package.dsv
+[1.287s] -- Up-to-date: /home/akshat/ros2WS/install/sensors/share/ament_index/resource_index/packages/sensors
+[1.287s] -- Up-to-date: /home/akshat/ros2WS/install/sensors/share/sensors/cmake/export_sensors__rosidl_generator_cExport.cmake
+[1.287s] -- Up-to-date: /home/akshat/ros2WS/install/sensors/share/sensors/cmake/export_sensors__rosidl_generator_cExport-noconfig.cmake
+[1.288s] -- Up-to-date: /home/akshat/ros2WS/install/sensors/share/sensors/cmake/export_sensors__rosidl_typesupport_fastrtps_cExport.cmake
+[1.288s] -- Up-to-date: /home/akshat/ros2WS/install/sensors/share/sensors/cmake/export_sensors__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[1.288s] -- Up-to-date: /home/akshat/ros2WS/install/sensors/share/sensors/cmake/export_sensors__rosidl_generator_cppExport.cmake
+[1.288s] -- Up-to-date: /home/akshat/ros2WS/install/sensors/share/sensors/cmake/export_sensors__rosidl_typesupport_fastrtps_cppExport.cmake
+[1.288s] -- Up-to-date: /home/akshat/ros2WS/install/sensors/share/sensors/cmake/export_sensors__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[1.289s] -- Up-to-date: /home/akshat/ros2WS/install/sensors/share/sensors/cmake/sensors__rosidl_typesupport_introspection_cExport.cmake
+[1.289s] -- Up-to-date: /home/akshat/ros2WS/install/sensors/share/sensors/cmake/sensors__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[1.289s] -- Up-to-date: /home/akshat/ros2WS/install/sensors/share/sensors/cmake/sensors__rosidl_typesupport_cExport.cmake
+[1.289s] -- Up-to-date: /home/akshat/ros2WS/install/sensors/share/sensors/cmake/sensors__rosidl_typesupport_cExport-noconfig.cmake
+[1.289s] -- Up-to-date: /home/akshat/ros2WS/install/sensors/share/sensors/cmake/sensors__rosidl_typesupport_introspection_cppExport.cmake
+[1.289s] -- Up-to-date: /home/akshat/ros2WS/install/sensors/share/sensors/cmake/sensors__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[1.290s] -- Up-to-date: /home/akshat/ros2WS/install/sensors/share/sensors/cmake/sensors__rosidl_typesupport_cppExport.cmake
+[1.290s] -- Up-to-date: /home/akshat/ros2WS/install/sensors/share/sensors/cmake/sensors__rosidl_typesupport_cppExport-noconfig.cmake
+[1.290s] -- Up-to-date: /home/akshat/ros2WS/install/sensors/share/sensors/cmake/export_sensors__rosidl_generator_pyExport.cmake
+[1.290s] -- Up-to-date: /home/akshat/ros2WS/install/sensors/share/sensors/cmake/export_sensors__rosidl_generator_pyExport-noconfig.cmake
+[1.290s] -- Up-to-date: /home/akshat/ros2WS/install/sensors/share/sensors/cmake/rosidl_cmake-extras.cmake
+[1.291s] -- Up-to-date: /home/akshat/ros2WS/install/sensors/share/sensors/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.291s] -- Up-to-date: /home/akshat/ros2WS/install/sensors/share/sensors/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.291s] -- Up-to-date: /home/akshat/ros2WS/install/sensors/share/sensors/cmake/ament_cmake_export_libraries-extras.cmake
+[1.291s] -- Up-to-date: /home/akshat/ros2WS/install/sensors/share/sensors/cmake/ament_cmake_export_targets-extras.cmake
+[1.291s] -- Up-to-date: /home/akshat/ros2WS/install/sensors/share/sensors/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.291s] -- Up-to-date: /home/akshat/ros2WS/install/sensors/share/sensors/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.292s] -- Up-to-date: /home/akshat/ros2WS/install/sensors/share/sensors/cmake/sensorsConfig.cmake
+[1.292s] -- Up-to-date: /home/akshat/ros2WS/install/sensors/share/sensors/cmake/sensorsConfig-version.cmake
+[1.292s] -- Up-to-date: /home/akshat/ros2WS/install/sensors/share/sensors/package.xml
+[1.294s] Invoked command in '/home/akshat/ros2WS/build/sensors' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/akshat/ros2WS/install/zed2nodes:/opt/ros/humble /usr/bin/cmake --install /home/akshat/ros2WS/build/sensors

@@ -1,0 +1,14 @@
+[01m[K/home/akshat/ros2WS/src/zed2cpp/src/navigation.cpp:[m[K In member function ‘[01m[Kvoid ObstacleAvoidancePCL::normalNav()[m[K’:
+[01m[K/home/akshat/ros2WS/src/zed2cpp/src/navigation.cpp:99:41:[m[K [01;35m[Kwarning: [m[Ksuggest parentheses around ‘[01m[K&&[m[K’ within ‘[01m[K||[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wparentheses-Wparentheses]8;;[m[K]
+   99 |             if ([01;35m[Kangular_difference_ < 5 && angular_difference_ > -5[m[K || angular_difference_>355 && angular_difference_<365 || angular_difference_<-355 && angular_difference_>-365 )
+      |                 [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/akshat/ros2WS/src/zed2cpp/src/navigation.cpp:99:151:[m[K [01;35m[Kwarning: [m[Ksuggest parentheses around ‘[01m[K&&[m[K’ within ‘[01m[K||[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wparentheses-Wparentheses]8;;[m[K]
+   99 |             if (angular_difference_ < 5 && angular_difference_ > -5 || angular_difference_>355 && angular_difference_<365 || [01;35m[Kangular_difference_<-355 && angular_difference_>-365[m[K )
+      |                                                                                                                              [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/akshat/ros2WS/src/zed2cpp/src/navigation.cpp:[m[K In member function ‘[01m[Kvoid ObstacleAvoidancePCL::timerCallback()[m[K’:
+[01m[K/home/akshat/ros2WS/src/zed2cpp/src/navigation.cpp:167:13:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kupdate[m[K’
+  167 |             [01;31m[Kupdate[m[K();
+      |             [01;31m[K^~~~~~[m[K
+gmake[2]: *** [CMakeFiles/nav.dir/build.make:76: CMakeFiles/nav.dir/src/navigation.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/nav.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

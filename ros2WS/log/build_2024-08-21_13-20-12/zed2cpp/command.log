@@ -1,0 +1,3 @@
+Invoking command in '/home/akshat/ros2WS/build/zed2cpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/akshat/ros2WS/src/zed2cpp -DCMAKE_INSTALL_PREFIX=/home/akshat/ros2WS/install/zed2cpp
+Invoked command in '/home/akshat/ros2WS/build/zed2cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/akshat/ros2WS/src/zed2cpp -DCMAKE_INSTALL_PREFIX=/home/akshat/ros2WS/install/zed2cpp
+Invoking command in '/home/akshat/ros2WS/build/zed2cpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/akshat/ros2WS/build/zed2cpp -- -j12 -l12

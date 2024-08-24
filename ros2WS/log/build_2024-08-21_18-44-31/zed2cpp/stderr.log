@@ -1,0 +1,8 @@
+[01m[K/home/akshat/ros2WS/src/zed2cpp/src/pcloa.cpp:[m[K In member function ‘[01m[Kvoid PCLPreprocessingNode::point_cloud_callback(sensor_msgs::msg::PointCloud2_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/akshat/ros2WS/src/zed2cpp/src/pcloa.cpp:49:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kpcl_cloud[m[K’ was not declared in this scope; did you mean ‘[01m[Kpcl_round[m[K’?
+   49 |     ne.setInputCloud([01;31m[Kpcl_cloud[m[K);
+      |                      [01;31m[K^~~~~~~~~[m[K
+      |                      [32m[Kpcl_round[m[K
+gmake[2]: *** [CMakeFiles/pcloa.dir/build.make:76: CMakeFiles/pcloa.dir/src/pcloa.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/pcloa.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

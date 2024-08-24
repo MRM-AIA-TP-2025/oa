@@ -1,0 +1,319 @@
+[0.000000] (-) TimerEvent: {}
+[0.000330] (-) JobUnselected: {'identifier': 'planner'}
+[0.000361] (-) JobUnselected: {'identifier': 'robot'}
+[0.000382] (-) JobUnselected: {'identifier': 'sensors'}
+[0.000399] (-) JobUnselected: {'identifier': 'stereo'}
+[0.000416] (-) JobUnselected: {'identifier': 'zed2nodes'}
+[0.000432] (-) JobUnselected: {'identifier': 'zed_components'}
+[0.000448] (-) JobUnselected: {'identifier': 'zed_interfaces'}
+[0.000464] (-) JobUnselected: {'identifier': 'zed_ros2'}
+[0.000480] (-) JobUnselected: {'identifier': 'zed_wrapper'}
+[0.000499] (zed2cpp) JobQueued: {'identifier': 'zed2cpp', 'dependencies': OrderedDict()}
+[0.000519] (zed2cpp) JobStarted: {'identifier': 'zed2cpp'}
+[0.018391] (zed2cpp) JobProgress: {'identifier': 'zed2cpp', 'progress': 'cmake'}
+[0.020468] (zed2cpp) JobProgress: {'identifier': 'zed2cpp', 'progress': 'build'}
+[0.021722] (zed2cpp) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/akshat/ros2WS/build/zed2cpp', '--', '-j12', '-l12'], 'cwd': '/home/akshat/ros2WS/build/zed2cpp', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'akshat'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/akshat/ros2WS/install/zed_components/lib:/home/akshat/ros2WS/install/zed_interfaces/lib:/home/akshat/ros2WS/install/stereo/lib:/home/akshat/ros2WS/install/sensors/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-11.8/lib64'), ('HOME', '/home/akshat'), ('OLDPWD', '/home/akshat/ros2WS/src/zed2cpp'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2392'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/akshat/ros2WS/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'akshat'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'akshat'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/cuda-11.8/bin:/home/akshat/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/akshat-G3-3500:@/tmp/.ICE-unix/2108,unix/akshat-G3-3500:/tmp/.ICE-unix/2108'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/15e834ba_4bbe_4493_80f4_2481ba5287dc'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.91'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/akshat/ros2WS/install/zed_ros2:/home/akshat/ros2WS/install/zed_wrapper:/home/akshat/ros2WS/install/zed_components:/home/akshat/ros2WS/install/zed_interfaces:/home/akshat/ros2WS/install/zed2nodes:/home/akshat/ros2WS/install/zed2cpp:/home/akshat/ros2WS/install/planner:/home/akshat/ros2WS/install/stereo:/home/akshat/ros2WS/install/sensors:/home/akshat/ros2WS/install/robot:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/akshat/ros2WS/build/zed2cpp'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/akshat/ros2WS/install/zed_interfaces/local/lib/python3.10/dist-packages:/home/akshat/ros2WS/install/zed2nodes/lib/python3.10/site-packages:/home/akshat/ros2WS/install/stereo/local/lib/python3.10/dist-packages:/home/akshat/ros2WS/install/sensors/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/akshat/ros2WS/install/zed_ros2:/home/akshat/ros2WS/install/zed_wrapper:/home/akshat/ros2WS/install/zed_components:/home/akshat/ros2WS/install/zed_interfaces:/home/akshat/ros2WS/install/zed2cpp:/home/akshat/ros2WS/install/planner:/home/akshat/ros2WS/install/stereo:/home/akshat/ros2WS/install/sensors:/home/akshat/ros2WS/install/robot:/home/akshat/ros2WS/install/zed2nodes:/opt/ros/humble')]), 'shell': False}
+[0.099650] (-) TimerEvent: {}
+[0.111540] (zed2cpp) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target pcloa\x1b[0m\n'}
+[0.146545] (zed2cpp) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/pcloa.dir/src/pcloa.cpp.o\x1b[0m\n'}
+[0.200218] (-) TimerEvent: {}
+[0.301685] (-) TimerEvent: {}
+[0.403839] (-) TimerEvent: {}
+[0.504626] (-) TimerEvent: {}
+[0.605377] (-) TimerEvent: {}
+[0.706055] (-) TimerEvent: {}
+[0.807115] (-) TimerEvent: {}
+[0.908372] (-) TimerEvent: {}
+[1.008674] (-) TimerEvent: {}
+[1.109347] (-) TimerEvent: {}
+[1.210287] (-) TimerEvent: {}
+[1.311180] (-) TimerEvent: {}
+[1.412092] (-) TimerEvent: {}
+[1.512519] (-) TimerEvent: {}
+[1.613261] (-) TimerEvent: {}
+[1.714186] (-) TimerEvent: {}
+[1.815425] (-) TimerEvent: {}
+[1.915978] (-) TimerEvent: {}
+[2.016588] (-) TimerEvent: {}
+[2.118003] (-) TimerEvent: {}
+[2.218990] (-) TimerEvent: {}
+[2.320002] (-) TimerEvent: {}
+[2.420285] (-) TimerEvent: {}
+[2.520650] (-) TimerEvent: {}
+[2.621293] (-) TimerEvent: {}
+[2.721733] (-) TimerEvent: {}
+[2.822185] (-) TimerEvent: {}
+[2.923070] (-) TimerEvent: {}
+[3.023995] (-) TimerEvent: {}
+[3.124800] (-) TimerEvent: {}
+[3.225124] (-) TimerEvent: {}
+[3.325658] (-) TimerEvent: {}
+[3.426400] (-) TimerEvent: {}
+[3.526816] (-) TimerEvent: {}
+[3.627334] (-) TimerEvent: {}
+[3.728307] (-) TimerEvent: {}
+[3.829642] (-) TimerEvent: {}
+[3.930364] (-) TimerEvent: {}
+[4.031326] (-) TimerEvent: {}
+[4.133842] (-) TimerEvent: {}
+[4.235447] (-) TimerEvent: {}
+[4.335952] (-) TimerEvent: {}
+[4.436711] (-) TimerEvent: {}
+[4.536975] (-) TimerEvent: {}
+[4.637221] (-) TimerEvent: {}
+[4.737546] (-) TimerEvent: {}
+[4.838113] (-) TimerEvent: {}
+[4.939024] (-) TimerEvent: {}
+[5.039670] (-) TimerEvent: {}
+[5.139946] (-) TimerEvent: {}
+[5.240368] (-) TimerEvent: {}
+[5.341182] (-) TimerEvent: {}
+[5.442584] (-) TimerEvent: {}
+[5.544141] (-) TimerEvent: {}
+[5.645050] (-) TimerEvent: {}
+[5.745317] (-) TimerEvent: {}
+[5.845917] (-) TimerEvent: {}
+[5.947092] (-) TimerEvent: {}
+[6.048400] (-) TimerEvent: {}
+[6.149449] (-) TimerEvent: {}
+[6.250621] (-) TimerEvent: {}
+[6.351704] (-) TimerEvent: {}
+[6.452402] (-) TimerEvent: {}
+[6.553501] (-) TimerEvent: {}
+[6.654010] (-) TimerEvent: {}
+[6.754948] (-) TimerEvent: {}
+[6.855255] (-) TimerEvent: {}
+[6.955613] (-) TimerEvent: {}
+[7.056141] (-) TimerEvent: {}
+[7.156953] (-) TimerEvent: {}
+[7.258206] (-) TimerEvent: {}
+[7.358759] (-) TimerEvent: {}
+[7.459945] (-) TimerEvent: {}
+[7.560242] (-) TimerEvent: {}
+[7.660494] (-) TimerEvent: {}
+[7.760866] (-) TimerEvent: {}
+[7.861263] (-) TimerEvent: {}
+[7.962013] (-) TimerEvent: {}
+[8.063409] (-) TimerEvent: {}
+[8.164142] (-) TimerEvent: {}
+[8.265320] (-) TimerEvent: {}
+[8.366829] (-) TimerEvent: {}
+[8.467135] (-) TimerEvent: {}
+[8.567446] (-) TimerEvent: {}
+[8.668303] (-) TimerEvent: {}
+[8.769687] (-) TimerEvent: {}
+[8.870226] (-) TimerEvent: {}
+[8.971494] (-) TimerEvent: {}
+[9.072143] (-) TimerEvent: {}
+[9.172811] (-) TimerEvent: {}
+[9.274277] (-) TimerEvent: {}
+[9.374813] (-) TimerEvent: {}
+[9.476172] (-) TimerEvent: {}
+[9.576797] (-) TimerEvent: {}
+[9.677145] (-) TimerEvent: {}
+[9.777515] (-) TimerEvent: {}
+[9.878188] (-) TimerEvent: {}
+[9.979162] (-) TimerEvent: {}
+[10.080321] (-) TimerEvent: {}
+[10.180739] (-) TimerEvent: {}
+[10.281569] (-) TimerEvent: {}
+[10.382456] (-) TimerEvent: {}
+[10.482790] (-) TimerEvent: {}
+[10.583341] (-) TimerEvent: {}
+[10.684132] (-) TimerEvent: {}
+[10.784761] (-) TimerEvent: {}
+[10.885726] (-) TimerEvent: {}
+[10.986430] (-) TimerEvent: {}
+[11.086681] (-) TimerEvent: {}
+[11.187085] (-) TimerEvent: {}
+[11.287951] (-) TimerEvent: {}
+[11.388722] (-) TimerEvent: {}
+[11.489318] (-) TimerEvent: {}
+[11.590528] (-) TimerEvent: {}
+[11.691320] (-) TimerEvent: {}
+[11.791944] (-) TimerEvent: {}
+[11.893193] (-) TimerEvent: {}
+[11.993684] (-) TimerEvent: {}
+[12.094152] (-) TimerEvent: {}
+[12.194609] (-) TimerEvent: {}
+[12.295282] (-) TimerEvent: {}
+[12.396249] (-) TimerEvent: {}
+[12.496697] (-) TimerEvent: {}
+[12.597372] (-) TimerEvent: {}
+[12.697895] (-) TimerEvent: {}
+[12.798364] (-) TimerEvent: {}
+[12.898708] (-) TimerEvent: {}
+[12.999037] (-) TimerEvent: {}
+[13.099402] (-) TimerEvent: {}
+[13.200835] (-) TimerEvent: {}
+[13.302662] (-) TimerEvent: {}
+[13.403198] (-) TimerEvent: {}
+[13.504591] (-) TimerEvent: {}
+[13.605556] (-) TimerEvent: {}
+[13.706766] (-) TimerEvent: {}
+[13.807313] (-) TimerEvent: {}
+[13.907709] (-) TimerEvent: {}
+[14.008340] (-) TimerEvent: {}
+[14.110097] (-) TimerEvent: {}
+[14.211155] (-) TimerEvent: {}
+[14.312026] (-) TimerEvent: {}
+[14.412355] (-) TimerEvent: {}
+[14.512840] (-) TimerEvent: {}
+[14.613246] (-) TimerEvent: {}
+[14.713587] (-) TimerEvent: {}
+[14.814130] (-) TimerEvent: {}
+[14.914805] (-) TimerEvent: {}
+[15.015494] (-) TimerEvent: {}
+[15.116061] (-) TimerEvent: {}
+[15.216703] (-) TimerEvent: {}
+[15.318130] (-) TimerEvent: {}
+[15.419352] (-) TimerEvent: {}
+[15.519906] (-) TimerEvent: {}
+[15.620578] (-) TimerEvent: {}
+[15.722920] (-) TimerEvent: {}
+[15.823515] (-) TimerEvent: {}
+[15.924183] (-) TimerEvent: {}
+[16.024647] (-) TimerEvent: {}
+[16.125361] (-) TimerEvent: {}
+[16.225970] (-) TimerEvent: {}
+[16.326264] (-) TimerEvent: {}
+[16.426589] (-) TimerEvent: {}
+[16.527470] (-) TimerEvent: {}
+[16.628022] (-) TimerEvent: {}
+[16.728964] (-) TimerEvent: {}
+[16.829265] (-) TimerEvent: {}
+[16.930024] (-) TimerEvent: {}
+[17.031483] (-) TimerEvent: {}
+[17.131784] (-) TimerEvent: {}
+[17.232396] (-) TimerEvent: {}
+[17.333503] (-) TimerEvent: {}
+[17.435186] (-) TimerEvent: {}
+[17.535715] (-) TimerEvent: {}
+[17.636501] (-) TimerEvent: {}
+[17.736963] (-) TimerEvent: {}
+[17.838785] (-) TimerEvent: {}
+[17.940542] (-) TimerEvent: {}
+[18.042134] (-) TimerEvent: {}
+[18.142574] (-) TimerEvent: {}
+[18.243116] (-) TimerEvent: {}
+[18.344079] (-) TimerEvent: {}
+[18.445030] (-) TimerEvent: {}
+[18.545407] (-) TimerEvent: {}
+[18.645678] (-) TimerEvent: {}
+[18.746188] (-) TimerEvent: {}
+[18.847826] (-) TimerEvent: {}
+[18.949132] (-) TimerEvent: {}
+[19.049778] (-) TimerEvent: {}
+[19.150165] (-) TimerEvent: {}
+[19.250791] (-) TimerEvent: {}
+[19.351604] (-) TimerEvent: {}
+[19.453777] (-) TimerEvent: {}
+[19.554877] (-) TimerEvent: {}
+[19.655238] (-) TimerEvent: {}
+[19.756168] (-) TimerEvent: {}
+[19.857130] (-) TimerEvent: {}
+[19.957813] (-) TimerEvent: {}
+[20.059104] (-) TimerEvent: {}
+[20.159949] (-) TimerEvent: {}
+[20.260325] (-) TimerEvent: {}
+[20.360681] (-) TimerEvent: {}
+[20.461393] (-) TimerEvent: {}
+[20.563101] (-) TimerEvent: {}
+[20.663507] (-) TimerEvent: {}
+[20.763948] (-) TimerEvent: {}
+[20.864614] (-) TimerEvent: {}
+[20.965317] (-) TimerEvent: {}
+[21.065571] (-) TimerEvent: {}
+[21.166144] (-) TimerEvent: {}
+[21.266972] (-) TimerEvent: {}
+[21.367604] (-) TimerEvent: {}
+[21.468570] (-) TimerEvent: {}
+[21.569977] (-) TimerEvent: {}
+[21.670616] (-) TimerEvent: {}
+[21.770891] (-) TimerEvent: {}
+[21.871547] (-) TimerEvent: {}
+[21.973784] (-) TimerEvent: {}
+[22.074693] (-) TimerEvent: {}
+[22.175619] (-) TimerEvent: {}
+[22.276435] (-) TimerEvent: {}
+[22.377056] (-) TimerEvent: {}
+[22.478587] (-) TimerEvent: {}
+[22.581377] (-) TimerEvent: {}
+[22.681657] (-) TimerEvent: {}
+[22.781901] (-) TimerEvent: {}
+[22.882728] (-) TimerEvent: {}
+[22.983790] (-) TimerEvent: {}
+[23.084456] (-) TimerEvent: {}
+[23.185959] (-) TimerEvent: {}
+[23.286768] (-) TimerEvent: {}
+[23.388256] (-) TimerEvent: {}
+[23.489481] (-) TimerEvent: {}
+[23.590223] (-) TimerEvent: {}
+[23.691984] (-) TimerEvent: {}
+[23.793193] (-) TimerEvent: {}
+[23.894334] (-) TimerEvent: {}
+[23.994951] (-) TimerEvent: {}
+[24.095949] (-) TimerEvent: {}
+[24.198283] (-) TimerEvent: {}
+[24.299655] (-) TimerEvent: {}
+[24.400020] (-) TimerEvent: {}
+[24.500791] (-) TimerEvent: {}
+[24.602394] (-) TimerEvent: {}
+[24.649782] (zed2cpp) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable pcloa\x1b[0m\n'}
+[24.702577] (-) TimerEvent: {}
+[24.802844] (-) TimerEvent: {}
+[24.903663] (-) TimerEvent: {}
+[25.005669] (-) TimerEvent: {}
+[25.106556] (-) TimerEvent: {}
+[25.207176] (-) TimerEvent: {}
+[25.308422] (-) TimerEvent: {}
+[25.409352] (-) TimerEvent: {}
+[25.510103] (-) TimerEvent: {}
+[25.611738] (-) TimerEvent: {}
+[25.713160] (-) TimerEvent: {}
+[25.814462] (-) TimerEvent: {}
+[25.916081] (-) TimerEvent: {}
+[26.016677] (-) TimerEvent: {}
+[26.117250] (-) TimerEvent: {}
+[26.218169] (-) TimerEvent: {}
+[26.318693] (-) TimerEvent: {}
+[26.419167] (-) TimerEvent: {}
+[26.519728] (-) TimerEvent: {}
+[26.620047] (-) TimerEvent: {}
+[26.720467] (-) TimerEvent: {}
+[26.820795] (-) TimerEvent: {}
+[26.921164] (-) TimerEvent: {}
+[27.021654] (-) TimerEvent: {}
+[27.122513] (-) TimerEvent: {}
+[27.222810] (-) TimerEvent: {}
+[27.323173] (-) TimerEvent: {}
+[27.423471] (-) TimerEvent: {}
+[27.523877] (-) TimerEvent: {}
+[27.624212] (-) TimerEvent: {}
+[27.690518] (zed2cpp) StdoutLine: {'line': b'[100%] Built target pcloa\n'}
+[27.707344] (zed2cpp) CommandEnded: {'returncode': 0}
+[27.724615] (-) TimerEvent: {}
+[27.758688] (zed2cpp) JobProgress: {'identifier': 'zed2cpp', 'progress': 'install'}
+[27.776470] (zed2cpp) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/akshat/ros2WS/build/zed2cpp'], 'cwd': '/home/akshat/ros2WS/build/zed2cpp', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'akshat'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/akshat/ros2WS/install/zed_components/lib:/home/akshat/ros2WS/install/zed_interfaces/lib:/home/akshat/ros2WS/install/stereo/lib:/home/akshat/ros2WS/install/sensors/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-11.8/lib64'), ('HOME', '/home/akshat'), ('OLDPWD', '/home/akshat/ros2WS/src/zed2cpp'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2392'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/akshat/ros2WS/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'akshat'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'akshat'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/cuda-11.8/bin:/home/akshat/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/akshat-G3-3500:@/tmp/.ICE-unix/2108,unix/akshat-G3-3500:/tmp/.ICE-unix/2108'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/15e834ba_4bbe_4493_80f4_2481ba5287dc'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.91'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/akshat/ros2WS/install/zed_ros2:/home/akshat/ros2WS/install/zed_wrapper:/home/akshat/ros2WS/install/zed_components:/home/akshat/ros2WS/install/zed_interfaces:/home/akshat/ros2WS/install/zed2nodes:/home/akshat/ros2WS/install/zed2cpp:/home/akshat/ros2WS/install/planner:/home/akshat/ros2WS/install/stereo:/home/akshat/ros2WS/install/sensors:/home/akshat/ros2WS/install/robot:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/akshat/ros2WS/build/zed2cpp'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/akshat/ros2WS/install/zed_interfaces/local/lib/python3.10/dist-packages:/home/akshat/ros2WS/install/zed2nodes/lib/python3.10/site-packages:/home/akshat/ros2WS/install/stereo/local/lib/python3.10/dist-packages:/home/akshat/ros2WS/install/sensors/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/akshat/ros2WS/install/zed_ros2:/home/akshat/ros2WS/install/zed_wrapper:/home/akshat/ros2WS/install/zed_components:/home/akshat/ros2WS/install/zed_interfaces:/home/akshat/ros2WS/install/zed2cpp:/home/akshat/ros2WS/install/planner:/home/akshat/ros2WS/install/stereo:/home/akshat/ros2WS/install/sensors:/home/akshat/ros2WS/install/robot:/home/akshat/ros2WS/install/zed2nodes:/opt/ros/humble')]), 'shell': False}
+[27.785287] (zed2cpp) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[27.785524] (zed2cpp) StdoutLine: {'line': b'-- Installing: /home/akshat/ros2WS/install/zed2cpp/lib/zed2cpp/pcloa\n'}
+[27.793002] (zed2cpp) StdoutLine: {'line': b'-- Set runtime path of "/home/akshat/ros2WS/install/zed2cpp/lib/zed2cpp/pcloa" to ""\n'}
+[27.793302] (zed2cpp) StdoutLine: {'line': b'-- Up-to-date: /home/akshat/ros2WS/install/zed2cpp/share/ament_index/resource_index/package_run_dependencies/zed2cpp\n'}
+[27.793467] (zed2cpp) StdoutLine: {'line': b'-- Up-to-date: /home/akshat/ros2WS/install/zed2cpp/share/ament_index/resource_index/parent_prefix_path/zed2cpp\n'}
+[27.793616] (zed2cpp) StdoutLine: {'line': b'-- Up-to-date: /home/akshat/ros2WS/install/zed2cpp/share/zed2cpp/environment/ament_prefix_path.sh\n'}
+[27.793742] (zed2cpp) StdoutLine: {'line': b'-- Up-to-date: /home/akshat/ros2WS/install/zed2cpp/share/zed2cpp/environment/ament_prefix_path.dsv\n'}
+[27.793833] (zed2cpp) StdoutLine: {'line': b'-- Up-to-date: /home/akshat/ros2WS/install/zed2cpp/share/zed2cpp/environment/path.sh\n'}
+[27.793940] (zed2cpp) StdoutLine: {'line': b'-- Up-to-date: /home/akshat/ros2WS/install/zed2cpp/share/zed2cpp/environment/path.dsv\n'}
+[27.794011] (zed2cpp) StdoutLine: {'line': b'-- Up-to-date: /home/akshat/ros2WS/install/zed2cpp/share/zed2cpp/local_setup.bash\n'}
+[27.794078] (zed2cpp) StdoutLine: {'line': b'-- Up-to-date: /home/akshat/ros2WS/install/zed2cpp/share/zed2cpp/local_setup.sh\n'}
+[27.794145] (zed2cpp) StdoutLine: {'line': b'-- Up-to-date: /home/akshat/ros2WS/install/zed2cpp/share/zed2cpp/local_setup.zsh\n'}
+[27.794211] (zed2cpp) StdoutLine: {'line': b'-- Up-to-date: /home/akshat/ros2WS/install/zed2cpp/share/zed2cpp/local_setup.dsv\n'}
+[27.794277] (zed2cpp) StdoutLine: {'line': b'-- Installing: /home/akshat/ros2WS/install/zed2cpp/share/zed2cpp/package.dsv\n'}
+[27.794359] (zed2cpp) StdoutLine: {'line': b'-- Up-to-date: /home/akshat/ros2WS/install/zed2cpp/share/ament_index/resource_index/packages/zed2cpp\n'}
+[27.794423] (zed2cpp) StdoutLine: {'line': b'-- Up-to-date: /home/akshat/ros2WS/install/zed2cpp/share/zed2cpp/cmake/zed2cppConfig.cmake\n'}
+[27.794487] (zed2cpp) StdoutLine: {'line': b'-- Up-to-date: /home/akshat/ros2WS/install/zed2cpp/share/zed2cpp/cmake/zed2cppConfig-version.cmake\n'}
+[27.794580] (zed2cpp) StdoutLine: {'line': b'-- Up-to-date: /home/akshat/ros2WS/install/zed2cpp/share/zed2cpp/package.xml\n'}
+[27.796004] (zed2cpp) CommandEnded: {'returncode': 0}
+[27.824679] (-) TimerEvent: {}
+[27.844615] (zed2cpp) JobEnded: {'identifier': 'zed2cpp', 'rc': 0}
+[27.845206] (-) EventReactorShutdown: {}

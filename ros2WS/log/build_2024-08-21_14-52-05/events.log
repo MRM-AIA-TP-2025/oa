@@ -1,0 +1,240 @@
+[0.000000] (-) TimerEvent: {}
+[0.000470] (-) JobUnselected: {'identifier': 'planner'}
+[0.000838] (-) JobUnselected: {'identifier': 'robot'}
+[0.000866] (-) JobUnselected: {'identifier': 'sensors'}
+[0.000889] (-) JobUnselected: {'identifier': 'stereo'}
+[0.000909] (-) JobUnselected: {'identifier': 'zed2nodes'}
+[0.000938] (-) JobUnselected: {'identifier': 'zed_components'}
+[0.000965] (-) JobUnselected: {'identifier': 'zed_interfaces'}
+[0.000991] (-) JobUnselected: {'identifier': 'zed_ros2'}
+[0.001016] (-) JobUnselected: {'identifier': 'zed_wrapper'}
+[0.001068] (zed2cpp) JobQueued: {'identifier': 'zed2cpp', 'dependencies': OrderedDict()}
+[0.001501] (zed2cpp) JobStarted: {'identifier': 'zed2cpp'}
+[0.019293] (zed2cpp) JobProgress: {'identifier': 'zed2cpp', 'progress': 'cmake'}
+[0.022722] (zed2cpp) JobProgress: {'identifier': 'zed2cpp', 'progress': 'build'}
+[0.023935] (zed2cpp) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/akshat/ros2WS/build/zed2cpp', '--', '-j12', '-l12'], 'cwd': '/home/akshat/ros2WS/build/zed2cpp', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'akshat'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/akshat/ros2WS/install/zed_components/lib:/home/akshat/ros2WS/install/zed_interfaces/lib:/home/akshat/ros2WS/install/stereo/lib:/home/akshat/ros2WS/install/sensors/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-11.8/lib64'), ('HOME', '/home/akshat'), ('OLDPWD', '/home/akshat/ros2WS/src/zed2cpp'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2392'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/akshat/ros2WS/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'akshat'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'akshat'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/cuda-11.8/bin:/home/akshat/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/akshat-G3-3500:@/tmp/.ICE-unix/2108,unix/akshat-G3-3500:/tmp/.ICE-unix/2108'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/15e834ba_4bbe_4493_80f4_2481ba5287dc'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.91'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/akshat/ros2WS/install/zed_ros2:/home/akshat/ros2WS/install/zed_wrapper:/home/akshat/ros2WS/install/zed_components:/home/akshat/ros2WS/install/zed_interfaces:/home/akshat/ros2WS/install/zed2nodes:/home/akshat/ros2WS/install/zed2cpp:/home/akshat/ros2WS/install/planner:/home/akshat/ros2WS/install/stereo:/home/akshat/ros2WS/install/sensors:/home/akshat/ros2WS/install/robot:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/akshat/ros2WS/build/zed2cpp'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/akshat/ros2WS/install/zed_interfaces/local/lib/python3.10/dist-packages:/home/akshat/ros2WS/install/zed2nodes/lib/python3.10/site-packages:/home/akshat/ros2WS/install/stereo/local/lib/python3.10/dist-packages:/home/akshat/ros2WS/install/sensors/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/akshat/ros2WS/install/zed_ros2:/home/akshat/ros2WS/install/zed_wrapper:/home/akshat/ros2WS/install/zed_components:/home/akshat/ros2WS/install/zed_interfaces:/home/akshat/ros2WS/install/zed2cpp:/home/akshat/ros2WS/install/planner:/home/akshat/ros2WS/install/stereo:/home/akshat/ros2WS/install/sensors:/home/akshat/ros2WS/install/robot:/home/akshat/ros2WS/install/zed2nodes:/opt/ros/humble')]), 'shell': False}
+[0.098754] (-) TimerEvent: {}
+[0.150607] (zed2cpp) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target pcloa\x1b[0m\n'}
+[0.192870] (zed2cpp) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/pcloa.dir/src/pcloa.cpp.o\x1b[0m\n'}
+[0.198965] (-) TimerEvent: {}
+[0.299698] (-) TimerEvent: {}
+[0.400443] (-) TimerEvent: {}
+[0.502088] (-) TimerEvent: {}
+[0.603457] (-) TimerEvent: {}
+[0.703797] (-) TimerEvent: {}
+[0.804336] (-) TimerEvent: {}
+[0.904891] (-) TimerEvent: {}
+[1.005351] (-) TimerEvent: {}
+[1.105623] (-) TimerEvent: {}
+[1.205917] (-) TimerEvent: {}
+[1.306766] (-) TimerEvent: {}
+[1.408485] (-) TimerEvent: {}
+[1.510167] (-) TimerEvent: {}
+[1.610851] (-) TimerEvent: {}
+[1.711257] (-) TimerEvent: {}
+[1.811559] (-) TimerEvent: {}
+[1.911874] (-) TimerEvent: {}
+[2.012158] (-) TimerEvent: {}
+[2.112739] (-) TimerEvent: {}
+[2.213723] (-) TimerEvent: {}
+[2.314748] (-) TimerEvent: {}
+[2.416197] (-) TimerEvent: {}
+[2.517083] (-) TimerEvent: {}
+[2.618427] (-) TimerEvent: {}
+[2.719289] (-) TimerEvent: {}
+[2.819851] (-) TimerEvent: {}
+[2.920661] (-) TimerEvent: {}
+[3.021095] (-) TimerEvent: {}
+[3.121610] (-) TimerEvent: {}
+[3.222067] (-) TimerEvent: {}
+[3.322851] (-) TimerEvent: {}
+[3.423219] (-) TimerEvent: {}
+[3.524034] (-) TimerEvent: {}
+[3.624684] (-) TimerEvent: {}
+[3.725489] (-) TimerEvent: {}
+[3.826013] (-) TimerEvent: {}
+[3.926932] (-) TimerEvent: {}
+[4.028883] (-) TimerEvent: {}
+[4.129338] (-) TimerEvent: {}
+[4.229760] (-) TimerEvent: {}
+[4.330115] (-) TimerEvent: {}
+[4.430566] (-) TimerEvent: {}
+[4.530972] (-) TimerEvent: {}
+[4.631769] (-) TimerEvent: {}
+[4.732762] (-) TimerEvent: {}
+[4.833213] (-) TimerEvent: {}
+[4.933604] (-) TimerEvent: {}
+[5.034172] (-) TimerEvent: {}
+[5.134687] (-) TimerEvent: {}
+[5.235089] (-) TimerEvent: {}
+[5.335734] (-) TimerEvent: {}
+[5.436469] (-) TimerEvent: {}
+[5.537038] (-) TimerEvent: {}
+[5.638671] (-) TimerEvent: {}
+[5.739219] (-) TimerEvent: {}
+[5.840160] (-) TimerEvent: {}
+[5.941450] (-) TimerEvent: {}
+[6.042659] (-) TimerEvent: {}
+[6.143174] (-) TimerEvent: {}
+[6.245272] (-) TimerEvent: {}
+[6.345920] (-) TimerEvent: {}
+[6.446558] (-) TimerEvent: {}
+[6.546907] (-) TimerEvent: {}
+[6.647600] (-) TimerEvent: {}
+[6.748647] (-) TimerEvent: {}
+[6.850141] (-) TimerEvent: {}
+[6.950650] (-) TimerEvent: {}
+[7.051077] (-) TimerEvent: {}
+[7.151381] (-) TimerEvent: {}
+[7.252048] (-) TimerEvent: {}
+[7.353372] (-) TimerEvent: {}
+[7.454554] (-) TimerEvent: {}
+[7.555619] (-) TimerEvent: {}
+[7.656553] (-) TimerEvent: {}
+[7.756972] (-) TimerEvent: {}
+[7.857396] (-) TimerEvent: {}
+[7.957919] (-) TimerEvent: {}
+[8.058320] (-) TimerEvent: {}
+[8.158878] (-) TimerEvent: {}
+[8.259671] (-) TimerEvent: {}
+[8.360270] (-) TimerEvent: {}
+[8.460756] (-) TimerEvent: {}
+[8.561089] (-) TimerEvent: {}
+[8.661507] (-) TimerEvent: {}
+[8.761877] (-) TimerEvent: {}
+[8.862253] (-) TimerEvent: {}
+[8.962927] (-) TimerEvent: {}
+[9.063729] (-) TimerEvent: {}
+[9.164156] (-) TimerEvent: {}
+[9.264429] (-) TimerEvent: {}
+[9.364751] (-) TimerEvent: {}
+[9.465008] (-) TimerEvent: {}
+[9.565811] (-) TimerEvent: {}
+[9.667292] (-) TimerEvent: {}
+[9.767749] (-) TimerEvent: {}
+[9.868188] (-) TimerEvent: {}
+[9.968827] (-) TimerEvent: {}
+[10.069573] (-) TimerEvent: {}
+[10.170004] (-) TimerEvent: {}
+[10.270694] (-) TimerEvent: {}
+[10.372209] (-) TimerEvent: {}
+[10.473451] (-) TimerEvent: {}
+[10.574924] (-) TimerEvent: {}
+[10.675412] (-) TimerEvent: {}
+[10.775744] (-) TimerEvent: {}
+[10.876060] (-) TimerEvent: {}
+[10.976547] (-) TimerEvent: {}
+[11.077236] (-) TimerEvent: {}
+[11.177930] (-) TimerEvent: {}
+[11.278691] (-) TimerEvent: {}
+[11.379079] (-) TimerEvent: {}
+[11.479958] (-) TimerEvent: {}
+[11.582197] (-) TimerEvent: {}
+[11.683168] (-) TimerEvent: {}
+[11.783660] (-) TimerEvent: {}
+[11.884229] (-) TimerEvent: {}
+[11.985008] (-) TimerEvent: {}
+[12.088056] (zed2cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/akshat/ros2WS/src/zed2cpp/src/pcloa.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid PCLPreprocessingNode::point_cloud_callback(sensor_msgs::msg::PointCloud2_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[12.089295] (-) TimerEvent: {}
+[12.089590] (zed2cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/akshat/ros2WS/src/zed2cpp/src/pcloa.cpp:50:23:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kcannot convert \xe2\x80\x98\x1b[01m\x1b[Kstd::__shared_ptr_access<pcl::PointCloud<pcl::PointXYZ>, __gnu_cxx::_S_atomic, false, false>::element_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kpcl::PointCloud<pcl::PointXYZ>\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kconst PointCloudConstPtr&\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst std::shared_ptr<const pcl::PointCloud<pcl::PointXYZ> >&\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[12.089761] (zed2cpp) StderrLine: {'line': b'   50 |     seg.setInputCloud(\x1b[01;31m\x1b[K*filtered_cloud\x1b[m\x1b[K);\n'}
+[12.089836] (zed2cpp) StderrLine: {'line': b'      |                       \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[12.089911] (zed2cpp) StderrLine: {'line': b'      |                       \x1b[01;31m\x1b[K|\x1b[m\x1b[K\n'}
+[12.089982] (zed2cpp) StderrLine: {'line': b'      |                       \x1b[01;31m\x1b[Kstd::__shared_ptr_access<pcl::PointCloud<pcl::PointXYZ>, __gnu_cxx::_S_atomic, false, false>::element_type {aka pcl::PointCloud<pcl::PointXYZ>}\x1b[m\x1b[K\n'}
+[12.090053] (zed2cpp) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/filters/filter.h:42\x1b[m\x1b[K,\n'}
+[12.090126] (zed2cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/filters/voxel_grid.h:42\x1b[m\x1b[K,\n'}
+[12.090200] (zed2cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/akshat/ros2WS/src/zed2cpp/src/pcloa.cpp:6\x1b[m\x1b[K:\n'}
+[12.090280] (zed2cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/pcl_base.h:92:48:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  initializing argument 1 of \xe2\x80\x98\x1b[01m\x1b[Kvoid pcl::PCLBase<PointT>::setInputCloud(const PointCloudConstPtr&) [with PointT = pcl::PointXYZ; pcl::PCLBase<PointT>::PointCloudConstPtr = std::shared_ptr<const pcl::PointCloud<pcl::PointXYZ> >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[12.090434] (zed2cpp) StderrLine: {'line': b'   92 |       setInputCloud (\x1b[01;36m\x1b[Kconst PointCloudConstPtr &cloud\x1b[m\x1b[K);\n'}
+[12.090510] (zed2cpp) StderrLine: {'line': b'      |                      \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[12.091212] (zed2cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/akshat/ros2WS/src/zed2cpp/src/pcloa.cpp:60:27:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kcannot convert \xe2\x80\x98\x1b[01m\x1b[Kstd::__shared_ptr_access<pcl::PointCloud<pcl::PointXYZ>, __gnu_cxx::_S_atomic, false, false>::element_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kpcl::PointCloud<pcl::PointXYZ>\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kconst PointCloudConstPtr&\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst std::shared_ptr<const pcl::PointCloud<pcl::PointXYZ> >&\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[12.091535] (zed2cpp) StderrLine: {'line': b'   60 |     extract.setInputCloud(\x1b[01;31m\x1b[K*filtered_cloud\x1b[m\x1b[K);\n'}
+[12.091669] (zed2cpp) StderrLine: {'line': b'      |                           \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[12.091785] (zed2cpp) StderrLine: {'line': b'      |                           \x1b[01;31m\x1b[K|\x1b[m\x1b[K\n'}
+[12.091897] (zed2cpp) StderrLine: {'line': b'      |                           \x1b[01;31m\x1b[Kstd::__shared_ptr_access<pcl::PointCloud<pcl::PointXYZ>, __gnu_cxx::_S_atomic, false, false>::element_type {aka pcl::PointCloud<pcl::PointXYZ>}\x1b[m\x1b[K\n'}
+[12.092014] (zed2cpp) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/filters/filter.h:42\x1b[m\x1b[K,\n'}
+[12.092127] (zed2cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/filters/voxel_grid.h:42\x1b[m\x1b[K,\n'}
+[12.092244] (zed2cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/akshat/ros2WS/src/zed2cpp/src/pcloa.cpp:6\x1b[m\x1b[K:\n'}
+[12.092391] (zed2cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/pcl_base.h:92:48:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  initializing argument 1 of \xe2\x80\x98\x1b[01m\x1b[Kvoid pcl::PCLBase<PointT>::setInputCloud(const PointCloudConstPtr&) [with PointT = pcl::PointXYZ; pcl::PCLBase<PointT>::PointCloudConstPtr = std::shared_ptr<const pcl::PointCloud<pcl::PointXYZ> >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[12.092528] (zed2cpp) StderrLine: {'line': b'   92 |       setInputCloud (\x1b[01;36m\x1b[Kconst PointCloudConstPtr &cloud\x1b[m\x1b[K);\n'}
+[12.092632] (zed2cpp) StderrLine: {'line': b'      |                      \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[12.189723] (-) TimerEvent: {}
+[12.291466] (-) TimerEvent: {}
+[12.392522] (-) TimerEvent: {}
+[12.494269] (-) TimerEvent: {}
+[12.594786] (-) TimerEvent: {}
+[12.695344] (-) TimerEvent: {}
+[12.795885] (-) TimerEvent: {}
+[12.896343] (-) TimerEvent: {}
+[12.996894] (-) TimerEvent: {}
+[13.098193] (-) TimerEvent: {}
+[13.198505] (-) TimerEvent: {}
+[13.299457] (-) TimerEvent: {}
+[13.400866] (-) TimerEvent: {}
+[13.502001] (-) TimerEvent: {}
+[13.603119] (-) TimerEvent: {}
+[13.703779] (-) TimerEvent: {}
+[13.804142] (-) TimerEvent: {}
+[13.904739] (-) TimerEvent: {}
+[14.005257] (-) TimerEvent: {}
+[14.105689] (-) TimerEvent: {}
+[14.206381] (-) TimerEvent: {}
+[14.306950] (-) TimerEvent: {}
+[14.407816] (-) TimerEvent: {}
+[14.508670] (-) TimerEvent: {}
+[14.611004] (-) TimerEvent: {}
+[14.712667] (-) TimerEvent: {}
+[14.813488] (-) TimerEvent: {}
+[14.914548] (-) TimerEvent: {}
+[15.015200] (-) TimerEvent: {}
+[15.116002] (-) TimerEvent: {}
+[15.217639] (-) TimerEvent: {}
+[15.319675] (-) TimerEvent: {}
+[15.420669] (-) TimerEvent: {}
+[15.521275] (-) TimerEvent: {}
+[15.622225] (-) TimerEvent: {}
+[15.722746] (-) TimerEvent: {}
+[15.823299] (-) TimerEvent: {}
+[15.923789] (-) TimerEvent: {}
+[16.024372] (-) TimerEvent: {}
+[16.124869] (-) TimerEvent: {}
+[16.225494] (-) TimerEvent: {}
+[16.325977] (-) TimerEvent: {}
+[16.426472] (-) TimerEvent: {}
+[16.526805] (-) TimerEvent: {}
+[16.627437] (-) TimerEvent: {}
+[16.728195] (-) TimerEvent: {}
+[16.829916] (-) TimerEvent: {}
+[16.931653] (-) TimerEvent: {}
+[17.032444] (-) TimerEvent: {}
+[17.132990] (-) TimerEvent: {}
+[17.233402] (-) TimerEvent: {}
+[17.333831] (-) TimerEvent: {}
+[17.434232] (-) TimerEvent: {}
+[17.534902] (-) TimerEvent: {}
+[17.636332] (-) TimerEvent: {}
+[17.737095] (-) TimerEvent: {}
+[17.838228] (-) TimerEvent: {}
+[17.938893] (-) TimerEvent: {}
+[18.039365] (-) TimerEvent: {}
+[18.139645] (-) TimerEvent: {}
+[18.239966] (-) TimerEvent: {}
+[18.340325] (-) TimerEvent: {}
+[18.440900] (-) TimerEvent: {}
+[18.541483] (-) TimerEvent: {}
+[18.642294] (-) TimerEvent: {}
+[18.744195] (-) TimerEvent: {}
+[18.844891] (-) TimerEvent: {}
+[18.946781] (-) TimerEvent: {}
+[19.047202] (-) TimerEvent: {}
+[19.147835] (-) TimerEvent: {}
+[19.248807] (-) TimerEvent: {}
+[19.349273] (-) TimerEvent: {}
+[19.449921] (-) TimerEvent: {}
+[19.520086] (zed2cpp) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/pcloa.dir/build.make:76: CMakeFiles/pcloa.dir/src/pcloa.cpp.o] Error 1\n'}
+[19.520359] (zed2cpp) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/pcloa.dir/all] Error 2\n'}
+[19.520542] (zed2cpp) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[19.522930] (zed2cpp) CommandEnded: {'returncode': 2}
+[19.550342] (-) TimerEvent: {}
+[19.609288] (zed2cpp) JobEnded: {'identifier': 'zed2cpp', 'rc': 2}
+[19.620471] (-) EventReactorShutdown: {}

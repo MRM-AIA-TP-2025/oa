@@ -1,0 +1,3 @@
+[console_scripts]
+obsticle = zed2nodes.obsticle:main
+

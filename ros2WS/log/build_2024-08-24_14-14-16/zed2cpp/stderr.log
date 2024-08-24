@@ -1,0 +1,25 @@
+[01m[K/home/akshat/ros2WS/src/zed2cpp/src/navigation.cpp:[m[K In member function ‘[01m[Kbool ObstacleAvoidancePCL::isClockWiseCloser()[m[K’:
+[01m[K/home/akshat/ros2WS/src/zed2cpp/src/navigation.cpp:46:13:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kreturn[m[K’
+   46 |             [01;31m[Kreturn[m[K true;
+      |             [01;31m[K^~~~~~[m[K
+[01m[K/home/akshat/ros2WS/src/zed2cpp/src/navigation.cpp:44:9:[m[K [01;35m[Kwarning: [m[Kthis ‘[01m[Kif[m[K’ clause does not guard... [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmisleading-indentation-Wmisleading-indentation]8;;[m[K]
+   44 |         [01;35m[Kif[m[K (clockwise_distance > 175 && counterclockwise_distance > 175 && abs(clockwise_distance - counterclockwise_distance) < 1)
+      |         [01;35m[K^~[m[K
+[01m[K/home/akshat/ros2WS/src/zed2cpp/src/navigation.cpp:46:13:[m[K [01;36m[Knote: [m[K...this statement, but the latter is misleadingly indented as if it were guarded by the ‘[01m[Kif[m[K’
+   46 |             [01;36m[Kreturn[m[K true;
+      |             [01;36m[K^~~~~~[m[K
+[01m[K/home/akshat/ros2WS/src/zed2cpp/src/navigation.cpp:49:13:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kreturn[m[K’
+   49 |             [01;31m[Kreturn[m[K true;
+      |             [01;31m[K^~~~~~[m[K
+[01m[K/home/akshat/ros2WS/src/zed2cpp/src/navigation.cpp:47:9:[m[K [01;35m[Kwarning: [m[Kthis ‘[01m[Kif[m[K’ clause does not guard... [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmisleading-indentation-Wmisleading-indentation]8;;[m[K]
+   47 |         [01;35m[Kif[m[K (clockwise_distance < counterclockwise_distance)
+      |         [01;35m[K^~[m[K
+[01m[K/home/akshat/ros2WS/src/zed2cpp/src/navigation.cpp:49:13:[m[K [01;36m[Knote: [m[K...this statement, but the latter is misleadingly indented as if it were guarded by the ‘[01m[Kif[m[K’
+   49 |             [01;36m[Kreturn[m[K true;
+      |             [01;36m[K^~~~~~[m[K
+[01m[K/home/akshat/ros2WS/src/zed2cpp/src/navigation.cpp:51:9:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kreturn[m[K’
+   51 |         [01;31m[Kreturn[m[K false;
+      |         [01;31m[K^~~~~~[m[K
+gmake[2]: *** [CMakeFiles/nav.dir/build.make:76: CMakeFiles/nav.dir/src/navigation.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/nav.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,213 @@
+[0.000000] (-) TimerEvent: {}
+[0.000273] (-) JobUnselected: {'identifier': 'planner'}
+[0.000301] (-) JobUnselected: {'identifier': 'robot'}
+[0.000319] (-) JobUnselected: {'identifier': 'stereo'}
+[0.000335] (-) JobUnselected: {'identifier': 'zed2cpp'}
+[0.000350] (-) JobUnselected: {'identifier': 'zed2nodes'}
+[0.000365] (-) JobUnselected: {'identifier': 'zed_components'}
+[0.000379] (-) JobUnselected: {'identifier': 'zed_interfaces'}
+[0.000398] (-) JobUnselected: {'identifier': 'zed_ros2'}
+[0.000416] (-) JobUnselected: {'identifier': 'zed_wrapper'}
+[0.000432] (sensors) JobQueued: {'identifier': 'sensors', 'dependencies': OrderedDict()}
+[0.000449] (sensors) JobStarted: {'identifier': 'sensors'}
+[0.007141] (sensors) JobProgress: {'identifier': 'sensors', 'progress': 'cmake'}
+[0.008446] (sensors) JobProgress: {'identifier': 'sensors', 'progress': 'build'}
+[0.008491] (sensors) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/akshat/ros2WS/build/sensors', '--', '-j12', '-l12'], 'cwd': '/home/akshat/ros2WS/build/sensors', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'akshat'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/akshat/ros2WS/install/zed_components/lib:/home/akshat/ros2WS/install/zed_interfaces/lib:/home/akshat/ros2WS/install/stereo/lib:/home/akshat/ros2WS/install/sensors/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-11.8/lib64'), ('HOME', '/home/akshat'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/akshat/ros2WS/src/sensors'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2410'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('COLCON_PREFIX_PATH', '/home/akshat/ros2WS/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'akshat'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'akshat'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/akshat/anaconda3/condabin:/opt/ros/humble/bin:/usr/local/cuda-11.8/bin:/home/akshat/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/akshat-G3-3500:@/tmp/.ICE-unix/2122,unix/akshat-G3-3500:/tmp/.ICE-unix/2122'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/2aa8ea6b_21bf_4f61_b13f_21d13107bf10'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.161'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/akshat/ros2WS/install/zed_ros2:/home/akshat/ros2WS/install/zed_wrapper:/home/akshat/ros2WS/install/zed_components:/home/akshat/ros2WS/install/zed_interfaces:/home/akshat/ros2WS/install/zed2nodes:/home/akshat/ros2WS/install/zed2cpp:/home/akshat/ros2WS/install/planner:/home/akshat/ros2WS/install/stereo:/home/akshat/ros2WS/install/sensors:/home/akshat/ros2WS/install/robot:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/akshat/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/akshat/ros2WS/build/sensors'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/akshat/anaconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/akshat/ros2WS/install/zed_interfaces/local/lib/python3.10/dist-packages:/home/akshat/ros2WS/install/zed2nodes/lib/python3.10/site-packages:/home/akshat/ros2WS/install/stereo/local/lib/python3.10/dist-packages:/home/akshat/ros2WS/install/sensors/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/akshat/ros2WS/install/zed_ros2:/home/akshat/ros2WS/install/zed_wrapper:/home/akshat/ros2WS/install/zed_components:/home/akshat/ros2WS/install/zed_interfaces:/home/akshat/ros2WS/install/zed2cpp:/home/akshat/ros2WS/install/planner:/home/akshat/ros2WS/install/stereo:/home/akshat/ros2WS/install/sensors:/home/akshat/ros2WS/install/robot:/home/akshat/ros2WS/install/zed2nodes:/opt/ros/humble')]), 'shell': False}
+[0.044889] (sensors) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target sensors__rosidl_generator_c\x1b[0m\n'}
+[0.052873] (sensors) StdoutLine: {'line': b'[  2%] Built target sensors__cpp\n'}
+[0.054253] (sensors) StdoutLine: {'line': b'[ 12%] Built target sensors__rosidl_generator_c\n'}
+[0.060721] (sensors) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_copy_sensors\n'}
+[0.062131] (sensors) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target sensors__rosidl_typesupport_cpp\x1b[0m\n'}
+[0.062620] (sensors) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target sensors__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[0.063405] (sensors) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target sensors__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[0.064297] (sensors) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target sensors__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[0.065204] (sensors) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target sensors__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[0.066953] (sensors) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target sensors__rosidl_typesupport_c\x1b[0m\n'}
+[0.073574] (sensors) StdoutLine: {'line': b'[ 34%] Built target sensors__rosidl_typesupport_cpp\n'}
+[0.073800] (sensors) StdoutLine: {'line': b'[ 34%] Built target sensors__rosidl_typesupport_introspection_c\n'}
+[0.074524] (sensors) StdoutLine: {'line': b'[ 44%] Built target sensors__rosidl_typesupport_fastrtps_cpp\n'}
+[0.076013] (sensors) StdoutLine: {'line': b'[ 55%] Built target sensors__rosidl_typesupport_fastrtps_c\n'}
+[0.078110] (sensors) StdoutLine: {'line': b'[ 65%] Built target sensors__rosidl_typesupport_c\n'}
+[0.078937] (sensors) StdoutLine: {'line': b'[ 76%] Built target sensors__rosidl_typesupport_introspection_cpp\n'}
+[0.095746] (sensors) StdoutLine: {'line': b'[ 76%] Built target sensors\n'}
+[0.099398] (-) TimerEvent: {}
+[0.113484] (sensors) StdoutLine: {'line': b'[ 78%] Built target sensors__py\n'}
+[0.123238] (sensors) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target sensors__rosidl_generator_py\x1b[0m\n'}
+[0.135354] (sensors) StdoutLine: {'line': b'[ 87%] Built target sensors__rosidl_generator_py\n'}
+[0.144726] (sensors) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target sensors__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[0.144915] (sensors) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target sensors__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[0.145019] (sensors) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target sensors__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[0.155201] (sensors) StdoutLine: {'line': b'[100%] Built target sensors__rosidl_typesupport_introspection_c__pyext\n'}
+[0.155347] (sensors) StdoutLine: {'line': b'[100%] Built target sensors__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.155432] (sensors) StdoutLine: {'line': b'[100%] Built target sensors__rosidl_typesupport_c__pyext\n'}
+[0.199503] (-) TimerEvent: {}
+[0.289836] (sensors) StdoutLine: {'line': b'running egg_info\n'}
+[0.290482] (sensors) StdoutLine: {'line': b'writing sensors.egg-info/PKG-INFO\n'}
+[0.290707] (sensors) StdoutLine: {'line': b'writing dependency_links to sensors.egg-info/dependency_links.txt\n'}
+[0.290867] (sensors) StdoutLine: {'line': b'writing top-level names to sensors.egg-info/top_level.txt\n'}
+[0.292720] (sensors) StdoutLine: {'line': b"reading manifest file 'sensors.egg-info/SOURCES.txt'\n"}
+[0.293300] (sensors) StdoutLine: {'line': b"writing manifest file 'sensors.egg-info/SOURCES.txt'\n"}
+[0.299603] (-) TimerEvent: {}
+[0.314731] (sensors) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_sensors_egg\n'}
+[0.323984] (sensors) CommandEnded: {'returncode': 0}
+[0.399699] (-) TimerEvent: {}
+[0.402622] (sensors) JobProgress: {'identifier': 'sensors', 'progress': 'install'}
+[0.409611] (sensors) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/akshat/ros2WS/build/sensors'], 'cwd': '/home/akshat/ros2WS/build/sensors', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'akshat'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/akshat/ros2WS/install/zed_components/lib:/home/akshat/ros2WS/install/zed_interfaces/lib:/home/akshat/ros2WS/install/stereo/lib:/home/akshat/ros2WS/install/sensors/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-11.8/lib64'), ('HOME', '/home/akshat'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/akshat/ros2WS/src/sensors'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2410'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('COLCON_PREFIX_PATH', '/home/akshat/ros2WS/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'akshat'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'akshat'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/akshat/anaconda3/condabin:/opt/ros/humble/bin:/usr/local/cuda-11.8/bin:/home/akshat/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/akshat-G3-3500:@/tmp/.ICE-unix/2122,unix/akshat-G3-3500:/tmp/.ICE-unix/2122'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/2aa8ea6b_21bf_4f61_b13f_21d13107bf10'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.161'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/akshat/ros2WS/install/zed_ros2:/home/akshat/ros2WS/install/zed_wrapper:/home/akshat/ros2WS/install/zed_components:/home/akshat/ros2WS/install/zed_interfaces:/home/akshat/ros2WS/install/zed2nodes:/home/akshat/ros2WS/install/zed2cpp:/home/akshat/ros2WS/install/planner:/home/akshat/ros2WS/install/stereo:/home/akshat/ros2WS/install/sensors:/home/akshat/ros2WS/install/robot:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/akshat/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/akshat/ros2WS/build/sensors'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/akshat/anaconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/akshat/ros2WS/install/zed_interfaces/local/lib/python3.10/dist-packages:/home/akshat/ros2WS/install/zed2nodes/lib/python3.10/site-packages:/home/akshat/ros2WS/install/stereo/local/lib/python3.10/dist-packages:/home/akshat/ros2WS/install/sensors/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/akshat/ros2WS/install/zed_ros2:/home/akshat/ros2WS/install/zed_wrapper:/home/akshat/ros2WS/install/zed_components:/home/akshat/ros2WS/install/zed_interfaces:/home/akshat/ros2WS/install/zed2cpp:/home/akshat/ros2WS/install/planner:/home/akshat/ros2WS/install/stereo:/home/akshat/ros2WS/install/sensors:/home/akshat/ros2WS/install/robot:/home/akshat/ros2WS/install/zed2nodes:/opt/ros/humble')]), 'shell': False}
+[0.416613] (sensors) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.416934] (sensors) StdoutLine: {'line': b'-- Up-to-date: /home/akshat/ros2WS/install/sensors/share/ament_index/resource_index/rosidl_interfaces/sensors\n'}
+[0.417012] (sensors) StdoutLine: {'line': b'-- Up-to-date: /home/akshat/ros2WS/install/sensors/include/sensors/sensors\n'}
+[0.417073] (sensors) StdoutLine: {'line': b'-- Up-to-date: /home/akshat/ros2WS/install/sensors/include/sensors/sensors/msg\n'}
+[0.417130] (sensors) StdoutLine: {'line': b'-- Up-to-date: /home/akshat/ros2WS/install/sensors/include/sensors/sensors/msg/rosidl_generator_c__visibility_control.h\n'}
+[0.417186] (sensors) StdoutLine: {'line': b'-- Up-to-date: /home/akshat/ros2WS/install/sensors/include/sensors/sensors/msg/navigation_data.h\n'}
+[0.417241] (sensors) StdoutLine: {'line': b'-- Up-to-date: /home/akshat/ros2WS/install/sensors/include/sensors/sensors/msg/detail\n'}
+[0.417295] (sensors) StdoutLine: {'line': b'-- Up-to-date: /home/akshat/ros2WS/install/sensors/include/sensors/sensors/msg/detail/pclo__struct.h\n'}
+[0.417349] (sensors) StdoutLine: {'line': b'-- Up-to-date: /home/akshat/ros2WS/install/sensors/include/sensors/sensors/msg/detail/navigation_data__functions.h\n'}
+[0.417497] (sensors) StdoutLine: {'line': b'-- Up-to-date: /home/akshat/ros2WS/install/sensors/include/sensors/sensors/msg/detail/pclo__functions.c\n'}
+[0.417585] (sensors) StdoutLine: {'line': b'-- Up-to-date: /home/akshat/ros2WS/install/sensors/include/sensors/sensors/msg/detail/navigation_data__type_support.h\n'}
+[0.417650] (sensors) StdoutLine: {'line': b'-- Up-to-date: /home/akshat/ros2WS/install/sensors/include/sensors/sensors/msg/detail/imu_data__struct.h\n'}
+[0.417709] (sensors) StdoutLine: {'line': b'-- Up-to-date: /home/akshat/ros2WS/install/sensors/include/sensors/sensors/msg/detail/navigation_data__struct.h\n'}
+[0.417766] (sensors) StdoutLine: {'line': b'-- Up-to-date: /home/akshat/ros2WS/install/sensors/include/sensors/sensors/msg/detail/pclo__functions.h\n'}
+[0.417823] (sensors) StdoutLine: {'line': b'-- Up-to-date: /home/akshat/ros2WS/install/sensors/include/sensors/sensors/msg/detail/pclo__type_support.h\n'}
+[0.417879] (sensors) StdoutLine: {'line': b'-- Up-to-date: /home/akshat/ros2WS/install/sensors/include/sensors/sensors/msg/detail/navigation_data__functions.c\n'}
+[0.417935] (sensors) StdoutLine: {'line': b'-- Up-to-date: /home/akshat/ros2WS/install/sensors/include/sensors/sensors/msg/detail/imu_data__functions.c\n'}
+[0.417990] (sensors) StdoutLine: {'line': b'-- Up-to-date: /home/akshat/ros2WS/install/sensors/include/sensors/sensors/msg/detail/imu_data__functions.h\n'}
+[0.418045] (sensors) StdoutLine: {'line': b'-- Up-to-date: /home/akshat/ros2WS/install/sensors/include/sensors/sensors/msg/detail/imu_data__type_support.h\n'}
+[0.418248] (sensors) StdoutLine: {'line': b'-- Up-to-date: /home/akshat/ros2WS/install/sensors/include/sensors/sensors/msg/imu_data.h\n'}
+[0.418308] (sensors) StdoutLine: {'line': b'-- Up-to-date: /home/akshat/ros2WS/install/sensors/include/sensors/sensors/msg/pclo.h\n'}
+[0.418364] (sensors) StdoutLine: {'line': b'-- Up-to-date: /home/akshat/ros2WS/install/sensors/share/sensors/environment/library_path.sh\n'}
+[0.418468] (sensors) StdoutLine: {'line': b'-- Up-to-date: /home/akshat/ros2WS/install/sensors/share/sensors/environment/library_path.dsv\n'}
+[0.418526] (sensors) StdoutLine: {'line': b'-- Up-to-date: /home/akshat/ros2WS/install/sensors/lib/libsensors__rosidl_generator_c.so\n'}
+[0.418582] (sensors) StdoutLine: {'line': b'-- Up-to-date: /home/akshat/ros2WS/install/sensors/include/sensors/sensors\n'}
+[0.418637] (sensors) StdoutLine: {'line': b'-- Up-to-date: /home/akshat/ros2WS/install/sensors/include/sensors/sensors/msg\n'}
+[0.418692] (sensors) StdoutLine: {'line': b'-- Up-to-date: /home/akshat/ros2WS/install/sensors/include/sensors/sensors/msg/detail\n'}
+[0.418747] (sensors) StdoutLine: {'line': b'-- Up-to-date: /home/akshat/ros2WS/install/sensors/include/sensors/sensors/msg/detail/imu_data__rosidl_typesupport_fastrtps_c.h\n'}
+[0.418801] (sensors) StdoutLine: {'line': b'-- Up-to-date: /home/akshat/ros2WS/install/sensors/include/sensors/sensors/msg/detail/navigation_data__rosidl_typesupport_fastrtps_c.h\n'}
+[0.418885] (sensors) StdoutLine: {'line': b'-- Up-to-date: /home/akshat/ros2WS/install/sensors/include/sensors/sensors/msg/detail/pclo__rosidl_typesupport_fastrtps_c.h\n'}
+[0.418940] (sensors) StdoutLine: {'line': b'-- Up-to-date: /home/akshat/ros2WS/install/sensors/include/sensors/sensors/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[0.418995] (sensors) StdoutLine: {'line': b'-- Up-to-date: /home/akshat/ros2WS/install/sensors/lib/libsensors__rosidl_typesupport_fastrtps_c.so\n'}
+[0.419049] (sensors) StdoutLine: {'line': b'-- Up-to-date: /home/akshat/ros2WS/install/sensors/include/sensors/sensors\n'}
+[0.419103] (sensors) StdoutLine: {'line': b'-- Up-to-date: /home/akshat/ros2WS/install/sensors/include/sensors/sensors/msg\n'}
+[0.419159] (sensors) StdoutLine: {'line': b'-- Up-to-date: /home/akshat/ros2WS/install/sensors/include/sensors/sensors/msg/imu_data.hpp\n'}
+[0.419214] (sensors) StdoutLine: {'line': b'-- Up-to-date: /home/akshat/ros2WS/install/sensors/include/sensors/sensors/msg/pclo.hpp\n'}
+[0.419269] (sensors) StdoutLine: {'line': b'-- Up-to-date: /home/akshat/ros2WS/install/sensors/include/sensors/sensors/msg/detail\n'}
+[0.419324] (sensors) StdoutLine: {'line': b'-- Up-to-date: /home/akshat/ros2WS/install/sensors/include/sensors/sensors/msg/detail/imu_data__builder.hpp\n'}
+[0.419380] (sensors) StdoutLine: {'line': b'-- Up-to-date: /home/akshat/ros2WS/install/sensors/include/sensors/sensors/msg/detail/navigation_data__traits.hpp\n'}
+[0.419480] (sensors) StdoutLine: {'line': b'-- Up-to-date: /home/akshat/ros2WS/install/sensors/include/sensors/sensors/msg/detail/pclo__builder.hpp\n'}
+[0.419537] (sensors) StdoutLine: {'line': b'-- Up-to-date: /home/akshat/ros2WS/install/sensors/include/sensors/sensors/msg/detail/imu_data__struct.hpp\n'}
+[0.419593] (sensors) StdoutLine: {'line': b'-- Up-to-date: /home/akshat/ros2WS/install/sensors/include/sensors/sensors/msg/detail/imu_data__traits.hpp\n'}
+[0.419649] (sensors) StdoutLine: {'line': b'-- Up-to-date: /home/akshat/ros2WS/install/sensors/include/sensors/sensors/msg/detail/pclo__struct.hpp\n'}
+[0.419704] (sensors) StdoutLine: {'line': b'-- Up-to-date: /home/akshat/ros2WS/install/sensors/include/sensors/sensors/msg/detail/navigation_data__struct.hpp\n'}
+[0.419759] (sensors) StdoutLine: {'line': b'-- Up-to-date: /home/akshat/ros2WS/install/sensors/include/sensors/sensors/msg/detail/navigation_data__builder.hpp\n'}
+[0.419814] (sensors) StdoutLine: {'line': b'-- Up-to-date: /home/akshat/ros2WS/install/sensors/include/sensors/sensors/msg/detail/pclo__traits.hpp\n'}
+[0.419963] (sensors) StdoutLine: {'line': b'-- Up-to-date: /home/akshat/ros2WS/install/sensors/include/sensors/sensors/msg/navigation_data.hpp\n'}
+[0.420022] (sensors) StdoutLine: {'line': b'-- Up-to-date: /home/akshat/ros2WS/install/sensors/include/sensors/sensors\n'}
+[0.420077] (sensors) StdoutLine: {'line': b'-- Up-to-date: /home/akshat/ros2WS/install/sensors/include/sensors/sensors/msg\n'}
+[0.420132] (sensors) StdoutLine: {'line': b'-- Up-to-date: /home/akshat/ros2WS/install/sensors/include/sensors/sensors/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[0.420187] (sensors) StdoutLine: {'line': b'-- Up-to-date: /home/akshat/ros2WS/install/sensors/include/sensors/sensors/msg/detail\n'}
+[0.420242] (sensors) StdoutLine: {'line': b'-- Up-to-date: /home/akshat/ros2WS/install/sensors/include/sensors/sensors/msg/detail/dds_fastrtps\n'}
+[0.420297] (sensors) StdoutLine: {'line': b'-- Up-to-date: /home/akshat/ros2WS/install/sensors/include/sensors/sensors/msg/detail/imu_data__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.420352] (sensors) StdoutLine: {'line': b'-- Up-to-date: /home/akshat/ros2WS/install/sensors/include/sensors/sensors/msg/detail/navigation_data__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.420417] (sensors) StdoutLine: {'line': b'-- Up-to-date: /home/akshat/ros2WS/install/sensors/include/sensors/sensors/msg/detail/pclo__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.420476] (sensors) StdoutLine: {'line': b'-- Up-to-date: /home/akshat/ros2WS/install/sensors/lib/libsensors__rosidl_typesupport_fastrtps_cpp.so\n'}
+[0.420556] (sensors) StdoutLine: {'line': b'-- Up-to-date: /home/akshat/ros2WS/install/sensors/include/sensors/sensors\n'}
+[0.420611] (sensors) StdoutLine: {'line': b'-- Up-to-date: /home/akshat/ros2WS/install/sensors/include/sensors/sensors/msg\n'}
+[0.420665] (sensors) StdoutLine: {'line': b'-- Up-to-date: /home/akshat/ros2WS/install/sensors/include/sensors/sensors/msg/detail\n'}
+[0.420784] (sensors) StdoutLine: {'line': b'-- Up-to-date: /home/akshat/ros2WS/install/sensors/include/sensors/sensors/msg/detail/imu_data__type_support.c\n'}
+[0.420837] (sensors) StdoutLine: {'line': b'-- Up-to-date: /home/akshat/ros2WS/install/sensors/include/sensors/sensors/msg/detail/imu_data__rosidl_typesupport_introspection_c.h\n'}
+[0.420888] (sensors) StdoutLine: {'line': b'-- Up-to-date: /home/akshat/ros2WS/install/sensors/include/sensors/sensors/msg/detail/navigation_data__type_support.c\n'}
+[0.420939] (sensors) StdoutLine: {'line': b'-- Up-to-date: /home/akshat/ros2WS/install/sensors/include/sensors/sensors/msg/detail/navigation_data__rosidl_typesupport_introspection_c.h\n'}
+[0.420989] (sensors) StdoutLine: {'line': b'-- Up-to-date: /home/akshat/ros2WS/install/sensors/include/sensors/sensors/msg/detail/pclo__type_support.c\n'}
+[0.421039] (sensors) StdoutLine: {'line': b'-- Up-to-date: /home/akshat/ros2WS/install/sensors/include/sensors/sensors/msg/detail/pclo__rosidl_typesupport_introspection_c.h\n'}
+[0.421090] (sensors) StdoutLine: {'line': b'-- Up-to-date: /home/akshat/ros2WS/install/sensors/include/sensors/sensors/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[0.421142] (sensors) StdoutLine: {'line': b'-- Up-to-date: /home/akshat/ros2WS/install/sensors/lib/libsensors__rosidl_typesupport_introspection_c.so\n'}
+[0.421193] (sensors) StdoutLine: {'line': b'-- Up-to-date: /home/akshat/ros2WS/install/sensors/lib/libsensors__rosidl_typesupport_c.so\n'}
+[0.421244] (sensors) StdoutLine: {'line': b'-- Up-to-date: /home/akshat/ros2WS/install/sensors/include/sensors/sensors\n'}
+[0.421294] (sensors) StdoutLine: {'line': b'-- Up-to-date: /home/akshat/ros2WS/install/sensors/include/sensors/sensors/msg\n'}
+[0.421345] (sensors) StdoutLine: {'line': b'-- Up-to-date: /home/akshat/ros2WS/install/sensors/include/sensors/sensors/msg/detail\n'}
+[0.421402] (sensors) StdoutLine: {'line': b'-- Up-to-date: /home/akshat/ros2WS/install/sensors/include/sensors/sensors/msg/detail/navigation_data__type_support.cpp\n'}
+[0.421459] (sensors) StdoutLine: {'line': b'-- Up-to-date: /home/akshat/ros2WS/install/sensors/include/sensors/sensors/msg/detail/imu_data__type_support.cpp\n'}
+[0.421510] (sensors) StdoutLine: {'line': b'-- Up-to-date: /home/akshat/ros2WS/install/sensors/include/sensors/sensors/msg/detail/imu_data__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.421561] (sensors) StdoutLine: {'line': b'-- Up-to-date: /home/akshat/ros2WS/install/sensors/include/sensors/sensors/msg/detail/pclo__type_support.cpp\n'}
+[0.421611] (sensors) StdoutLine: {'line': b'-- Up-to-date: /home/akshat/ros2WS/install/sensors/include/sensors/sensors/msg/detail/navigation_data__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.421662] (sensors) StdoutLine: {'line': b'-- Up-to-date: /home/akshat/ros2WS/install/sensors/include/sensors/sensors/msg/detail/pclo__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.421712] (sensors) StdoutLine: {'line': b'-- Up-to-date: /home/akshat/ros2WS/install/sensors/lib/libsensors__rosidl_typesupport_introspection_cpp.so\n'}
+[0.421762] (sensors) StdoutLine: {'line': b'-- Up-to-date: /home/akshat/ros2WS/install/sensors/lib/libsensors__rosidl_typesupport_cpp.so\n'}
+[0.421812] (sensors) StdoutLine: {'line': b'-- Up-to-date: /home/akshat/ros2WS/install/sensors/share/sensors/environment/pythonpath.sh\n'}
+[0.421862] (sensors) StdoutLine: {'line': b'-- Up-to-date: /home/akshat/ros2WS/install/sensors/share/sensors/environment/pythonpath.dsv\n'}
+[0.421921] (sensors) StdoutLine: {'line': b'-- Up-to-date: /home/akshat/ros2WS/install/sensors/local/lib/python3.10/dist-packages/sensors-0.0.0-py3.10.egg-info\n'}
+[0.421984] (sensors) StdoutLine: {'line': b'-- Installing: /home/akshat/ros2WS/install/sensors/local/lib/python3.10/dist-packages/sensors-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[0.422036] (sensors) StdoutLine: {'line': b'-- Installing: /home/akshat/ros2WS/install/sensors/local/lib/python3.10/dist-packages/sensors-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[0.422086] (sensors) StdoutLine: {'line': b'-- Installing: /home/akshat/ros2WS/install/sensors/local/lib/python3.10/dist-packages/sensors-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[0.422136] (sensors) StdoutLine: {'line': b'-- Installing: /home/akshat/ros2WS/install/sensors/local/lib/python3.10/dist-packages/sensors-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[0.422187] (sensors) StdoutLine: {'line': b'-- Up-to-date: /home/akshat/ros2WS/install/sensors/local/lib/python3.10/dist-packages/sensors\n'}
+[0.422238] (sensors) StdoutLine: {'line': b'-- Up-to-date: /home/akshat/ros2WS/install/sensors/local/lib/python3.10/dist-packages/sensors/sensors_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.422290] (sensors) StdoutLine: {'line': b'-- Up-to-date: /home/akshat/ros2WS/install/sensors/local/lib/python3.10/dist-packages/sensors/sensors_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.422341] (sensors) StdoutLine: {'line': b'-- Up-to-date: /home/akshat/ros2WS/install/sensors/local/lib/python3.10/dist-packages/sensors/_sensors_s.ep.rosidl_typesupport_c.c\n'}
+[0.422400] (sensors) StdoutLine: {'line': b'-- Up-to-date: /home/akshat/ros2WS/install/sensors/local/lib/python3.10/dist-packages/sensors/libsensors__rosidl_generator_py.so\n'}
+[0.422461] (sensors) StdoutLine: {'line': b'-- Up-to-date: /home/akshat/ros2WS/install/sensors/local/lib/python3.10/dist-packages/sensors/msg\n'}
+[0.422514] (sensors) StdoutLine: {'line': b'-- Up-to-date: /home/akshat/ros2WS/install/sensors/local/lib/python3.10/dist-packages/sensors/msg/_imu_data_s.c\n'}
+[0.422565] (sensors) StdoutLine: {'line': b'-- Up-to-date: /home/akshat/ros2WS/install/sensors/local/lib/python3.10/dist-packages/sensors/msg/_pclo_s.c\n'}
+[0.422624] (sensors) StdoutLine: {'line': b'-- Up-to-date: /home/akshat/ros2WS/install/sensors/local/lib/python3.10/dist-packages/sensors/msg/_navigation_data.py\n'}
+[0.422675] (sensors) StdoutLine: {'line': b'-- Up-to-date: /home/akshat/ros2WS/install/sensors/local/lib/python3.10/dist-packages/sensors/msg/_imu_data.py\n'}
+[0.422725] (sensors) StdoutLine: {'line': b'-- Up-to-date: /home/akshat/ros2WS/install/sensors/local/lib/python3.10/dist-packages/sensors/msg/__init__.py\n'}
+[0.422775] (sensors) StdoutLine: {'line': b'-- Up-to-date: /home/akshat/ros2WS/install/sensors/local/lib/python3.10/dist-packages/sensors/msg/_navigation_data_s.c\n'}
+[0.422826] (sensors) StdoutLine: {'line': b'-- Up-to-date: /home/akshat/ros2WS/install/sensors/local/lib/python3.10/dist-packages/sensors/msg/_pclo.py\n'}
+[0.422876] (sensors) StdoutLine: {'line': b'-- Up-to-date: /home/akshat/ros2WS/install/sensors/local/lib/python3.10/dist-packages/sensors/_sensors_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[0.422925] (sensors) StdoutLine: {'line': b'-- Up-to-date: /home/akshat/ros2WS/install/sensors/local/lib/python3.10/dist-packages/sensors/sensors_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.422976] (sensors) StdoutLine: {'line': b'-- Up-to-date: /home/akshat/ros2WS/install/sensors/local/lib/python3.10/dist-packages/sensors/__init__.py\n'}
+[0.423026] (sensors) StdoutLine: {'line': b'-- Up-to-date: /home/akshat/ros2WS/install/sensors/local/lib/python3.10/dist-packages/sensors/_sensors_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[0.448981] (sensors) StdoutLine: {'line': b"Listing '/home/akshat/ros2WS/install/sensors/local/lib/python3.10/dist-packages/sensors'...\n"}
+[0.449111] (sensors) StdoutLine: {'line': b"Listing '/home/akshat/ros2WS/install/sensors/local/lib/python3.10/dist-packages/sensors/msg'...\n"}
+[0.452444] (sensors) StdoutLine: {'line': b'-- Up-to-date: /home/akshat/ros2WS/install/sensors/local/lib/python3.10/dist-packages/sensors/sensors_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.452646] (sensors) StdoutLine: {'line': b'-- Up-to-date: /home/akshat/ros2WS/install/sensors/local/lib/python3.10/dist-packages/sensors/sensors_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.452919] (sensors) StdoutLine: {'line': b'-- Up-to-date: /home/akshat/ros2WS/install/sensors/local/lib/python3.10/dist-packages/sensors/sensors_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.453033] (sensors) StdoutLine: {'line': b'-- Up-to-date: /home/akshat/ros2WS/install/sensors/lib/libsensors__rosidl_generator_py.so\n'}
+[0.453177] (sensors) StdoutLine: {'line': b'-- Up-to-date: /home/akshat/ros2WS/install/sensors/share/sensors/msg/ImuData.idl\n'}
+[0.453243] (sensors) StdoutLine: {'line': b'-- Up-to-date: /home/akshat/ros2WS/install/sensors/share/sensors/msg/NavigationData.idl\n'}
+[0.453323] (sensors) StdoutLine: {'line': b'-- Up-to-date: /home/akshat/ros2WS/install/sensors/share/sensors/msg/Pclo.idl\n'}
+[0.453421] (sensors) StdoutLine: {'line': b'-- Up-to-date: /home/akshat/ros2WS/install/sensors/share/sensors/msg/ImuData.msg\n'}
+[0.453522] (sensors) StdoutLine: {'line': b'-- Up-to-date: /home/akshat/ros2WS/install/sensors/share/sensors/msg/NavigationData.msg\n'}
+[0.453582] (sensors) StdoutLine: {'line': b'-- Up-to-date: /home/akshat/ros2WS/install/sensors/share/sensors/msg/Pclo.msg\n'}
+[0.453639] (sensors) StdoutLine: {'line': b'-- Up-to-date: /home/akshat/ros2WS/install/sensors/share/ament_index/resource_index/package_run_dependencies/sensors\n'}
+[0.453695] (sensors) StdoutLine: {'line': b'-- Up-to-date: /home/akshat/ros2WS/install/sensors/share/ament_index/resource_index/parent_prefix_path/sensors\n'}
+[0.453751] (sensors) StdoutLine: {'line': b'-- Up-to-date: /home/akshat/ros2WS/install/sensors/share/sensors/environment/ament_prefix_path.sh\n'}
+[0.453807] (sensors) StdoutLine: {'line': b'-- Up-to-date: /home/akshat/ros2WS/install/sensors/share/sensors/environment/ament_prefix_path.dsv\n'}
+[0.453861] (sensors) StdoutLine: {'line': b'-- Up-to-date: /home/akshat/ros2WS/install/sensors/share/sensors/environment/path.sh\n'}
+[0.453916] (sensors) StdoutLine: {'line': b'-- Up-to-date: /home/akshat/ros2WS/install/sensors/share/sensors/environment/path.dsv\n'}
+[0.454009] (sensors) StdoutLine: {'line': b'-- Up-to-date: /home/akshat/ros2WS/install/sensors/share/sensors/local_setup.bash\n'}
+[0.454067] (sensors) StdoutLine: {'line': b'-- Up-to-date: /home/akshat/ros2WS/install/sensors/share/sensors/local_setup.sh\n'}
+[0.454123] (sensors) StdoutLine: {'line': b'-- Up-to-date: /home/akshat/ros2WS/install/sensors/share/sensors/local_setup.zsh\n'}
+[0.454178] (sensors) StdoutLine: {'line': b'-- Up-to-date: /home/akshat/ros2WS/install/sensors/share/sensors/local_setup.dsv\n'}
+[0.454234] (sensors) StdoutLine: {'line': b'-- Installing: /home/akshat/ros2WS/install/sensors/share/sensors/package.dsv\n'}
+[0.454289] (sensors) StdoutLine: {'line': b'-- Up-to-date: /home/akshat/ros2WS/install/sensors/share/ament_index/resource_index/packages/sensors\n'}
+[0.454344] (sensors) StdoutLine: {'line': b'-- Up-to-date: /home/akshat/ros2WS/install/sensors/share/sensors/cmake/export_sensors__rosidl_generator_cExport.cmake\n'}
+[0.454409] (sensors) StdoutLine: {'line': b'-- Up-to-date: /home/akshat/ros2WS/install/sensors/share/sensors/cmake/export_sensors__rosidl_generator_cExport-noconfig.cmake\n'}
+[0.454524] (sensors) StdoutLine: {'line': b'-- Up-to-date: /home/akshat/ros2WS/install/sensors/share/sensors/cmake/export_sensors__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[0.454579] (sensors) StdoutLine: {'line': b'-- Up-to-date: /home/akshat/ros2WS/install/sensors/share/sensors/cmake/export_sensors__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[0.454635] (sensors) StdoutLine: {'line': b'-- Up-to-date: /home/akshat/ros2WS/install/sensors/share/sensors/cmake/export_sensors__rosidl_generator_cppExport.cmake\n'}
+[0.454722] (sensors) StdoutLine: {'line': b'-- Up-to-date: /home/akshat/ros2WS/install/sensors/share/sensors/cmake/export_sensors__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[0.454793] (sensors) StdoutLine: {'line': b'-- Up-to-date: /home/akshat/ros2WS/install/sensors/share/sensors/cmake/export_sensors__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[0.454848] (sensors) StdoutLine: {'line': b'-- Up-to-date: /home/akshat/ros2WS/install/sensors/share/sensors/cmake/sensors__rosidl_typesupport_introspection_cExport.cmake\n'}
+[0.454903] (sensors) StdoutLine: {'line': b'-- Up-to-date: /home/akshat/ros2WS/install/sensors/share/sensors/cmake/sensors__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[0.454957] (sensors) StdoutLine: {'line': b'-- Up-to-date: /home/akshat/ros2WS/install/sensors/share/sensors/cmake/sensors__rosidl_typesupport_cExport.cmake\n'}
+[0.455011] (sensors) StdoutLine: {'line': b'-- Up-to-date: /home/akshat/ros2WS/install/sensors/share/sensors/cmake/sensors__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[0.455066] (sensors) StdoutLine: {'line': b'-- Up-to-date: /home/akshat/ros2WS/install/sensors/share/sensors/cmake/sensors__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[0.455120] (sensors) StdoutLine: {'line': b'-- Up-to-date: /home/akshat/ros2WS/install/sensors/share/sensors/cmake/sensors__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[0.455174] (sensors) StdoutLine: {'line': b'-- Up-to-date: /home/akshat/ros2WS/install/sensors/share/sensors/cmake/sensors__rosidl_typesupport_cppExport.cmake\n'}
+[0.455229] (sensors) StdoutLine: {'line': b'-- Up-to-date: /home/akshat/ros2WS/install/sensors/share/sensors/cmake/sensors__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[0.455285] (sensors) StdoutLine: {'line': b'-- Up-to-date: /home/akshat/ros2WS/install/sensors/share/sensors/cmake/export_sensors__rosidl_generator_pyExport.cmake\n'}
+[0.455340] (sensors) StdoutLine: {'line': b'-- Up-to-date: /home/akshat/ros2WS/install/sensors/share/sensors/cmake/export_sensors__rosidl_generator_pyExport-noconfig.cmake\n'}
+[0.455419] (sensors) StdoutLine: {'line': b'-- Up-to-date: /home/akshat/ros2WS/install/sensors/share/sensors/cmake/rosidl_cmake-extras.cmake\n'}
+[0.455513] (sensors) StdoutLine: {'line': b'-- Up-to-date: /home/akshat/ros2WS/install/sensors/share/sensors/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[0.455567] (sensors) StdoutLine: {'line': b'-- Up-to-date: /home/akshat/ros2WS/install/sensors/share/sensors/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[0.455624] (sensors) StdoutLine: {'line': b'-- Up-to-date: /home/akshat/ros2WS/install/sensors/share/sensors/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[0.455677] (sensors) StdoutLine: {'line': b'-- Up-to-date: /home/akshat/ros2WS/install/sensors/share/sensors/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[0.455729] (sensors) StdoutLine: {'line': b'-- Up-to-date: /home/akshat/ros2WS/install/sensors/share/sensors/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[0.455780] (sensors) StdoutLine: {'line': b'-- Up-to-date: /home/akshat/ros2WS/install/sensors/share/sensors/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[0.455831] (sensors) StdoutLine: {'line': b'-- Up-to-date: /home/akshat/ros2WS/install/sensors/share/sensors/cmake/sensorsConfig.cmake\n'}
+[0.455882] (sensors) StdoutLine: {'line': b'-- Up-to-date: /home/akshat/ros2WS/install/sensors/share/sensors/cmake/sensorsConfig-version.cmake\n'}
+[0.455933] (sensors) StdoutLine: {'line': b'-- Up-to-date: /home/akshat/ros2WS/install/sensors/share/sensors/package.xml\n'}
+[0.456882] (sensors) CommandEnded: {'returncode': 0}
+[0.499780] (-) TimerEvent: {}
+[0.555968] (sensors) JobEnded: {'identifier': 'sensors', 'rc': 0}
+[0.556265] (-) EventReactorShutdown: {}

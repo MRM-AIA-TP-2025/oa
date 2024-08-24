@@ -1,0 +1,6 @@
+source;share/zed2nodes/hook/pythonpath.ps1
+source;share/zed2nodes/hook/pythonpath.dsv
+source;share/zed2nodes/hook/pythonpath.sh
+source;share/zed2nodes/hook/ament_prefix_path.ps1
+source;share/zed2nodes/hook/ament_prefix_path.dsv
+source;share/zed2nodes/hook/ament_prefix_path.sh

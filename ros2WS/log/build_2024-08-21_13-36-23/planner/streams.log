@@ -1,0 +1,54 @@
+[0.009s] Invoking command in '/home/akshat/ros2WS/build/planner': AMENT_PREFIX_PATH=/home/akshat/ros2WS/install/stereo:/home/akshat/ros2WS/install/sensors:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/akshat/ros2WS/install/stereo:/home/akshat/ros2WS/install/sensors:/path/to/stereo/install:/opt/ros/humble LD_LIBRARY_PATH=/home/akshat/ros2WS/install/stereo/lib:/home/akshat/ros2WS/install/sensors/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/akshat/ros2WS/install/stereo/local/lib/python3.10/dist-packages:/home/akshat/ros2WS/install/sensors/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/akshat/ros2WS/src/planner -DCMAKE_INSTALL_PREFIX=/home/akshat/ros2WS/install/planner
+[0.019s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.136s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.161s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.164s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.170s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.178s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.191s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.221s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.223s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.309s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.355s] -- Found tf2: 0.25.7 (/opt/ros/humble/share/tf2/cmake)
+[0.371s] -- Found tf2_geometry_msgs: 0.25.7 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[0.373s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[0.374s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[0.451s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.467s] -- Found sensors: 0.0.0 (/home/akshat/ros2WS/install/sensors/share/sensors/cmake)
+[0.479s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.485s] -- Found stereo: 0.0.0 (/home/akshat/ros2WS/install/stereo/share/stereo/cmake)
+[0.558s] -- Configuring done
+[0.572s] -- Generating done
+[0.574s] -- Build files have been written to: /home/akshat/ros2WS/build/planner
+[0.581s] Invoked command in '/home/akshat/ros2WS/build/planner' returned '0': AMENT_PREFIX_PATH=/home/akshat/ros2WS/install/stereo:/home/akshat/ros2WS/install/sensors:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/akshat/ros2WS/install/stereo:/home/akshat/ros2WS/install/sensors:/path/to/stereo/install:/opt/ros/humble LD_LIBRARY_PATH=/home/akshat/ros2WS/install/stereo/lib:/home/akshat/ros2WS/install/sensors/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/akshat/ros2WS/install/stereo/local/lib/python3.10/dist-packages:/home/akshat/ros2WS/install/sensors/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/akshat/ros2WS/src/planner -DCMAKE_INSTALL_PREFIX=/home/akshat/ros2WS/install/planner
+[0.582s] Invoking command in '/home/akshat/ros2WS/build/planner': AMENT_PREFIX_PATH=/home/akshat/ros2WS/install/stereo:/home/akshat/ros2WS/install/sensors:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/akshat/ros2WS/install/stereo:/home/akshat/ros2WS/install/sensors:/path/to/stereo/install:/opt/ros/humble LD_LIBRARY_PATH=/home/akshat/ros2WS/install/stereo/lib:/home/akshat/ros2WS/install/sensors/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/akshat/ros2WS/install/stereo/local/lib/python3.10/dist-packages:/home/akshat/ros2WS/install/sensors/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/akshat/ros2WS/build/planner -- -j12 -l12
+[0.625s] [ 50%] [32mBuilding CXX object CMakeFiles/planner.dir/src/planner.cpp.o[0m
+[0.625s] [ 50%] [32mBuilding CXX object CMakeFiles/imu_convert.dir/src/imu_converter.cpp.o[0m
+[8.879s] [ 75%] [32m[1mLinking CXX executable imu_convert[0m
+[9.299s] [ 75%] Built target imu_convert
+[17.278s] [100%] [32m[1mLinking CXX executable planner[0m
+[18.038s] [100%] Built target planner
+[18.145s] Invoked command in '/home/akshat/ros2WS/build/planner' returned '0': AMENT_PREFIX_PATH=/home/akshat/ros2WS/install/stereo:/home/akshat/ros2WS/install/sensors:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/akshat/ros2WS/install/stereo:/home/akshat/ros2WS/install/sensors:/path/to/stereo/install:/opt/ros/humble LD_LIBRARY_PATH=/home/akshat/ros2WS/install/stereo/lib:/home/akshat/ros2WS/install/sensors/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/akshat/ros2WS/install/stereo/local/lib/python3.10/dist-packages:/home/akshat/ros2WS/install/sensors/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/akshat/ros2WS/build/planner -- -j12 -l12
+[18.176s] Invoking command in '/home/akshat/ros2WS/build/planner': AMENT_PREFIX_PATH=/home/akshat/ros2WS/install/stereo:/home/akshat/ros2WS/install/sensors:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/akshat/ros2WS/install/stereo:/home/akshat/ros2WS/install/sensors:/path/to/stereo/install:/opt/ros/humble LD_LIBRARY_PATH=/home/akshat/ros2WS/install/stereo/lib:/home/akshat/ros2WS/install/sensors/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/akshat/ros2WS/install/stereo/local/lib/python3.10/dist-packages:/home/akshat/ros2WS/install/sensors/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/akshat/ros2WS/build/planner
+[18.183s] -- Install configuration: ""
+[18.183s] -- Up-to-date: /home/akshat/ros2WS/install/planner/share/planner
+[18.183s] -- Installing: /home/akshat/ros2WS/install/planner/lib/planner/planner
+[18.189s] -- Set runtime path of "/home/akshat/ros2WS/install/planner/lib/planner/planner" to ""
+[18.189s] -- Installing: /home/akshat/ros2WS/install/planner/lib/planner/imu_convert
+[18.192s] -- Set runtime path of "/home/akshat/ros2WS/install/planner/lib/planner/imu_convert" to ""
+[18.192s] -- Installing: /home/akshat/ros2WS/install/planner/share/ament_index/resource_index/package_run_dependencies/planner
+[18.192s] -- Installing: /home/akshat/ros2WS/install/planner/share/ament_index/resource_index/parent_prefix_path/planner
+[18.192s] -- Installing: /home/akshat/ros2WS/install/planner/share/planner/environment/ament_prefix_path.sh
+[18.192s] -- Installing: /home/akshat/ros2WS/install/planner/share/planner/environment/ament_prefix_path.dsv
+[18.192s] -- Installing: /home/akshat/ros2WS/install/planner/share/planner/environment/path.sh
+[18.193s] -- Installing: /home/akshat/ros2WS/install/planner/share/planner/environment/path.dsv
+[18.193s] -- Installing: /home/akshat/ros2WS/install/planner/share/planner/local_setup.bash
+[18.193s] -- Installing: /home/akshat/ros2WS/install/planner/share/planner/local_setup.sh
+[18.193s] -- Installing: /home/akshat/ros2WS/install/planner/share/planner/local_setup.zsh
+[18.193s] -- Installing: /home/akshat/ros2WS/install/planner/share/planner/local_setup.dsv
+[18.193s] -- Installing: /home/akshat/ros2WS/install/planner/share/planner/package.dsv
+[18.193s] -- Installing: /home/akshat/ros2WS/install/planner/share/ament_index/resource_index/packages/planner
+[18.193s] -- Installing: /home/akshat/ros2WS/install/planner/share/planner/cmake/plannerConfig.cmake
+[18.193s] -- Installing: /home/akshat/ros2WS/install/planner/share/planner/cmake/plannerConfig-version.cmake
+[18.194s] -- Installing: /home/akshat/ros2WS/install/planner/share/planner/package.xml
+[18.196s] Invoked command in '/home/akshat/ros2WS/build/planner' returned '0': AMENT_PREFIX_PATH=/home/akshat/ros2WS/install/stereo:/home/akshat/ros2WS/install/sensors:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/akshat/ros2WS/install/stereo:/home/akshat/ros2WS/install/sensors:/path/to/stereo/install:/opt/ros/humble LD_LIBRARY_PATH=/home/akshat/ros2WS/install/stereo/lib:/home/akshat/ros2WS/install/sensors/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/akshat/ros2WS/install/stereo/local/lib/python3.10/dist-packages:/home/akshat/ros2WS/install/sensors/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/akshat/ros2WS/build/planner

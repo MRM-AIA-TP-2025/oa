@@ -1,0 +1,17 @@
+/home/akshat/ros2WS/install/planner/lib/planner/planner
+/home/akshat/ros2WS/install/planner/lib/planner/imu_convert
+/home/akshat/ros2WS/install/planner/share/ament_index/resource_index/package_run_dependencies/planner
+/home/akshat/ros2WS/install/planner/share/ament_index/resource_index/parent_prefix_path/planner
+/home/akshat/ros2WS/install/planner/share/planner/environment/ament_prefix_path.sh
+/home/akshat/ros2WS/install/planner/share/planner/environment/ament_prefix_path.dsv
+/home/akshat/ros2WS/install/planner/share/planner/environment/path.sh
+/home/akshat/ros2WS/install/planner/share/planner/environment/path.dsv
+/home/akshat/ros2WS/install/planner/share/planner/local_setup.bash
+/home/akshat/ros2WS/install/planner/share/planner/local_setup.sh
+/home/akshat/ros2WS/install/planner/share/planner/local_setup.zsh
+/home/akshat/ros2WS/install/planner/share/planner/local_setup.dsv
+/home/akshat/ros2WS/install/planner/share/planner/package.dsv
+/home/akshat/ros2WS/install/planner/share/ament_index/resource_index/packages/planner
+/home/akshat/ros2WS/install/planner/share/planner/cmake/plannerConfig.cmake
+/home/akshat/ros2WS/install/planner/share/planner/cmake/plannerConfig-version.cmake
+/home/akshat/ros2WS/install/planner/share/planner/package.xml
